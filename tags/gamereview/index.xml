@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameReview on 杜尚此在沙龙</title><link>https://www.lhooq.life/tags/gamereview/</link><description>Recent content in GameReview on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/tags/gamereview/index.xml" rel="self" type="application/rss+xml"/><item><title>海默2000</title><link>https://www.lhooq.life/murmurs/20251216/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20251216/</guid><description>&lt;p&gt;海默2000：我们能够以仿生人的视角进行未来的选择，却在这部游戏里，只能以「Bad End」回顾克隆人「捐献者」们的群像故事。&lt;/p&gt;
+&lt;p&gt;人造人是人吗，人造人有人格吗，机器人是否比人造人低一等呢？&lt;/p&gt;
+&lt;p&gt;很可惜我们只能以后人类的视角，进入「希望家园」的废墟。&lt;/p&gt;
+&lt;p&gt;追求纯人类，会追赶自己进入人类原教旨主义与种族等级体系，会进入器官替代体系。&lt;/p&gt;</description></item><item><title>丝之歌</title><link>https://www.lhooq.life/murmurs/20250911/</link><pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20250911/</guid><description>&lt;p&gt;被气得长按录像并发布B站只在短短十分钟之内。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+&lt;div class="bili-embed-container" id="bili-%!s(int=115185486402704)-1766835658236710000"&gt;
+ &lt;div class="aspect-ratio"&gt;
+ &lt;iframe
+ class="bili-iframe"
+ src=""
+ data-src="//player.bilibili.com/player.html?isOutside=true&amp;aid=115185486402704&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=1"
+ scrolling="no"
+ allowfullscreen="true"
+ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"&gt;
+ &lt;/iframe&gt;
+
+ &lt;div class="poster-wrapper"&gt;
+ &lt;img src="https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" alt="这就是我和掷面虫热血沸腾的组合技口牙" class="bili-poster-img" referrerpolicy="no-referrer"&gt;
+ 
+ &lt;div class="poster-overlay"&gt;
+ &lt;div class="play-btn"&gt;
+ &lt;svg width="24" height="24" viewBox="0 0 24 24" fill="white"&gt;&lt;path d="M8 5v14l11-7z"/&gt;&lt;/svg&gt;
+ &lt;/div&gt;
+ &lt;div class="info-area"&gt;
+ &lt;div class="bili-title"&gt;这就是我和掷面虫热血沸腾的组合技口牙&lt;/div&gt;
+ &lt;div class="bili-meta"&gt;&lt;span class="badge"&gt;UP&lt;/span&gt; 小号光头official&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function() {
+ const boxId = "bili-%!s(int=115185486402704)-1766835658236710000";
+ const box = document.getElementById(boxId);
+ if (!box) { console.error('Bili Error: Box not found', boxId); return; }
+
+ const wrapper = box.querySelector('.poster-wrapper');
+ const iframe = box.querySelector('iframe');
+
+ 
+ console.log(`Bili Ready: ${boxId}`, { 
+ title: "这就是我和掷面虫热血沸腾的组合技口牙", 
+ pic: "https:\/\/i1.hdslb.com\/bfs\/archive\/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" 
+ });
+
+ wrapper.addEventListener('click', function() {
+ console.log(`Bili Clicked: ${boxId}`);
+
+ 
+ const realSrc = iframe.getAttribute('data-src');
+ if (!realSrc) {
+ console.error('Bili Error: No data-src found');
+ return;
+ }
+
+ 
+ if (!iframe.src || iframe.src === window.location.href) {
+ 
+ const finalSrc = realSrc.startsWith('//') ? 'https:' + realSrc : realSrc;
+ console.log('Loading Iframe:', finalSrc);
+ iframe.src = finalSrc;
+ }
+
+ 
+ box.classList.add('is-active');
+ }, { once: true }); 
+})();
+&lt;/script&gt;&lt;/p&gt;</description></item><item><title>在巴别塔的背后：语言和沟通的迫切——《巴别塔圣歌》后记</title><link>https://www.lhooq.life/words/20231125/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20231125/</guid><description>&lt;h1 id="在巴别塔的背后语言和沟通的迫切"&gt;在巴别塔的背后：语言和沟通的迫切&lt;/h1&gt;
+&lt;h2 id="巴别塔圣歌后记"&gt;——《巴别塔圣歌》后记&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;即使巴别塔曾分割民族&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;前几年，我还有研究语言学这样的理想，于是我在平衡难度和理想这种选择了从语言学的角度解析文学实例，作为毕业论文的主题。毕业后我和语言学在现实意义上分道扬镳，但我们依然在莫比乌斯环的一纸两面背靠背，在《巴别塔圣歌》中久别重逢。&lt;/p&gt;
+&lt;p&gt;庆幸地是我能够在面对完全不了解的文字，在语境中思考其含义。&lt;/p&gt;
+&lt;p&gt;有一个竞赛，叫国际语言学奥林匹克竞赛（International Linguistics Olympiad），就像它的名字一样，是一个通过语言编码解码其含义完成题目的竞赛。&lt;/p&gt;
+&lt;p&gt;《巴别塔圣歌》和这样的竞赛很像，但它提供了大量的“作弊方案”，一是能够通过谜题，对着含义穷举文字，获得正确答案，二是游戏中通过动作和语音给出的语境信息要大于文字本身能够提供的语境信息。&lt;/p&gt;
+&lt;p&gt;自诩为学过语言学的佼佼者，我对这个游戏抱有极大的好胜心。假设每个语言系统中的人见面第一句应当是问好，借此开展思考；对着三个文字组成的句子，来回比对，去推理这门语言到底是主谓宾，还是主宾谓；思索语素的组合，将不同的语素合成具有组合意义的新词；或在互译中找到突破点。&lt;/p&gt;
+&lt;p&gt;如此好胜心，持续到我终于完成解码，才转变成对世界的审视。&lt;/p&gt;
+&lt;p&gt;尽管巴别塔是一座使用不同语言分割民族的高塔，但不同语言文化在接触后，仍然能互相接受，甚至表达欣赏。如此摄人心魂的旅程。诗人在大门写下拒绝战士，这证明不同文化隔阂有如天堑，而巴别塔互通后，纪律森严的战士们却会一起欣赏诗人们的表演，《巴别塔圣歌》的成就系统中，有一部成就正是关于高塔互通后玩家一步步走过不同的国度，目睹世界的改变。&lt;/p&gt;
+&lt;p&gt;在这以前，固步自封和沉默是每个国度的主色调；在这以后，高塔活了过来，&lt;/p&gt;
+&lt;p&gt;或说寓言，或说童话，但凡是能走过这里的世界，都想真正地触摸文字，触摸每一个民族深层次的想法。当和某人交谈，倾听文字时，我想着，我一定要理解他。&lt;/p&gt;
+&lt;p&gt;沟通的迫切这样隐藏在隔阂之中。&lt;/p&gt;</description></item></channel></rss>

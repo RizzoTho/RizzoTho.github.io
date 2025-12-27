@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo装修 on 杜尚此在沙龙</title><link>https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/</link><description>Recent content in Hugo装修 on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>短代码使用整理</title><link>https://www.lhooq.life/words/20251221/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251221/</guid><description>&lt;p&gt;整理一下短代码格式、效果和来源。如无特殊注明，参考来自&lt;a data-render="link"
+ data-external="true" href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F" target="_blank"&gt;Hugo|在Stack主题上可行的短代码们&lt;span style="white-space: nowrap;"&gt;
+ &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
+ &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
+ &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
+ &lt;/svg&gt;
+ &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="bilibili"&gt;bilibili&lt;/h1&gt;
+&lt;p&gt;播放器嵌入参考了：&lt;a data-render="link"
+ data-external="true" href="https://blog.iyu.icu/posts/shortcode_bilibili/" target="_blank"&gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&lt;span style="white-space: nowrap;"&gt;
+ &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
+ &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
+ &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
+ &lt;/svg&gt;
+ &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。&lt;/p&gt;
+&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt;bilibili + avid&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&amp;lt;bilibili 115185486402704&amp;gt;&lt;/p&gt;
+&lt;h1 id="mastodon-嘟文嵌入"&gt;mastodon 嘟文嵌入&lt;/h1&gt;
+&lt;p&gt;这个shortcodes只能适用于单一server单一用户。&lt;/p&gt;
+&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt; mastodon status=&amp;quot;嘟文数字id&amp;quot; &amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;iframe src= "https://c7.io/@ulshke/115789998150334338/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" height="auto" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;script src="https://c7.io/embed.js" async="async"&gt;&lt;/script&gt;
+
+
+&lt;h1 id="neodb-嵌入"&gt;neodb 嵌入&lt;/h1&gt;
+&lt;p&gt;短代码格式 &lt;code&gt;&amp;lt;neodb &amp;quot;条目链接&amp;quot;&amp;gt;&lt;/code&gt;。&lt;/p&gt;</description></item><item><title>网站装修记录第一弹</title><link>https://www.lhooq.life/words/20251219/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251219/</guid><description>各家作业+各家AI大显身手，而我是复制粘贴工人</description></item></channel></rss>

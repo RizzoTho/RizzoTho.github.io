@@ -1,21 +1,19 @@
 /* assets/scss/main.scss */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://github.com/intel/intel-one-mono/blob/12101f8a8b7a11d922ccf7d306043b4e730c0813/fonts/woff/IntelOneMono-Regular.woff");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css");
-@import url("https://db.onlinewebfonts.com/c/4ac1b37cf9e5119c4a2dc351e5ec7cf0?family=Tuna");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Light/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/chinesefonts3/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/sypxzs/dist/%E6%80%9D%E6%BA%90%E5%B1%8F%E6%98%BE%E8%87%BB%E5%AE%8B/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/syftjkt/dist/%E4%BC%98%E8%AE%BE%E9%B2%A8%E9%B1%BC%E8%8F%B2%E7%89%B9%E5%81%A5%E5%BA%B7%E4%BD%93/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/ysbth/dist/%E4%BC%98%E8%AE%BE%E6%A0%87%E9%A2%98%E9%BB%91/result.css");
+@import url("https://cdn.jsdelivr.net/npm/@aspect/fonts/intel/woff2/IntelOneMono-Regular.woff2");
+@import url("https://lhooq.yswisfree.workers.dev/ulshke/Tuna/result.css");
+@import url("https://lhooq.yswisfree.workers.dev/ulshke/Optima%20LT%20Std%20Bold%20Italic/result.css");
+@import url("https://lhooq.yswisfree.workers.dev/ulshke/GlowSansSC-Extended-Regular/result.css?updatedAt=1767001558180");
 @import url("https://chinese-fonts-cdn.deno.dev/packages/dyh/dist/SmileySans-Oblique/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Thin/result.css");
-@import url("https://db.onlinewebfonts.com/c/e5242a02c8160fc9e7dfc376bd1c4904?family=Optima+LT+Std+Bold+Italic");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/stdgt/dist/%E4%B8%8A%E5%9B%BE%E4%B8%9C%E8%A7%82%E4%BD%93-%E7%BB%86%E4%BD%93/result.css");
+@import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css");
+@import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css");
+@import url("https://chinese-fonts-cdn.deno.dev/packages/dyh/dist/SmileySans-Oblique/result.css");
+@import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-SemiLight/result.css");
+@import url("https://chinese-fonts-cdn.deno.dev/packages/sypxzs/dist/%E6%80%9D%E6%BA%90%E5%B1%8F%E6%98%BE%E8%87%BB%E5%AE%8B/result.css");
 /* assets/scss/base.scss */
 body {
   color: var(--text-color);
-  font-family: var(--font-content), sans-serif;
+  font-family: var(--font-content);
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
   word-spacing: var(--text-spacing);
@@ -299,11 +297,6 @@ nav a.active {
     text-align: center;
   }
 }
-@font-face {
-  font-family: "Tuna";
-  src: url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.eot");
-  src: url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4ac1b37cf9e5119c4a2dc351e5ec7cf0.svg#Tuna") format("svg");
-}
 a {
   font-family: var(--font-title);
   font-weight: bold;
@@ -354,9 +347,9 @@ main > h1:first-of-type {
 /* Internal Variables */
 /* Config */
 :root {
-  --font-main: "Tuna", "Maple Mono CN", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-content: "Tuna", 'STDongGuanTi Light', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
-  --font-title: "Optima", "Smiley Sans Oblique", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-main: "Intel One Mono", "Maple Mono CN", "LXGW WenKai", monospace;
+  --font-content: "Intel One Mono", "Glow Sans SC Extended", sans-serif;
+  --font-title: "Optima LT Std", "Smiley Sans Oblique",serif;
   --text-font-family: var(--font-main);
   --icon-purple-color:#D0C0DF;
   --icon-greypurple-color:#b6b5b8;
@@ -644,6 +637,8 @@ article.words {
   font-family: var(--font-content);
   font-weight: 300;
   line-height: 1.6em;
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
 
 /* 移动端适配：取消重叠，恢复流式布局 */

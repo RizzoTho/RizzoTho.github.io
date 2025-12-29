@@ -998,4 +998,16 @@ mark {
   pointer-events: none; /* 让鼠标事件穿透到 iframe */
 }
 
+.mycard {
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+  word-break: break-all;
+  background: rgba(210, 229, 235, 0.0784313725);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.mycard .content {
+  line-height: 30px;
+}
+
 /*# sourceMappingURL=main.css.map */

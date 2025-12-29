@@ -5,8 +5,149 @@
     <link>https://www.lhooq.life/words/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Dec 2025 18:08:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 19:16:53 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/words/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>尝试自助托管 web-font 的笔记</title>
+      <link>https://www.lhooq.life/words/20251229/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20251229/</guid>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <description>通过中文网字计划打包字体，托管于 ImageKit ，通过 Cloudflare 反代加速。</description>
+      <content:encoded>&lt;p&gt;在2025年终40问发布以前，竟飞速产出了一篇装修笔记。&lt;/p&gt;
+&lt;p&gt;尝试自助托管web字体的初衷，实在是不知道字体配置为什么就是不生效，甚至要控制自己不要冒出一句“it worked on my computer”。&lt;/p&gt;
+&lt;h1 id=&#34;字体构建与分包&#34;&gt;字体构建与分包&lt;/h1&gt;
+&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;step:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://chinese-font.netlify.app/zh-cn/online-split&#34; target=&#34;_blank&#34;&gt;中文网字计划在线字体分包&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;页面，&lt;/li&gt;
+&lt;li&gt;上传字体源文件（otf或ttf文件），点击开始打包&lt;/li&gt;
+&lt;li&gt;完成之后，复制分包结果中的字体名（css里就用这个字体名），点击右下角下载zip&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;当我对着Claude无能狂怒的时候，偶然看见了中文网字计划网站上有在线分包的功能，抱着虽然根本不懂什么叫分包但我也要先用用看的心情，尝试上传了一个字体文件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对，就像是小时候不知道刀到底有多锋利，所以决定往身上比划，结果我的小鹿斑比阿贝贝上全是红色液体那样。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好的，分包网站告诉我，到时候引用这个result.css就可以了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;我&lt;/em&gt;：啊？那url呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大事不妙，我突然发现这可能只是一个预处理的程序，而&lt;em&gt;全新，未知，折腾&lt;/em&gt;的托管步骤正在等待我。但是等等，右上角有一个“网站”，以我的本能直觉，作者会放一些指导性文档，至少我能知道从哪开始：&lt;/p&gt;
+&lt;h1 id=&#34;imagekit部署静态文件&#34;&gt;ImageKit：部署静态文件&lt;/h1&gt;
+&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;steps：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;登陆&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://imagekit.io/&#34; target=&#34;_blank&#34;&gt;ImageKit&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;侧边栏 &amp;gt; Media Library &amp;gt; Folder Upload，上传分包文件夹&lt;/li&gt;
+&lt;li&gt;复制文件夹中的result.css&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;ImageKit！免费额度高达20G/月。对于字体部署来说已经充足。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.heliar.top/file/1767004746446_CleanShot_2025-12-29_at_18.38.06_2x.png&#34; alt=&#34;上传点击路径&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分包文件夹以Folder Upload的形式上传，提示框会提示文件夹会放到home/路径下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.heliar.top/file/1767004612064_CleanShot_2025-12-29_at_18.36.26_2x.png&#34; alt=&#34;ImageKit的上传提示框&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最后找到result.css 点击🔗就能复制地址了。
+&lt;img src=&#34;https://img.heliar.top/file/1767004810470_CleanShot_2025-12-29_at_18.39.43_2x.png&#34; alt=&#34;CleanShot 2025-12-29 at 18.39.43@2x.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;cloudflarecdn-反代处理&#34;&gt;Cloudflare：CDN 反代处理&lt;/h1&gt;
+&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;登陆 &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.cloudflare.com/&#34; target=&#34;_blank&#34;&gt;Cloudflare&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;，在Workers&amp;amp;Pages新建一个应用；&lt;/li&gt;
+&lt;li&gt;选个“Start with hello-world”，写一个 worker name，点击部署；&lt;/li&gt;
+&lt;li&gt;点击 Edit Code，粘贴下方代码，再次点击部署。&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://img.heliar.top/file/1767005573143_CleanShot_2025-12-29_at_18.51.58_2x.png&#34; alt=&#34;部署点击&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;default&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2&lt;/span&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;async&lt;/span&gt; fetch(request, env, ctx) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;const&lt;/span&gt; url &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;new&lt;/span&gt; URL(request.url);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;const&lt;/span&gt; redirectUrl &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;ik.imagekit.io&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5&lt;/span&gt;&lt;span&gt;      url.host &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; redirectUrl;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;return&lt;/span&gt; fetch(url).then(res =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7&lt;/span&gt;&lt;span&gt;          &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;new&lt;/span&gt; Response(res.body, {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8&lt;/span&gt;&lt;span&gt;              headers&lt;span style=&#34;color:#666&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9&lt;/span&gt;&lt;span&gt;                  server&lt;span style=&#34;color:#666&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;nginx&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10&lt;/span&gt;&lt;span&gt;                  &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Access-Control-Allow-Origin&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11&lt;/span&gt;&lt;span&gt;                  &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Cache-Control&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;public, max-age=86400&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12&lt;/span&gt;&lt;span&gt;              }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13&lt;/span&gt;&lt;span&gt;          })
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14&lt;/span&gt;&lt;span&gt;      })
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15&lt;/span&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16&lt;/span&gt;&lt;span&gt;};
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这一步主要是通过 Cloudflare，将请求的 host 替换为 ImageKit 的域名，并转发请求，实现反向代理&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;反向代理会拦截客户端的请求，再将请求转发到背后的源服务器（此处为 ImageKit）。客户端全程只与反向代理服务器（Cloudflare）通信，不会直接接触源服务器（ImageKit）的地址。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Worker 第一次部署成功后，就能在「Overview」页看见一个显眼的地址栏:&lt;code&gt;workername.cloudflare_user_name.workers.dev&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;css-实现&#34;&gt;CSS 实现&lt;/h1&gt;
+&lt;h2 id=&#34;使用import标签导入-css-文件&#34;&gt;使用@import标签导入 CSS 文件&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;// Glow Sans SC Extended
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;@import url(&amp;#39;https://{{Cloudflare worker的url地址}}/{{ImageKit 用户名及以后的地址}});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;// 如：
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;@import url(&amp;#39;https://workername.cloudflare_user_name.workers.dev/imagekit_user-name/GlowSansSC-Extended-Regular/result.css&amp;#39;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;为元素添加-css&#34;&gt;为元素添加 css&lt;/h2&gt;
+&lt;p&gt;这里的字体名写的是第一步分包时的字体名字。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;body&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;font-family&lt;/span&gt;: &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Glow Sans SC Extended&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;sans-serif&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;整个字体部署过程总体而言，就是先通过&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://chinese-font.netlify.app/zh-cn/online-split&#34; target=&#34;_blank&#34;&gt;中文网字计划在线字体分包&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;打包字体，托管于 &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://imagekit.io/&#34; target=&#34;_blank&#34;&gt;ImageKit&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt; ，最后通过 &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.cloudflare.com/&#34; target=&#34;_blank&#34;&gt;Cloudflare&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt; 反代加速。&lt;/p&gt;
+&lt;p&gt;&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://chinese-font.netlify.app/zh-cn/post/simple_tutorial&#34; target=&#34;_blank&#34;&gt;中文网字计划的文档&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;对此指导得非常清晰，我的部署流程因此非常顺利，有惊无险。感谢中文网字计划，网站早期字体也是直接使用了中文网字计划提供的在线包。&lt;/p&gt;
+</content:encoded>
+    </item>
     <item>
       <title>识典古籍(1)——小试萝卜刀</title>
       <link>https://www.lhooq.life/words/20251222/</link>
@@ -267,7 +408,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767002933534218000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767007013684870000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -296,7 +437,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767002933534218000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1767007013684870000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

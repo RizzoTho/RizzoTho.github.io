@@ -184,9 +184,7 @@
     <img src="/logo.png" alt="Logo" class="logo-image">
 </a>
 <nav>
- <img class="nav-logo" src="/favicon.png" alt="Logo">
-
-<a data-render="nav" href="/">Home</a>
+ <a href="/"><img class="nav-logo" src="/favicon.png" alt="Logo"></a>
 
 <a data-render="nav" href="/words/">Words</a>
 
@@ -481,18 +479,19 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>      })
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>  }
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span>};
-</span></span></code></pre></div><p>这一步主要是通过 Cloudflare，将请求的 host 替换为 ImageKit 的域名，并转发请求，实现反向代理</p>
+</span></span></code></pre></div><p>这一步主要是通过 Cloudflare，将请求的 host 替换为 ImageKit 的域名，并转发请求，实现反向代理：</p>
 <blockquote>
 <p>反向代理会拦截客户端的请求，再将请求转发到背后的源服务器（此处为 ImageKit）。客户端全程只与反向代理服务器（Cloudflare）通信，不会直接接触源服务器（ImageKit）的地址。</p>
 </blockquote>
-<p>Worker 第一次部署成功后，就能在「Overview」页看见一个显眼的地址栏:<code>workername.cloudflare_user_name.workers.dev</code></p>
+<p>Worker 第一次部署成功后，就能在「Overview」页看见一个显眼的地址栏:<code>workername.cloudflare_user_name.workers.dev</code>，注意这个地址栏，这个就是我们最终导入字体文件url的前半部分了。</p>
+<p>等到代码更新，第二次部署完成后，就可以引用被 Cloudflare 反代理的 ImageKit 的字体文件了。</p>
 <h1 id="css-实现">CSS 实现</h1>
 <h2 id="使用import标签导入-css-文件">使用@import标签导入 CSS 文件</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>// Glow Sans SC Extended
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>@import url(&#39;https://{{Cloudflare worker的url地址}}/{{ImageKit 用户名及以后的地址}});
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>// 如：
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>@import url(&#39;https://workername.cloudflare_user_name.workers.dev/imagekit_user-name/GlowSansSC-Extended-Regular/result.css&#39;);
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">//</span> <span style="color:#062873;font-weight:bold">Glow</span> <span style="color:#062873;font-weight:bold">Sans</span> <span style="color:#062873;font-weight:bold">SC</span> <span style="color:#062873;font-weight:bold">Extended</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>@<span style="color:#007020;font-weight:bold">import</span> <span style="color:#062873;font-weight:bold">url</span><span style="color:#666">(</span><span style="color:#4070a0">&#39;https://{{Cloudflare worker的url地址}}/{{ImageKit 用户名及以后的地址}});
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#4070a0">
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#4070a0">// 如：
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span><span style="color:#4070a0">@import url(&#39;</span><span style="color:#062873;font-weight:bold">https</span><span style="color:#666">://</span><span style="color:#062873;font-weight:bold">workername</span>.<span style="color:#0e84b5;font-weight:bold">cloudflare_user_name</span>.<span style="color:#0e84b5;font-weight:bold">workers</span>.<span style="color:#0e84b5;font-weight:bold">dev</span><span style="color:#666">/</span><span style="color:#062873;font-weight:bold">imagekit_user-name</span><span style="color:#666">/</span><span style="color:#062873;font-weight:bold">GlowSansSC-Extended-Regular</span><span style="color:#666">/</span><span style="color:#062873;font-weight:bold">result</span>.<span style="color:#0e84b5;font-weight:bold">css</span><span style="">&#39;</span><span style="color:#666">)</span>;
 </span></span></code></pre></div><h2 id="为元素添加-css">为元素添加 css</h2>
 <p>这里的字体名写的是第一步分包时的字体名字。</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#062873;font-weight:bold">body</span>{

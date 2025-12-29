@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/words/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Dec 2025 19:16:53 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 01:15:22 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/words/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尝试自助托管 web-font 的笔记</title>
@@ -98,18 +98,19 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14&lt;/span&gt;&lt;span&gt;      })
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15&lt;/span&gt;&lt;span&gt;  }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16&lt;/span&gt;&lt;span&gt;};
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这一步主要是通过 Cloudflare，将请求的 host 替换为 ImageKit 的域名，并转发请求，实现反向代理&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这一步主要是通过 Cloudflare，将请求的 host 替换为 ImageKit 的域名，并转发请求，实现反向代理：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;反向代理会拦截客户端的请求，再将请求转发到背后的源服务器（此处为 ImageKit）。客户端全程只与反向代理服务器（Cloudflare）通信，不会直接接触源服务器（ImageKit）的地址。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Worker 第一次部署成功后，就能在「Overview」页看见一个显眼的地址栏:&lt;code&gt;workername.cloudflare_user_name.workers.dev&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Worker 第一次部署成功后，就能在「Overview」页看见一个显眼的地址栏:&lt;code&gt;workername.cloudflare_user_name.workers.dev&lt;/code&gt;，注意这个地址栏，这个就是我们最终导入字体文件url的前半部分了。&lt;/p&gt;
+&lt;p&gt;等到代码更新，第二次部署完成后，就可以引用被 Cloudflare 反代理的 ImageKit 的字体文件了。&lt;/p&gt;
 &lt;h1 id=&#34;css-实现&#34;&gt;CSS 实现&lt;/h1&gt;
 &lt;h2 id=&#34;使用import标签导入-css-文件&#34;&gt;使用@import标签导入 CSS 文件&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;// Glow Sans SC Extended
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;@import url(&amp;#39;https://{{Cloudflare worker的url地址}}/{{ImageKit 用户名及以后的地址}});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;// 如：
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;@import url(&amp;#39;https://workername.cloudflare_user_name.workers.dev/imagekit_user-name/GlowSansSC-Extended-Regular/result.css&amp;#39;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#666&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;Glow&lt;/span&gt; &lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;Sans&lt;/span&gt; &lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;SC&lt;/span&gt; &lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;Extended&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;@&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;url&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;https://{{Cloudflare worker的url地址}}/{{ImageKit 用户名及以后的地址}});
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;// 如：
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;@import url(&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;https&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;://&lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;workername&lt;/span&gt;.&lt;span style=&#34;color:#0e84b5;font-weight:bold&#34;&gt;cloudflare_user_name&lt;/span&gt;.&lt;span style=&#34;color:#0e84b5;font-weight:bold&#34;&gt;workers&lt;/span&gt;.&lt;span style=&#34;color:#0e84b5;font-weight:bold&#34;&gt;dev&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;imagekit_user-name&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;GlowSansSC-Extended-Regular&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;result&lt;/span&gt;.&lt;span style=&#34;color:#0e84b5;font-weight:bold&#34;&gt;css&lt;/span&gt;&lt;span style=&#34;&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;为元素添加-css&#34;&gt;为元素添加 css&lt;/h2&gt;
 &lt;p&gt;这里的字体名写的是第一步分包时的字体名字。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;body&lt;/span&gt;{
@@ -408,7 +409,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767007013684870000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767028522463869000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -437,7 +438,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767007013684870000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1767028522463869000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

@@ -1,6 +1,324 @@
-<!doctype html><html lang=zh-CN><head><meta http-equiv=X-Clacks-Overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=fediverse:creator content="@ulshke@c7.io"><link rel="shortcut icon" href=https://www.lhooq.life/favicon.png><title>丝之歌 | 杜尚此在沙龙</title><meta name=referrer content="no-referrer-when-downgrade"><style>:root{--width:720px;--font-main:Verdana, sans-serif;--font-secondary:Verdana, sans-serif;--font-scale:1em;--background-color:#fff;--heading-color:#222;--text-color:#444;--link-color:#3273dc;--visited-color:#8b6fcb;--blockquote-color:#222}@media(prefers-color-scheme:dark){:root{--background-color:#01242e;--heading-color:#eee;--text-color:#ddd;--link-color:#8cc2dd;--visited-color:#8b6fcb;--blockquote-color:#ccc}}body{font-family:var(--font-secondary);font-size:var(--font-scale);margin:auto;padding:20px;max-width:var(--width);text-align:left;background-color:var(--background-color);word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:var(--text-color)}h1,h2,h3,h4,h5,h6{font-family:var(--font-main);color:var(--heading-color)}a{color:var(--link-color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}nav a{margin-right:8px}strong,b{color:var(--heading-color)}button{margin:0;cursor:pointer}time{font-family:monospace;font-style:normal;font-size:15px}main{line-height:1.6}table{width:100%}hr{border:0;border-top:1px dashed}img{max-width:100%}code{font-family:monospace;padding:2px;border-radius:3px}blockquote{border-left:1px solid #999;color:var(--blockquote-color);padding-left:20px;font-style:italic}footer{padding:25px 0;text-align:center}.title:hover{text-decoration:none}.title h1{font-size:1.5em}.inline{width:auto!important}.highlight,.code{border-radius:3px;margin-block-start:1em;margin-block-end:1em;overflow-x:auto}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:var(--visited-color)}</style><meta name=description content="RT, who Lives a LHOOQ Life"><link rel=stylesheet href=/css/main.f7ed299977d87133b102efda729758cb145dd255ebfcdea259ca0e3bffab6eff.css integrity="sha256-9+0pmXfYcTOxAu/acpdYyxRd0lXr/N6iWcoOO/+rbv8=" crossorigin=anonymous></head><body><header><a href=/ class=title><img src=/logo.png alt=Logo class=logo-image></a><nav><img class=nav-logo src=/favicon.png alt=Logo>
-<a data-render=nav href=/>Home</a>
-<a data-render=nav href=/words/>Words</a>
-<a data-render=nav href=/murmurs>Murmurs</a>
-<a data-render=nav href=/now>Now</a>
-<a data-render=nav href=/about>About</a><div class=nav-profile-icons><a class=nav-profile-icon rel=me href=https://c7.io/@ulshke><img src=/mastodon-icon.svg></a></div></nav></header><main><content><p>被气得长按录像并发布B站只在短短十分钟之内。<div class=bili-embed-container id="bili-%!s(int=115185486402704)-1766835658236710000"><div class=aspect-ratio><iframe class=bili-iframe src data-src="//player.bilibili.com/player.html?isOutside=true&aid=115185486402704&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=1" scrolling=no allowfullscreen sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe><div class=poster-wrapper><img src=https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg alt=这就是我和掷面虫热血沸腾的组合技口牙 class=bili-poster-img referrerpolicy=no-referrer><div class=poster-overlay><div class=play-btn><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></div><div class=info-area><div class=bili-title>这就是我和掷面虫热血沸腾的组合技口牙</div><div class=bili-meta><span class=badge>UP</span> 小号光头official</div></div></div></div></div></div><script>(function(){const e="bili-%!s(int=115185486402704)-1766835658236710000",t=document.getElementById(e);if(!t){console.error("Bili Error: Box not found",e);return}const s=t.querySelector(".poster-wrapper"),n=t.querySelector("iframe");console.log(`Bili Ready: ${e}`,{title:"这就是我和掷面虫热血沸腾的组合技口牙",pic:"https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg"}),s.addEventListener("click",function(){console.log(`Bili Clicked: ${e}`);const s=n.getAttribute("data-src");if(!s){console.error("Bili Error: No data-src found");return}if(!n.src||n.src===window.location.href){const e=s.startsWith("//")?"https:"+s:s;console.log("Loading Iframe:",e),n.src=e}t.classList.add("is-active")},{once:!0})})()</script></p></content><p><a href=https://www.lhooq.life/tags/gamereview/>#GameReview</a></p></main><footer></footer></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="fediverse:creator" content="@ulshke@c7.io">
+<link rel="shortcut icon" href="https://www.lhooq.life/favicon.png" />
+<title>丝之歌 | 杜尚此在沙龙</title><meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<meta name="description" content="RT, who Lives a LHOOQ Life">
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/main.8b5c365ac110f12d3b9fda0df6c33e01ac1b004fccf4804de2488daca81247c3.css" integrity="sha256-i1w2WsEQ8S07n9oN9sM&#43;AawbAE/M9IBN4kiNrKgSR8M=" crossorigin="anonymous">
+      
+    
+  
+
+
+
+</head>
+
+<body>
+  <header>
+<a href="/" class="title">
+    <img src="/logo.png" alt="Logo" class="logo-image">
+</a>
+<nav>
+ <img class="nav-logo" src="/favicon.png" alt="Logo">
+
+<a data-render="nav" href="/">Home</a>
+
+<a data-render="nav" href="/words/">Words</a>
+
+<a data-render="nav" href="/murmurs">Murmurs</a>
+
+<a data-render="nav" href="/now">Now</a>
+
+<a data-render="nav" href="/about">About</a>
+
+
+<div class="nav-profile-icons">
+  <a class="nav-profile-icon" rel="alternate" type="application/rss+xml" href="/words/index.xml">
+    <img src="/rss-icon.svg">
+  </a>
+  <a class="nav-profile-icon" rel="me" href="https://c7.io/@ulshke">
+    <img src="/mastodon-icon.svg">
+  </a>
+  
+</div>
+</nav></header>
+  <main>
+  
+
+  <content>
+    <p>被气得长按录像并发布B站只在短短十分钟之内。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+  
+
+
+
+<div class="bili-embed-container" id="bili-%!s(int=115185486402704)-1766995923136122000">
+  <div class="aspect-ratio">
+    <iframe
+      class="bili-iframe"
+      src=""
+      data-src="//player.bilibili.com/player.html?isOutside=true&aid=115185486402704&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=1"
+      scrolling="no"
+      allowfullscreen="true"
+      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups">
+    </iframe>
+
+    <div class="poster-wrapper">
+      <img src="https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" alt="这就是我和掷面虫热血沸腾的组合技口牙" class="bili-poster-img" referrerpolicy="no-referrer">
+      
+      <div class="poster-overlay">
+         <div class="play-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+         </div>
+         <div class="info-area">
+           <div class="bili-title">这就是我和掷面虫热血沸腾的组合技口牙</div>
+           <div class="bili-meta"><span class="badge">UP</span> 小号光头official</div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const boxId = "bili-%!s(int=115185486402704)-1766995923136122000";
+  const box = document.getElementById(boxId);
+  if (!box) { console.error('Bili Error: Box not found', boxId); return; }
+
+  const wrapper = box.querySelector('.poster-wrapper');
+  const iframe = box.querySelector('iframe');
+
+  
+  console.log(`Bili Ready: ${boxId}`, { 
+    title: "这就是我和掷面虫热血沸腾的组合技口牙", 
+    pic: "https:\/\/i1.hdslb.com\/bfs\/archive\/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" 
+  });
+
+  wrapper.addEventListener('click', function() {
+    console.log(`Bili Clicked: ${boxId}`);
+
+    
+    const realSrc = iframe.getAttribute('data-src');
+    if (!realSrc) {
+        console.error('Bili Error: No data-src found');
+        return;
+    }
+
+    
+    if (!iframe.src || iframe.src === window.location.href) {
+        
+        const finalSrc = realSrc.startsWith('//') ? 'https:' + realSrc : realSrc;
+        console.log('Loading Iframe:', finalSrc);
+        iframe.src = finalSrc;
+    }
+
+    
+    box.classList.add('is-active');
+  }, { once: true }); 
+})();
+</script></p>
+
+  </content>
+
+  
+
+  <p>
+    
+    <a href="https://www.lhooq.life/tags/gamereview/">#GameReview</a>
+    
+  </p>
+
+  </main>
+  <footer>
+</footer>
+
+</body>
+
+</html>

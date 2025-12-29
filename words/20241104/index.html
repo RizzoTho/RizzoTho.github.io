@@ -1,7 +1,654 @@
-<!doctype html><html lang=zh-CN><head><meta http-equiv=X-Clacks-Overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=fediverse:creator content="@ulshke@c7.io"><link rel="shortcut icon" href=https://www.lhooq.life/favicon.png><title>Tana Command——小小命令，改善生活体验 | 杜尚此在沙龙</title><meta name=referrer content="no-referrer-when-downgrade"><style>:root{--width:720px;--font-main:Verdana, sans-serif;--font-secondary:Verdana, sans-serif;--font-scale:1em;--background-color:#fff;--heading-color:#222;--text-color:#444;--link-color:#3273dc;--visited-color:#8b6fcb;--blockquote-color:#222}@media(prefers-color-scheme:dark){:root{--background-color:#01242e;--heading-color:#eee;--text-color:#ddd;--link-color:#8cc2dd;--visited-color:#8b6fcb;--blockquote-color:#ccc}}body{font-family:var(--font-secondary);font-size:var(--font-scale);margin:auto;padding:20px;max-width:var(--width);text-align:left;background-color:var(--background-color);word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:var(--text-color)}h1,h2,h3,h4,h5,h6{font-family:var(--font-main);color:var(--heading-color)}a{color:var(--link-color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}nav a{margin-right:8px}strong,b{color:var(--heading-color)}button{margin:0;cursor:pointer}time{font-family:monospace;font-style:normal;font-size:15px}main{line-height:1.6}table{width:100%}hr{border:0;border-top:1px dashed}img{max-width:100%}code{font-family:monospace;padding:2px;border-radius:3px}blockquote{border-left:1px solid #999;color:var(--blockquote-color);padding-left:20px;font-style:italic}footer{padding:25px 0;text-align:center}.title:hover{text-decoration:none}.title h1{font-size:1.5em}.inline{width:auto!important}.highlight,.code{border-radius:3px;margin-block-start:1em;margin-block-end:1em;overflow-x:auto}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:var(--visited-color)}</style><meta name=description content="RT, who Lives a LHOOQ Life"><link rel=stylesheet href=/css/main.f7ed299977d87133b102efda729758cb145dd255ebfcdea259ca0e3bffab6eff.css integrity="sha256-9+0pmXfYcTOxAu/acpdYyxRd0lXr/N6iWcoOO/+rbv8=" crossorigin=anonymous></head><body><header><a href=/ class=title><img src=/logo.png alt=Logo class=logo-image></a><nav><img class=nav-logo src=/favicon.png alt=Logo>
-<a data-render=nav href=/>Home</a>
-<a data-render=nav href=/words/>Words</a>
-<a data-render=nav href=/murmurs>Murmurs</a>
-<a data-render=nav href=/now>Now</a>
-<a data-render=nav href=/about>About</a><div class=nav-profile-icons><a class=nav-profile-icon rel=me href=https://c7.io/@ulshke><img src=/mastodon-icon.svg></a></div></nav></header><main><header class=poster-container><p class=poster-title>Tana Command——小小命令，改善生活体验</p><div class=outdated-stamp>OUTDATED</div><blockquote>这篇文章被作者标记为过时，请谨慎阅读。</blockquote></header><p class=meta-info><i><time datetime=2024-11-04>04 Nov, 2024</time></i></p><div class=toc><div class=toc-nav><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e5%88%a0%e9%99%a4%e6%90%9c%e7%b4%a2%e8%8a%82%e7%82%b9%e4%b8%8b%e7%9a%84%e6%89%80%e6%9c%89%e5%ad%90%e8%8a%82%e7%82%b9%e7%9a%84%e5%91%bd%e4%bb%a4>删除搜索节点下的所有子节点的命令</a></li></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e5%8a%9f%e8%83%bd>功能</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af>使用场景</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f>调用方式</a></li></ul></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e4%b8%80%e9%94%ae%e6%95%b4%e7%90%86-inbox-%e8%8a%82%e7%82%b9%e7%9a%84%e5%91%bd%e4%bb%a4>一键整理 Inbox 节点的命令</a></li></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e5%8a%9f%e8%83%bd-1>功能</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af-1>使用场景</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-1>调用方式</a></li></ul></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e7%82%b9%e5%87%bb%e6%89%93%e5%bc%80%e8%8a%82%e7%82%b9%e9%93%be%e6%8e%a5%e7%9a%84%e5%91%bd%e4%bb%a4>点击打开节点链接的命令</a></li></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af%e5%8a%9f%e8%83%bd>使用场景&功能</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-2>调用方式</a></li></ul></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e7%82%b9%e5%87%bb%e6%9b%b4%e6%96%b0%e4%bb%bb%e5%8a%a1%e7%8a%b6%e6%80%81%e7%9a%84%e5%91%bd%e4%bb%a4>点击更新任务状态的命令</a></li></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af%e5%8a%9f%e8%83%bd-1>使用场景&功能</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-3>调用方式</a></li></ul></ul><ul class=toc-list><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e7%82%b9%e5%87%bb%e6%9b%b4%e6%96%b0%e4%bb%bb%e5%8a%a1%e7%8a%b6%e6%80%81%e7%9a%84%e5%91%bd%e4%bb%a4-1></a></li></ul></ul></div></div><article class=words><p><img src=https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png alt="Tana Command1 头图"></p><p>Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。</p><blockquote><p>读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。</p></blockquote><h1 id=删除搜索节点下的所有子节点的命令>删除搜索节点下的所有子节点的命令</h1><h2 id=功能>功能</h2><p>如标题所示。</p><h2 id=使用场景>使用场景</h2><p>整理更新已有 Readwise Highlight 时能够用到。</p><h2 id=调用方式>调用方式</h2><p>直接通过命令面板调用。</p><p><img src=https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png alt=删除搜索节点下的所有子节点的命令></p><h1 id=一键整理-inbox-节点的命令>一键整理 Inbox 节点的命令</h1><h2 id=功能-1>功能</h2><p>将子节点打上标签，移动到创建日期节点。</p><h2 id=使用场景-1>使用场景</h2><p>Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。</p><h2 id=调用方式-1>调用方式</h2><p>在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。</p><p><img src=https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png alt="一键整理 Inbox 节点的命令"></p><h1 id=点击打开节点链接的命令>点击打开节点链接的命令</h1><h2 id=使用场景功能>使用场景&功能</h2><p>有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。</p><h2 id=调用方式-2>调用方式</h2><p>URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。</p><p><img src=https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png alt=点击打开节点链接的命令></p><h1 id=点击更新任务状态的命令>点击更新任务状态的命令</h1><h2 id=使用场景功能-1>使用场景&功能</h2><p>更新写作草稿_状态_（选择字段）为“已完成”。</p><h2 id=调用方式-3>调用方式</h2><p>published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。</p><h2 id=点击更新任务状态的命令-1><img src=https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png alt=点击更新任务状态的命令></h2><p>这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。</p><p>玩 Tana Command 就像写脚本一样有意思。过程中会犯很多错误，比如 Readwise 的导入设置，但错多了，就不在意了。</p><p>下一期就是点一次就会导致几秒卡顿的 Readwise 超大命令，请期待一下。</p></article><span class="words-tags words-tags--leading"><a href=https://www.lhooq.life/tags/outdated/>#Outdated</a>
-<a href=https://www.lhooq.life/tags/pkm-player/>#PKM Player</a></span></main><footer></footer></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="fediverse:creator" content="@ulshke@c7.io">
+<link rel="shortcut icon" href="https://www.lhooq.life/favicon.png" />
+<title>Tana Command——小小命令，改善生活体验 | 杜尚此在沙龙</title><meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<meta name="description" content="RT, who Lives a LHOOQ Life">
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/main.8b5c365ac110f12d3b9fda0df6c33e01ac1b004fccf4804de2488daca81247c3.css" integrity="sha256-i1w2WsEQ8S07n9oN9sM&#43;AawbAE/M9IBN4kiNrKgSR8M=" crossorigin="anonymous">
+      
+    
+  
+
+
+
+</head>
+
+<body>
+  <header>
+<a href="/" class="title">
+    <img src="/logo.png" alt="Logo" class="logo-image">
+</a>
+<nav>
+ <img class="nav-logo" src="/favicon.png" alt="Logo">
+
+<a data-render="nav" href="/">Home</a>
+
+<a data-render="nav" href="/words/">Words</a>
+
+<a data-render="nav" href="/murmurs">Murmurs</a>
+
+<a data-render="nav" href="/now">Now</a>
+
+<a data-render="nav" href="/about">About</a>
+
+
+<div class="nav-profile-icons">
+  <a class="nav-profile-icon" rel="alternate" type="application/rss+xml" href="/words/index.xml">
+    <img src="/rss-icon.svg">
+  </a>
+  <a class="nav-profile-icon" rel="me" href="https://c7.io/@ulshke">
+    <img src="/mastodon-icon.svg">
+  </a>
+  
+</div>
+</nav></header>
+  <main>
+<header class="poster-container">
+  <p class="poster-title">Tana Command——小小命令，改善生活体验</p>
+
+  
+
+  
+    
+  
+    <div class="outdated-stamp">OUTDATED
+    </div>
+    <blockquote>这篇文章被作者标记为过时，请谨慎阅读。</blockquote>
+  
+</header>
+
+<p class="meta-info">
+  <i>
+    <time datetime='2024-11-04'>
+      04 Nov, 2024
+    </time>
+  </i>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="toc">
+    <div class="toc-nav">
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e5%88%a0%e9%99%a4%e6%90%9c%e7%b4%a2%e8%8a%82%e7%82%b9%e4%b8%8b%e7%9a%84%e6%89%80%e6%9c%89%e5%ad%90%e8%8a%82%e7%82%b9%e7%9a%84%e5%91%bd%e4%bb%a4">
+                            删除搜索节点下的所有子节点的命令
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e5%8a%9f%e8%83%bd">
+                            功能
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af">
+                            使用场景
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f">
+                            调用方式
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e4%b8%80%e9%94%ae%e6%95%b4%e7%90%86-inbox-%e8%8a%82%e7%82%b9%e7%9a%84%e5%91%bd%e4%bb%a4">
+                            一键整理 Inbox 节点的命令
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e5%8a%9f%e8%83%bd-1">
+                            功能
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af-1">
+                            使用场景
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-1">
+                            调用方式
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e7%82%b9%e5%87%bb%e6%89%93%e5%bc%80%e8%8a%82%e7%82%b9%e9%93%be%e6%8e%a5%e7%9a%84%e5%91%bd%e4%bb%a4">
+                            点击打开节点链接的命令
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af%e5%8a%9f%e8%83%bd">
+                            使用场景&amp;功能
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-2">
+                            调用方式
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e7%82%b9%e5%87%bb%e6%9b%b4%e6%96%b0%e4%bb%bb%e5%8a%a1%e7%8a%b6%e6%80%81%e7%9a%84%e5%91%bd%e4%bb%a4">
+                            点击更新任务状态的命令
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af%e5%8a%9f%e8%83%bd-1">
+                            使用场景&amp;功能
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f-3">
+                            调用方式
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e7%82%b9%e5%87%bb%e6%9b%b4%e6%96%b0%e4%bb%bb%e5%8a%a1%e7%8a%b6%e6%80%81%e7%9a%84%e5%91%bd%e4%bb%a4-1">
+                            
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                    </ul>
+                    
+                
+            
+        
+    </div>
+</div>
+
+
+<article class="words">
+<p><img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png" alt="Tana Command1 头图"></p>
+<p>Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。</p>
+<blockquote>
+<p>读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。</p>
+</blockquote>
+<h1 id="删除搜索节点下的所有子节点的命令">删除搜索节点下的所有子节点的命令</h1>
+<h2 id="功能">功能</h2>
+<p>如标题所示。</p>
+<h2 id="使用场景">使用场景</h2>
+<p>整理更新已有 Readwise Highlight 时能够用到。</p>
+<h2 id="调用方式">调用方式</h2>
+<p>直接通过命令面板调用。</p>
+<p><img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png" alt="删除搜索节点下的所有子节点的命令"></p>
+<h1 id="一键整理-inbox-节点的命令">一键整理 Inbox 节点的命令</h1>
+<h2 id="功能-1">功能</h2>
+<p>将子节点打上标签，移动到创建日期节点。</p>
+<h2 id="使用场景-1">使用场景</h2>
+<p>Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。</p>
+<h2 id="调用方式-1">调用方式</h2>
+<p>在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。</p>
+<p><img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png" alt="一键整理 Inbox 节点的命令"></p>
+<h1 id="点击打开节点链接的命令">点击打开节点链接的命令</h1>
+<h2 id="使用场景功能">使用场景&amp;功能</h2>
+<p>有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。</p>
+<h2 id="调用方式-2">调用方式</h2>
+<p>URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。</p>
+<p><img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png" alt="点击打开节点链接的命令"></p>
+<h1 id="点击更新任务状态的命令">点击更新任务状态的命令</h1>
+<h2 id="使用场景功能-1">使用场景&amp;功能</h2>
+<p>更新写作草稿_状态_（选择字段）为“已完成”。</p>
+<h2 id="调用方式-3">调用方式</h2>
+<p>published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。</p>
+<h2 id="点击更新任务状态的命令-1"><img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png" alt="点击更新任务状态的命令"></h2>
+<p>这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。</p>
+<p>玩 Tana Command 就像写脚本一样有意思。过程中会犯很多错误，比如 Readwise 的导入设置，但错多了，就不在意了。</p>
+<p>下一期就是点一次就会导致几秒卡顿的 Readwise 超大命令，请期待一下。</p>
+
+</article>
+
+
+
+
+
+  <span class="words-tags words-tags--leading">
+    
+      <a href="https://www.lhooq.life/tags/outdated/">#Outdated</a>
+    
+      <a href="https://www.lhooq.life/tags/pkm-player/">#PKM Player</a>
+    
+  </span>
+
+
+
+  </main>
+  <footer>
+</footer>
+
+</body>
+
+</html>

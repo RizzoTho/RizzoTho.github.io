@@ -1,50 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PKM Player on 杜尚此在沙龙</title><link>https://www.lhooq.life/tags/pkm-player/</link><description>Recent content in PKM Player on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/tags/pkm-player/index.xml" rel="self" type="application/rss+xml"/><item><title>Tana Command——小小命令，改善生活体验</title><link>https://www.lhooq.life/words/20241104/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20241104/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png" alt="Tana Command1 头图"&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>杜尚此在沙龙</title>
+    <link>https://www.lhooq.life/tags/pkm-player/</link>
+    <description>——沉默，流亡，机敏。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 29 Dec 2025 16:12:03 +0800</lastBuildDate>
+    <atom:link href="https://www.lhooq.life/tags/pkm-player/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tana Command——小小命令，改善生活体验</title>
+      <link>https://www.lhooq.life/words/20241104/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20241104/</guid>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png&amp;#34; alt=&amp;#34;Tana Command1 头图&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;h1 id=&amp;#34;删除搜索节点下的所有子节点的命令&amp;#34;&amp;gt;删除搜索节点下的所有子节点的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;功能&amp;#34;&amp;gt;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;如标题所示。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景&amp;#34;&amp;gt;使用场景&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;整理更新已有 Readwise Highlight 时能够用到。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;直接通过命令面板调用。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png&amp;#34; alt=&amp;#34;删除搜索节点下的所有子节点的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;一键整理-inbox-节点的命令&amp;#34;&amp;gt;一键整理 Inbox 节点的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;功能-1&amp;#34;&amp;gt;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;将子节点打上标签，移动到创建日期节点。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景-1&amp;#34;&amp;gt;使用场景&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-1&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png&amp;#34; alt=&amp;#34;一键整理 Inbox 节点的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;点击打开节点链接的命令&amp;#34;&amp;gt;点击打开节点链接的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景功能&amp;#34;&amp;gt;使用场景&amp;amp;amp;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-2&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png&amp;#34; alt=&amp;#34;点击打开节点链接的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;点击更新任务状态的命令&amp;#34;&amp;gt;点击更新任务状态的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景功能-1&amp;#34;&amp;gt;使用场景&amp;amp;amp;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;更新写作草稿_状态_（选择字段）为“已完成”。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-3&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;点击更新任务状态的命令-1&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png&amp;#34; alt=&amp;#34;点击更新任务状态的命令&amp;#34;&amp;gt;&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png&#34; alt=&#34;Tana Command1 头图&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id="删除搜索节点下的所有子节点的命令"&gt;删除搜索节点下的所有子节点的命令&lt;/h1&gt;
-&lt;h2 id="功能"&gt;功能&lt;/h2&gt;
+&lt;h1 id=&#34;删除搜索节点下的所有子节点的命令&#34;&gt;删除搜索节点下的所有子节点的命令&lt;/h1&gt;
+&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
 &lt;p&gt;如标题所示。&lt;/p&gt;
-&lt;h2 id="使用场景"&gt;使用场景&lt;/h2&gt;
+&lt;h2 id=&#34;使用场景&#34;&gt;使用场景&lt;/h2&gt;
 &lt;p&gt;整理更新已有 Readwise Highlight 时能够用到。&lt;/p&gt;
-&lt;h2 id="调用方式"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;直接通过命令面板调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png" alt="删除搜索节点下的所有子节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="一键整理-inbox-节点的命令"&gt;一键整理 Inbox 节点的命令&lt;/h1&gt;
-&lt;h2 id="功能-1"&gt;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png&#34; alt=&#34;删除搜索节点下的所有子节点的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;一键整理-inbox-节点的命令&#34;&gt;一键整理 Inbox 节点的命令&lt;/h1&gt;
+&lt;h2 id=&#34;功能-1&#34;&gt;功能&lt;/h2&gt;
 &lt;p&gt;将子节点打上标签，移动到创建日期节点。&lt;/p&gt;
-&lt;h2 id="使用场景-1"&gt;使用场景&lt;/h2&gt;
+&lt;h2 id=&#34;使用场景-1&#34;&gt;使用场景&lt;/h2&gt;
 &lt;p&gt;Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。&lt;/p&gt;
-&lt;h2 id="调用方式-1"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-1&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png" alt="一键整理 Inbox 节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击打开节点链接的命令"&gt;点击打开节点链接的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png&#34; alt=&#34;一键整理 Inbox 节点的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;点击打开节点链接的命令&#34;&gt;点击打开节点链接的命令&lt;/h1&gt;
+&lt;h2 id=&#34;使用场景功能&#34;&gt;使用场景&amp;amp;功能&lt;/h2&gt;
 &lt;p&gt;有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。&lt;/p&gt;
-&lt;h2 id="调用方式-2"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-2&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png" alt="点击打开节点链接的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击更新任务状态的命令"&gt;点击更新任务状态的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能-1"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png&#34; alt=&#34;点击打开节点链接的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;点击更新任务状态的命令&#34;&gt;点击更新任务状态的命令&lt;/h1&gt;
+&lt;h2 id=&#34;使用场景功能-1&#34;&gt;使用场景&amp;amp;功能&lt;/h2&gt;
 &lt;p&gt;更新写作草稿_状态_（选择字段）为“已完成”。&lt;/p&gt;
-&lt;h2 id="调用方式-3"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-3&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;h2 id="点击更新任务状态的命令-1"&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png" alt="点击更新任务状态的命令"&gt;&lt;/h2&gt;
-&lt;p&gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&lt;/p&gt;</description></item><item><title>Tana——解放笔记困境的终极利器</title><link>https://www.lhooq.life/words/20230125/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20230125/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D" alt="文章头图"&gt;&lt;/p&gt;
+&lt;h2 id=&#34;点击更新任务状态的命令-1&#34;&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png&#34; alt=&#34;点击更新任务状态的命令&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&lt;/p&gt;
+&lt;p&gt;玩 Tana Command 就像写脚本一样有意思。过程中会犯很多错误，比如 Readwise 的导入设置，但错多了，就不在意了。&lt;/p&gt;
+&lt;p&gt;下一期就是点一次就会导致几秒卡顿的 Readwise 超大命令，请期待一下。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Tana——解放笔记困境的终极利器</title>
+      <link>https://www.lhooq.life/words/20230125/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20230125/</guid>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D&amp;#34; alt=&amp;#34;文章头图&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我以前曾经是一个Roam Research的使用者，直到陷入困境：在以前的使用中，我过于重视表面的链接，而无法实现深层链接，导致字义需要被链接在表层句式中，含义则会被丢失。转而使用 Tana 一年后，我成为了 Tana 的忠实粉丝。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我最喜欢的 Tana 的几个功能&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;contextual-reference&amp;#34;&amp;gt;Contextual reference&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;这是笔记引用的一个变种。和普通的引用相比，引用笔记会完全基于被引用的笔记的语境下，获得被引用笔记页面中的独立内容显示，而不是简单的链接。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;field-自动补全&amp;#34;&amp;gt;Field 自动补全&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D&amp;#34; alt=&amp;#34;Field 自动补全&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;层级式节点能够共享相同 Field 字段。举个例子，如果 “note” 的“belong to:” 字段非空，那么在这个 “note” 节点下，新建一个“question” supertag 节点后，这个节点的&amp;amp;quot;belong to:&amp;amp;quot; 字段会自动赋值。因为我在 “belong to:” 中设置了自动赋值：如果父节点某个字段且字段非空下，子节点的字段能自动赋值。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;supertag-模版&amp;#34;&amp;gt;Supertag 模版&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;让我能够快速应用一致性结构，并进行修改。它非常灵活且强大。对于使用相同 supertag 的节点，可以应用相同的模版。结合上述的功能，可以实现更高效的操作。举个例子，我可以在针对课程的supertag模版，添加对于笔记和问题的查询节点： &amp;amp;ldquo;node-query&amp;amp;rdquo; 和 &amp;amp;ldquo;question-query&amp;amp;rdquo;，这样每新建一个课程节点，就能得到相同的结构。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;似是而非的节点层级结构&amp;#34;&amp;gt;似是而非的节点层级结构&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;在使用 Roam Research 和 Obsidian 时，我对笔记的层级结构有一定的强迫症。我曾经纠结于将书籍作为当日笔记的子节点，还是为每本书创建一个新的页面。但是使用 Tana 后，我不再有这样的顾虑和强迫性思考，只需要使用 supertag，无需担心是用 [[]] 还是 @ 来查找笔记内容。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;关于我现在如何使用field&amp;#34;&amp;gt;关于我现在如何使用Field&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;我已经使用了 Tana 一年多了。但仍然在不断优化我的笔记结构。当过去几下的笔记被用上场时，我会思考如何能够进一步让自己利用并展示笔记/知识中的亮点。也就是说，我会这样发问，我记下这个笔记，未来的我怎么能找到它呢？这个笔记又如何发挥作用呢？&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;以前的课程 supertag 中没有 question-query。而我想要查看课程笔记中到底遇到过怎么样的问题，又得到过怎么样的解释时，一度很迷糊，不知道如何实现这样的功能。后来将 “question” 的supertag模版改动后，让所有的问题都能直接指向课程本身，而不是更宽泛的主题概念或者课程笔记，这样我就能在课程页面，实时预览问题列表。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;在 Zettlekasten 卡片流行的时候，个人知识管理系统被赋予了信息凝练和卡片链接的标签，而个人需要实现从原文到知识体系的消化和表达。这样的体系，是在追求同层级笔记信息粒度的一致化，这些笔记的核心必须是源自笔记。所以很多知识博主展现了如何将知识原子化的技巧。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;amp;ldquo;Field&amp;amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D&#34; alt=&#34;文章头图&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我以前曾经是一个Roam Research的使用者，直到陷入困境：在以前的使用中，我过于重视表面的链接，而无法实现深层链接，导致字义需要被链接在表层句式中，含义则会被丢失。转而使用 Tana 一年后，我成为了 Tana 的忠实粉丝。&lt;/p&gt;
 &lt;p&gt;我最喜欢的 Tana 的几个功能&lt;/p&gt;
-&lt;h1 id="contextual-reference"&gt;Contextual reference&lt;/h1&gt;
+&lt;h1 id=&#34;contextual-reference&#34;&gt;Contextual reference&lt;/h1&gt;
 &lt;p&gt;这是笔记引用的一个变种。和普通的引用相比，引用笔记会完全基于被引用的笔记的语境下，获得被引用笔记页面中的独立内容显示，而不是简单的链接。&lt;/p&gt;
-&lt;h1 id="field-自动补全"&gt;Field 自动补全&lt;/h1&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D" alt="Field 自动补全"&gt;&lt;/p&gt;
+&lt;h1 id=&#34;field-自动补全&#34;&gt;Field 自动补全&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D&#34; alt=&#34;Field 自动补全&#34;&gt;&lt;/p&gt;
 &lt;p&gt;层级式节点能够共享相同 Field 字段。举个例子，如果 “note” 的“belong to:” 字段非空，那么在这个 “note” 节点下，新建一个“question” supertag 节点后，这个节点的&amp;quot;belong to:&amp;quot; 字段会自动赋值。因为我在 “belong to:” 中设置了自动赋值：如果父节点某个字段且字段非空下，子节点的字段能自动赋值。&lt;/p&gt;
-&lt;h1 id="supertag-模版"&gt;Supertag 模版&lt;/h1&gt;
+&lt;h1 id=&#34;supertag-模版&#34;&gt;Supertag 模版&lt;/h1&gt;
 &lt;p&gt;让我能够快速应用一致性结构，并进行修改。它非常灵活且强大。对于使用相同 supertag 的节点，可以应用相同的模版。结合上述的功能，可以实现更高效的操作。举个例子，我可以在针对课程的supertag模版，添加对于笔记和问题的查询节点： &amp;ldquo;node-query&amp;rdquo; 和 &amp;ldquo;question-query&amp;rdquo;，这样每新建一个课程节点，就能得到相同的结构。&lt;/p&gt;
-&lt;h1 id="似是而非的节点层级结构"&gt;似是而非的节点层级结构&lt;/h1&gt;
+&lt;h1 id=&#34;似是而非的节点层级结构&#34;&gt;似是而非的节点层级结构&lt;/h1&gt;
 &lt;p&gt;在使用 Roam Research 和 Obsidian 时，我对笔记的层级结构有一定的强迫症。我曾经纠结于将书籍作为当日笔记的子节点，还是为每本书创建一个新的页面。但是使用 Tana 后，我不再有这样的顾虑和强迫性思考，只需要使用 supertag，无需担心是用 [[]] 还是 @ 来查找笔记内容。&lt;/p&gt;
-&lt;h1 id="关于我现在如何使用field"&gt;关于我现在如何使用Field&lt;/h1&gt;
+&lt;h1 id=&#34;关于我现在如何使用field&#34;&gt;关于我现在如何使用Field&lt;/h1&gt;
 &lt;p&gt;我已经使用了 Tana 一年多了。但仍然在不断优化我的笔记结构。当过去几下的笔记被用上场时，我会思考如何能够进一步让自己利用并展示笔记/知识中的亮点。也就是说，我会这样发问，我记下这个笔记，未来的我怎么能找到它呢？这个笔记又如何发挥作用呢？&lt;/p&gt;
 &lt;p&gt;以前的课程 supertag 中没有 question-query。而我想要查看课程笔记中到底遇到过怎么样的问题，又得到过怎么样的解释时，一度很迷糊，不知道如何实现这样的功能。后来将 “question” 的supertag模版改动后，让所有的问题都能直接指向课程本身，而不是更宽泛的主题概念或者课程笔记，这样我就能在课程页面，实时预览问题列表。&lt;/p&gt;
 &lt;p&gt;在 Zettlekasten 卡片流行的时候，个人知识管理系统被赋予了信息凝练和卡片链接的标签，而个人需要实现从原文到知识体系的消化和表达。这样的体系，是在追求同层级笔记信息粒度的一致化，这些笔记的核心必须是源自笔记。所以很多知识博主展现了如何将知识原子化的技巧。&lt;/p&gt;
-&lt;p&gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;ldquo;Field&amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;ldquo;Field&amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&lt;/p&gt;
+&lt;h1 id=&#34;关于我现在如何使用query&#34;&gt;关于我现在如何使用Query&lt;/h1&gt;
+&lt;p&gt;为了让自己应用知识而记录信息。抱有这样的目的，会反过来影响记笔记时自己如何把控重点，以及如何标记笔记。&lt;/p&gt;
+&lt;p&gt;在 Tana 中标记笔记，就是让笔记具有可检索性，让自己在未来需要用到某一些笔记的时候，通过简单地叠加不同的信息，查询出满足要求的笔记。纯文本当然具有可检索性，但 Tana 能在Query 中 叠加 supertag 和 field 等信息，让笔记节点的查询更具有指向性。&lt;/p&gt;
+&lt;p&gt;另外，Tana 的 Query 具有不错的用户交互界面以及丰富的查询选择，能够适应不同用户的笔记处理习惯。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/MgcuVg6Wq.jpeg%7D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;后记&#34;&gt;后记&lt;/h1&gt;
+&lt;p&gt;我并不会把所有写下的内容都放Tana，更多的是笔记因我的目的不同而各自分道扬镳——这种目的主要是出自于“我想再看到它的频率”。如果我想在一段时间内有规律地重复刷，以增强我对笔记的理解记忆，我会使用 Anki；如果我想要某天笔记能让我灵机一动，我会想要使用 Flomo。但如果我想要看见一个笔记的结构性统合，我会选择使用 Tana写笔记。&lt;/p&gt;
+&lt;p&gt;是的，我爱它。&lt;/p&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

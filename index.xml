@@ -1,372 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杜尚此在沙龙</title><link>https://www.lhooq.life/</link><description>Recent content on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://www.lhooq.life/murmurs/20251224/</link><pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20251224/</guid><description>&lt;p&gt;如此使唤 Claude 帮忙整理5年前的Roam Research笔记:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://img.heliar.top/file/1766553126658_CleanShot_2025-12-24_at_13.11.38_2x.png" alt="使唤 Claude 帮忙整理5年前的Roam Research笔记"&gt;&lt;/p&gt;</description></item><item><title>Happy Christmas Eve!</title><link>https://www.lhooq.life/murmurs/20251224/</link><pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20251224/</guid><description>&lt;p&gt;&lt;img src="https://img.heliar.top/file/1766588192499_G88TLTibkAARdz4" alt="Christmas Greeting from Alma"&gt;&lt;/p&gt;</description></item><item><title>识典古籍(1)——小试萝卜刀</title><link>https://www.lhooq.life/words/20251222/</link><pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251222/</guid><description>我现在穿越回中国的古代就是死路一条。</description></item><item><title>短代码使用整理</title><link>https://www.lhooq.life/words/20251221/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251221/</guid><description>&lt;p&gt;整理一下短代码格式、效果和来源。如无特殊注明，参考来自&lt;a data-render="link"
- data-external="true" href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F" target="_blank"&gt;Hugo|在Stack主题上可行的短代码们&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="bilibili"&gt;bilibili&lt;/h1&gt;
-&lt;p&gt;播放器嵌入参考了：&lt;a data-render="link"
- data-external="true" href="https://blog.iyu.icu/posts/shortcode_bilibili/" target="_blank"&gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。&lt;/p&gt;
-&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt;bilibili + avid&amp;gt;&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&amp;lt;bilibili 115185486402704&amp;gt;&lt;/p&gt;
-&lt;h1 id="mastodon-嘟文嵌入"&gt;mastodon 嘟文嵌入&lt;/h1&gt;
-&lt;p&gt;这个shortcodes只能适用于单一server单一用户。&lt;/p&gt;
-&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt; mastodon status=&amp;quot;嘟文数字id&amp;quot; &amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-&lt;iframe src= "https://c7.io/@ulshke/115789998150334338/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" height="auto" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;script src="https://c7.io/embed.js" async="async"&gt;&lt;/script&gt;
-
-
-&lt;h1 id="neodb-嵌入"&gt;neodb 嵌入&lt;/h1&gt;
-&lt;p&gt;短代码格式 &lt;code&gt;&amp;lt;neodb &amp;quot;条目链接&amp;quot;&amp;gt;&lt;/code&gt;。&lt;/p&gt;</description></item><item><title>网站装修记录第一弹</title><link>https://www.lhooq.life/words/20251219/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251219/</guid><description>各家作业+各家AI大显身手，而我是复制粘贴工人</description></item><item><title>海默2000</title><link>https://www.lhooq.life/murmurs/20251216/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20251216/</guid><description>&lt;p&gt;海默2000：我们能够以仿生人的视角进行未来的选择，却在这部游戏里，只能以「Bad End」回顾克隆人「捐献者」们的群像故事。&lt;/p&gt;
-&lt;p&gt;人造人是人吗，人造人有人格吗，机器人是否比人造人低一等呢？&lt;/p&gt;
-&lt;p&gt;很可惜我们只能以后人类的视角，进入「希望家园」的废墟。&lt;/p&gt;
-&lt;p&gt;追求纯人类，会追赶自己进入人类原教旨主义与种族等级体系，会进入器官替代体系。&lt;/p&gt;</description></item><item><title>向Readwise划线提问：如何看展</title><link>https://www.lhooq.life/words/20251215/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251215/</guid><description>&lt;ol&gt;
-&lt;li&gt;把个人感受放在前面。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;奥西安·沃德强调私人体验并不逊于学术解读
-(这是一份让你去任何毕业展都能说上两句的当代艺术解读指南)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;
-&lt;p&gt;留白与节奏。
-在园中多逛逛，再回到观看之中。Obrist就曾努力在建筑中做其他陈设，让观众在观看展览之余能够休息。这样的留白和用咖啡豆转移短期多次闻香影响的技法相似。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;展览是否允许观众介入？注意场景的可供性，以及场景本身的精神内涵与氛围；&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们对“场景”的诠释远不止于上文提到的两种含义，我们还在寻求一种更加普适的分析方式。作为这一分析阶段的第一步，可以像一位电影导演、画家或者诗人那样想象邻里社区。他们中很多人在忙着不同的事情：有的在咖啡馆里，有的走进一家杂货店旋即离开，有的在教堂做礼拜之后漫无目的地闲晃，有的在为主场队员喝彩。之后的第二步，我们来探求一下这些场景都表达出了何种生活风格、精神内涵、意义和情绪。这些场景是危险的还是异域的，是熟悉的还是前卫的？其他人是如何分享这些精神内涵以及生活经验的？又是如何能够同理心地接受或拒绝这些精神内涵的？
-《场景》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;察觉对话性和思考。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;把展览当作艺术家、策展人与城市/历史的对话，留意作品如何彼此牵引与反差。&lt;/p&gt;
-&lt;p&gt;奥布里斯特主张让展览生成“更复杂的空间与时间性”的对话结构&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;临时的展览也可以被当作交互接触地带,调解博物馆和城市,创生新的展览范式。当今双年展的多样性意味着新的挑战并非复制他者的范式,而是提供新的空间和时间性。当务之急是生成一种接纳有趣、更复杂空间的情境,结合大与小、旧与新、加速与减速、噪声与安静。今天的双年展需要提供新的空间和时间性,以求达成格里桑所说的“世界性”,即加强全球性对话的一种差异。
-《我的策展之道》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start="5"&gt;
-&lt;li&gt;不必强求“唯一诠释”。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;形式过于抽象，语言无法触及时，解读只会指数型累积。查找解读的“标准答案”的价值很低，艺术家的看法和策展人的看法不一样，和我的看法也不一样————非专业背景反而能跨学科地、精神分析地进行解读。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我不再为一两个看不懂的展品暗暗较劲，费劲琢磨作者在表达什么，其实，说不好大部分作者也不知道自己在表达什么，形式和语言攀上了艺术的高位，解读像是在剥一颗洋葱。
-《这是一份让你去任何毕业展都能说上两句的当代艺术解读指南》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start="6"&gt;
-&lt;li&gt;解读以外，记录疑问比“对答案更有价值”。
-余下的，只有疑问。&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title/><link>https://www.lhooq.life/murmurs/20251213/</link><pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20251213/</guid><description>&lt;p&gt;在玩小红书Saltyu家的索引本3.0，虽然和「古鸦」的尺寸完全不适配，但它真的很漂亮。&lt;/p&gt;
-&lt;p&gt;不过一般不推荐写字下手很重的人，用较厚的纸。很难写。&lt;/p&gt;
-&lt;p&gt;本来想用索引卡来比喻这个纸的厚度，现在想想，这玩意本来就是索引本。&lt;/p&gt;</description></item><item><title>在焦虑这块烫板上尝试起舞</title><link>https://www.lhooq.life/words/20251105/</link><pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251105/</guid><description>&lt;p&gt;焦虑得非常具有攻击性。想要找兼职结束这焦虑的一切，都是钱，钱，钱。如果不在乎钱才是艺术家，那我确实不是艺术家；但如果艺术家和钱没有缘分，那么我就要和艺术家划分界限了。&lt;/p&gt;
-&lt;p&gt;嗨，没有钱寸步难行，没有苟活资本的你更无法迈出大门。&lt;/p&gt;
-&lt;p&gt;什么意思呢？我懂了这是东亚阴影，我宣布你被囚禁了，恭喜你玩到隐藏款了，但这里获取隐藏款的概率是100%。&lt;/p&gt;
-&lt;p&gt;写这些疯言疯语，反而人更乐观了。像是撒泼完，没事人一样的拍拍灰推开监狱门出去了。&lt;/p&gt;
-&lt;p&gt;总之发现机会后，我反倒开始整理很久没做的作品集了。摆摆弄弄后，静置欣赏一番，突然满意得叉着腰扭着甚至看来看去。再次回顾，也并不满意，只好承认“伯乐来袭”是所谓幻想。&lt;/p&gt;</description></item><item><title>美味口水鱼</title><link>https://www.lhooq.life/words/20251102/</link><pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251102/</guid><description>&lt;p&gt;蓝色电光成型，它就扑来咬&lt;/p&gt;
-&lt;p&gt;熊扑食洄流鱼类。&lt;/p&gt;
-&lt;p&gt;等着吃，吃下一条，快来下一条，快呀&lt;/p&gt;
-&lt;p&gt;数千只饥肠辘辘的熊都在等&lt;/p&gt;
-&lt;p&gt;大的，那么大的&lt;/p&gt;
-&lt;p&gt;电光！从上游开始&lt;/p&gt;
-&lt;p&gt;每一只熊都滴下口水和那束电光一起交织&lt;/p&gt;
-&lt;p&gt;觉得成型了就张大吻部&lt;/p&gt;
-&lt;p&gt;口水不舍地跌下&lt;/p&gt;
-&lt;p&gt;痴痴地结合 那鱼更丰腴地滑走了&lt;/p&gt;
-&lt;p&gt;另一只来吃新的一口&lt;/p&gt;
-&lt;p&gt;又一口&lt;/p&gt;
-&lt;p&gt;那些鱼是真实的吗，你确定你咬下吞服的，给你带来了饱腹感吗。&lt;/p&gt;
-&lt;p&gt;我询问你。 你看着我，吻冒出患患窣窣的电光， 无法分辨的形状，交织成极具吸引力的一一&lt;/p&gt;
-&lt;p&gt;我吞下口水，要拒绝这一诱惑&lt;/p&gt;
-&lt;p&gt;美味口水鱼&lt;/p&gt;</description></item><item><title>丝之歌</title><link>https://www.lhooq.life/murmurs/20250911/</link><pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/murmurs/20250911/</guid><description>&lt;p&gt;被气得长按录像并发布B站只在短短十分钟之内。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-&lt;div class="bili-embed-container" id="bili-%!s(int=115185486402704)-1766835658236710000"&gt;
- &lt;div class="aspect-ratio"&gt;
- &lt;iframe
- class="bili-iframe"
- src=""
- data-src="//player.bilibili.com/player.html?isOutside=true&amp;aid=115185486402704&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=1"
- scrolling="no"
- allowfullscreen="true"
- sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"&gt;
- &lt;/iframe&gt;
-
- &lt;div class="poster-wrapper"&gt;
- &lt;img src="https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" alt="这就是我和掷面虫热血沸腾的组合技口牙" class="bili-poster-img" referrerpolicy="no-referrer"&gt;
- 
- &lt;div class="poster-overlay"&gt;
- &lt;div class="play-btn"&gt;
- &lt;svg width="24" height="24" viewBox="0 0 24 24" fill="white"&gt;&lt;path d="M8 5v14l11-7z"/&gt;&lt;/svg&gt;
- &lt;/div&gt;
- &lt;div class="info-area"&gt;
- &lt;div class="bili-title"&gt;这就是我和掷面虫热血沸腾的组合技口牙&lt;/div&gt;
- &lt;div class="bili-meta"&gt;&lt;span class="badge"&gt;UP&lt;/span&gt; 小号光头official&lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-(function() {
- const boxId = "bili-%!s(int=115185486402704)-1766835658236710000";
- const box = document.getElementById(boxId);
- if (!box) { console.error('Bili Error: Box not found', boxId); return; }
-
- const wrapper = box.querySelector('.poster-wrapper');
- const iframe = box.querySelector('iframe');
-
- 
- console.log(`Bili Ready: ${boxId}`, { 
- title: "这就是我和掷面虫热血沸腾的组合技口牙", 
- pic: "https:\/\/i1.hdslb.com\/bfs\/archive\/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg" 
- });
-
- wrapper.addEventListener('click', function() {
- console.log(`Bili Clicked: ${boxId}`);
-
- 
- const realSrc = iframe.getAttribute('data-src');
- if (!realSrc) {
- console.error('Bili Error: No data-src found');
- return;
- }
-
- 
- if (!iframe.src || iframe.src === window.location.href) {
- 
- const finalSrc = realSrc.startsWith('//') ? 'https:' + realSrc : realSrc;
- console.log('Loading Iframe:', finalSrc);
- iframe.src = finalSrc;
- }
-
- 
- box.classList.add('is-active');
- }, { once: true }); 
-})();
-&lt;/script&gt;&lt;/p&gt;</description></item><item><title>Tana Command——小小命令，改善生活体验</title><link>https://www.lhooq.life/words/20241104/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20241104/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png" alt="Tana Command1 头图"&gt;&lt;/p&gt;
-&lt;p&gt;Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id="删除搜索节点下的所有子节点的命令"&gt;删除搜索节点下的所有子节点的命令&lt;/h1&gt;
-&lt;h2 id="功能"&gt;功能&lt;/h2&gt;
-&lt;p&gt;如标题所示。&lt;/p&gt;
-&lt;h2 id="使用场景"&gt;使用场景&lt;/h2&gt;
-&lt;p&gt;整理更新已有 Readwise Highlight 时能够用到。&lt;/p&gt;
-&lt;h2 id="调用方式"&gt;调用方式&lt;/h2&gt;
-&lt;p&gt;直接通过命令面板调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png" alt="删除搜索节点下的所有子节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="一键整理-inbox-节点的命令"&gt;一键整理 Inbox 节点的命令&lt;/h1&gt;
-&lt;h2 id="功能-1"&gt;功能&lt;/h2&gt;
-&lt;p&gt;将子节点打上标签，移动到创建日期节点。&lt;/p&gt;
-&lt;h2 id="使用场景-1"&gt;使用场景&lt;/h2&gt;
-&lt;p&gt;Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。&lt;/p&gt;
-&lt;h2 id="调用方式-1"&gt;调用方式&lt;/h2&gt;
-&lt;p&gt;在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png" alt="一键整理 Inbox 节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击打开节点链接的命令"&gt;点击打开节点链接的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
-&lt;p&gt;有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。&lt;/p&gt;
-&lt;h2 id="调用方式-2"&gt;调用方式&lt;/h2&gt;
-&lt;p&gt;URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png" alt="点击打开节点链接的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击更新任务状态的命令"&gt;点击更新任务状态的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能-1"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
-&lt;p&gt;更新写作草稿_状态_（选择字段）为“已完成”。&lt;/p&gt;
-&lt;h2 id="调用方式-3"&gt;调用方式&lt;/h2&gt;
-&lt;p&gt;published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;h2 id="点击更新任务状态的命令-1"&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png" alt="点击更新任务状态的命令"&gt;&lt;/h2&gt;
-&lt;p&gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&lt;/p&gt;</description></item><item><title>答 Dayu 博客采访问</title><link>https://www.lhooq.life/words/20241021/</link><pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20241021/</guid><description>&lt;p&gt;在灵买会看见了 Dayu 的博客问卷，非常激动，感觉久违地能和创作者们联系在一起，于是不请自来地给出了我的回答。&lt;/p&gt;
-&lt;h1 id="1-简单介绍下自己或者你的博客"&gt;1. 简单介绍下自己或者你的博客？&lt;/h1&gt;
-&lt;p&gt;此博客名字叫 &lt;em&gt;杜尚此在沙龙&lt;/em&gt;。是因为我被杜尚的反叛精神感染，也喜欢存在主义的思想。于是杂糅出了这个名字。&lt;/p&gt;
-&lt;p&gt;博客网址是 log.lhooq.life 。二级域名 LHOOQ 名字取自杜尚的一个美术作品 L.H.O.O.Q ，在蒙娜丽莎脸上画了一个小胡子作为他的新创作，而这个名字是一个双关语，“&lt;em&gt;Elle a chaud au cul&lt;/em&gt;” （她的屁股很火辣）。这样粗糙的创作，对于古典艺术爱好者来说应当十分冒犯吧。不过，我挺喜欢冒犯 Regulation 的。这能够让我审视我是否关注形式（规则）多于内容。&lt;/p&gt;
-&lt;p&gt;推荐阅读：什么是“杜尚此在沙龙”？&lt;/p&gt;
-&lt;h1 id="2-什么契机让你开始写博客"&gt;2. 什么契机让你开始写博客？&lt;/h1&gt;
-&lt;p&gt;大一时，偶然刷到了一个创作者的公众号 格林威治嬉皮研究公社 。如果要我回答这是一个怎么样的创作者，我只能回避审视或回避定义，告诉你他多年来没有被时代裹挟，仍坚持“尽量晚一点投降”的创作者。这样一说，他和杜尚在某些方面如此相似：“反叛”。&lt;/p&gt;
-&lt;p&gt;我对此(&amp;ldquo;反叛&amp;rdquo;)的喜欢是出于对什么事情的反叛吗？ 当时我并不了解自己，于是决定用文字来帮助我厘清我的思考。&lt;/p&gt;
-&lt;h1 id="3-你是如何完成创作的"&gt;3. 你是如何完成创作的？&lt;/h1&gt;
-&lt;p&gt;把脑子里的内容挤在一起，然后艰难地把内容生产出来。很多idea都以简单的形式扔到日志库里去了，并不打算以创作的形式表达出来。&lt;/p&gt;
-&lt;p&gt;但有一些发表的冲动，是没办法遮盖的，于是我决定热烈地完成它。目前创作过程在 Obsidian 完成（将笔记日志库和写作环境区分开了），Obsidian的一些样式插件，让我能够保持专注，这是其他软件都无法给我的。&lt;/p&gt;
-&lt;h1 id="4-运营博客的过程中是否有失去过动力"&gt;4. 运营博客的过程中是否有失去过动力？&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果有，是为什么恢复的？如果没有，请问您又是如何保持创作的激情？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果没有持续地运营博客，就是失去了动力，&lt;em&gt;那我应该是十天半个月都没有这样的动力&lt;/em&gt;。我运营过三个newsletter，Not an Author（宣告结束），灵魂此刻在漫游（无声放弃），Nor an Observer（启动困难），它们目前的状态都不怎么样。&lt;/p&gt;
-&lt;p&gt;那为什么我仍旧在“运营博客”？实话实说，我认为我的价值核心，在我的表达、在我的输出中。于是我未来可能不会再“运营博客”，但我还会找很多其他渠道继续表达，继续输出。&lt;/p&gt;
-&lt;h1 id="5-如何搭建博客以及运营博客每年需要投入的资金"&gt;5. 如何搭建博客，以及运营博客每年需要投入的资金？&lt;/h1&gt;
-&lt;p&gt;博客的搭建基于 Gridea，我为这个博客的投入只有 Gridea 的会员费和域名续费。&lt;/p&gt;
-&lt;p&gt;会员不算一笔大费用，但域名是。目前整个博客现在在 log 这个子域名上，如果将域名放在在根域名上，整个博客网站变成：lhooq.life，博客本身的诙谐要更突出一点。&lt;/p&gt;
-&lt;p&gt;不过博客现在叫lll，也非常有意思，所以就这样吧。&lt;/p&gt;
-&lt;h1 id="6-推荐-1-篇你博客中的文章并推荐一个你喜欢读的博客聊聊原因"&gt;6. 推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&lt;/h1&gt;
-&lt;p&gt;想要推荐我博客里的：在巴别塔的背后：语言和沟通的迫切 —— 《巴别塔圣歌》后记&lt;/p&gt;
-&lt;p&gt;如链接标题所示，这篇文章是游戏《巴别塔圣歌》的后记。语言学一直是我心目中的白月光，它既与社交互动惯例相关，也与认知科学相关；抛开教材去推敲一门不了解的语言，就像是不知道算法而去解码古典密码——沟通被包裹了神秘的面纱。&lt;/p&gt;
-&lt;p&gt;我喜欢的博客： &lt;a data-render="link"
- data-external="true" href="https://www.tianxianzi.me/" target="_blank"&gt;天仙子&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
-&lt;/a&gt;。博客的作者名为_秦海碗_。我很喜欢读她对任何事物发表的感触。她的所思所想富有人文气息，很温和。每次想到网络上有这样温和美好的文字存在，我都感觉世界没有那么糟糕。&lt;/p&gt;</description></item><item><title>给 Kindle 刷了 KOReader 系统后</title><link>https://www.lhooq.life/words/20240826/</link><pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20240826/</guid><description>&lt;p&gt;给 Kindle 刷了 KOReader 系统后，我陷入了读书人的狂喜。7月底，我还在 Flomo 记下了这一未来设想，而8月底我就实践了这个计划。&lt;/p&gt;
-&lt;p&gt;事实证明，努力和折腾并没有白费。我能够自如地对导入的电子书进行字体自定义或者选择使用电子书自带、内置的字体，我也能对行间距、章节分页等需求进行设置，非常舒服。&lt;/p&gt;
-&lt;h1 id="文本选择文本标注"&gt;文本选择/文本标注&lt;/h1&gt;
-&lt;p&gt;KOReader的标注功能比Kindle甚至微信读书的标注功能要好很多。比起标注，这更是 KOReader 内置的文本选择功能。&lt;/p&gt;
-&lt;p&gt;按住页面跨页选择文本时，KOReader会像网页一样向下滚动文本，直至用户松开；在此之后，KOReader 再返回最初显示的页面状态（页数/行数保持不变）。&lt;/p&gt;
-&lt;p&gt;这种文本选择功能更方便用户瞄准选择的终点。Kindle的文本选择功能在跨页面选择中表现非常差，长按情况下， Kindle 会进行翻页，而水墨屏的频闪刷新也会干扰用户的认知。&lt;/p&gt;
-&lt;h1 id="字体自定义--是否使用电子书的内置字体"&gt;字体自定义 &amp;amp;&amp;amp; 是否使用电子书的内置字体&lt;/h1&gt;
-&lt;p&gt;阅读障碍可能是大部分人存在的问题，我也有一些阅读上的怪癖，对阅读时的字体和行间距等排版有比较高的要求：自定义。&lt;/p&gt;
-&lt;p&gt;Readwise Reader 的行间距会让字体对我的影响没那么突出，但 Kindle 等其它阅读系统或软件则没有比较高的行间距调整的空间，导致我阅读时对字体的要求就变得特别高了。&lt;/p&gt;
-&lt;p&gt;Kindle 最大的问题，就是导入的文档无法使用自导入的字体（也有可能是版本，或者是我的设置问题）。而 Kindle 内置的字体无法让我保持专注的阅读，当然也不会感到快乐。&lt;/p&gt;
-&lt;p&gt;苹果系统内置的阅读软件也存在这样的问题：行间距和字体的调整没有太大的空间。在使用 Readwise Reader 以前，我一直挣扎于 iPadOS 上的阅读软件，寻找可以满足我的阅读需求的软件，大部分时间败兴而归。&lt;/p&gt;
-&lt;p&gt;KOReader 就能解决字体自定义的问题。甚至能够让读者自主地选择。&lt;/p&gt;
-&lt;h1 id="总结"&gt;总结&lt;/h1&gt;
-&lt;p&gt;是的，经历上述那么多痛苦、纠结和折腾，我的电纸书系统最终解法（暂时）就是 KOReader。&lt;/p&gt;</description></item><item><title>笔记，关于「社会规训视角下的性别」</title><link>https://www.lhooq.life/words/20240124/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20240124/</guid><description>&lt;h1 id="角色性别塑造"&gt;角色性别塑造&lt;/h1&gt;
-&lt;p&gt;如果一个主角和配角的互动中，男性多于女性，那么对此高敏感的读者，就会将主角认为是一个男性而不是女性，这是为什么？&lt;/p&gt;
-&lt;p&gt;在我表达我的看法前，我认为这种想法属实常见，尤其是在东亚。在未成年群体中，不和同性群体一起行动的人会被质疑居心叵测。如果无法实现一个女性比男性多的团体，那么应该如何塑造女性主角，让主角“像个女性”呢？&lt;/p&gt;
-&lt;p&gt;首先，“像个女性”这个表达就束缚了多样化表达。如果一个女性不“像个女性”，就不能作为“女性主角”存在，不能被叙述她的故事吗？&lt;/p&gt;
-&lt;p&gt;其次，什么是女性角色塑造呢？是要把一个角色塑造出其女性特点吗？还是把一个女性塑造成“角色”。&lt;/p&gt;
-&lt;p&gt;最后，什么是女性特点呢？是刻板印象中的保证居处的高要求（月亮土象特征），还是敏感同理心十足呢（水星水象特征）。每个人对女性的定义不同，这可能关乎他们的俄狄浦斯情结——“母亲”角色的幻想如何投射在生理女性上，如果你幻想中的“母亲”是一个柔情似水的角色，那么你倾向于投射这样的形象到女性上，并从这样的女性上获得认同。&lt;/p&gt;
-&lt;h1 id="不同媒介的表达"&gt;不同媒介的表达&lt;/h1&gt;
-&lt;p&gt;关于电影应当如何塑造一个女性角色，贝克德尔给出了一个答案。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;贝克德尔测验
-这是一个评估女性角色在电影中是否得到正当待遇的测验。通过这个测验，需要电影剧情中同时符合以下三个要求：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;片中至少有两个有名字的女性角色&lt;/li&gt;
-&lt;li&gt;她们至少交谈过&lt;/li&gt;
-&lt;li&gt;交谈的内容与男性无关
-源自艾莉森·貝克德爾的報紙連環漫畫《Dykes to Watch Out For》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;[2025.12.22 编辑]贝克德尔是女性在媒介语言中的政治视角开拓出崭新表达方向的一个里程碑。不过我们不必在此停留，听说仍有通过「贝克德尔测验」的电影在女性观影者眼中扭曲女性。&lt;/p&gt;
-&lt;p&gt;媒介不同，塑造手法却大相径庭；但文学能够包含的细节更多，可以多样化地塑造一个角色。对于媒介，我们仍需保持讨论。&lt;/p&gt;
-&lt;h1 id="少女心一个词"&gt;“少女心”，一个词&lt;/h1&gt;
-&lt;p&gt;私人兴味的书面化+公开化，被打上了“少女心”的标签。正因为这些私人爱好“一向”上不了台面，“一般大众”不会对此进行公开发表。对私人趣味进行书面化写作的人多为女性，或者说生理男性被社会规训为莽夫，不乐意写下自己的爱好，更难有什么日记。&lt;/p&gt;
-&lt;p&gt;“少女心”这名词正是男女不同规训类型的佐证。&lt;/p&gt;
-&lt;p&gt;另一方面是东亚情境下对自我表达的普遍性打压，当前社会的表达要么以符合情境为先，要么以争论“正义”为主。逃离现实、宏大背景的自我表达对于任何一个“性别”来说都少。&lt;/p&gt;
-&lt;p&gt;我觉得很可惜，写下当下的自己，不才证明自己活在当下么。&lt;/p&gt;
-&lt;h1 id="另附朋友对作者应当如何塑造女性的见解"&gt;另附，朋友对作者应当如何塑造女性的见解：&lt;/h1&gt;
-&lt;p&gt;民富：我觉得不要太刻意，就是那种，太刻意反而会让人觉得很怪异，你只是单纯写这个觉得就可以，是男是女，让读者自己感悟。&lt;/p&gt;
-&lt;p&gt;阿雪：母性。关于庇护和抚育。不能具有精神或物理上的施虐性和残暴性。&lt;/p&gt;
-&lt;p&gt;咸鱼：看情节，如果在描写这个女生大部分时间都是在思考怎么样去讨好男性的话妥实第二性；如果只是在作为一个女生正常的表达性感需求和爱（所占篇幅很明显看出来不是她人生的核心和全部）这个我认为是一个相对比较ok的个人形象。&lt;/p&gt;
-&lt;p&gt;向易：我判断一个人是否独立 其实是她获得成就感的来源是基于自身还是依附他人，就像咸鱼所说的人格魅力靠的是男人的爱慕属于后者，比如部分父母觉得自己孩子很优秀=自己教育的好实际上他屁都没做。还有另一种是纯粹依靠自己的实力or做出来的东西获得了荣誉，这个过程中也许有别人的协助，但绝大部分靠自己的智慧谋略或其他（我个人是这种）即使是打游戏通关 我也觉得是我牛逼x&lt;/p&gt;</description></item><item><title>在巴别塔的背后：语言和沟通的迫切——《巴别塔圣歌》后记</title><link>https://www.lhooq.life/words/20231125/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20231125/</guid><description>&lt;h1 id="在巴别塔的背后语言和沟通的迫切"&gt;在巴别塔的背后：语言和沟通的迫切&lt;/h1&gt;
-&lt;h2 id="巴别塔圣歌后记"&gt;——《巴别塔圣歌》后记&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;即使巴别塔曾分割民族&amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;前几年，我还有研究语言学这样的理想，于是我在平衡难度和理想这种选择了从语言学的角度解析文学实例，作为毕业论文的主题。毕业后我和语言学在现实意义上分道扬镳，但我们依然在莫比乌斯环的一纸两面背靠背，在《巴别塔圣歌》中久别重逢。&lt;/p&gt;
-&lt;p&gt;庆幸地是我能够在面对完全不了解的文字，在语境中思考其含义。&lt;/p&gt;
-&lt;p&gt;有一个竞赛，叫国际语言学奥林匹克竞赛（International Linguistics Olympiad），就像它的名字一样，是一个通过语言编码解码其含义完成题目的竞赛。&lt;/p&gt;
-&lt;p&gt;《巴别塔圣歌》和这样的竞赛很像，但它提供了大量的“作弊方案”，一是能够通过谜题，对着含义穷举文字，获得正确答案，二是游戏中通过动作和语音给出的语境信息要大于文字本身能够提供的语境信息。&lt;/p&gt;
-&lt;p&gt;自诩为学过语言学的佼佼者，我对这个游戏抱有极大的好胜心。假设每个语言系统中的人见面第一句应当是问好，借此开展思考；对着三个文字组成的句子，来回比对，去推理这门语言到底是主谓宾，还是主宾谓；思索语素的组合，将不同的语素合成具有组合意义的新词；或在互译中找到突破点。&lt;/p&gt;
-&lt;p&gt;如此好胜心，持续到我终于完成解码，才转变成对世界的审视。&lt;/p&gt;
-&lt;p&gt;尽管巴别塔是一座使用不同语言分割民族的高塔，但不同语言文化在接触后，仍然能互相接受，甚至表达欣赏。如此摄人心魂的旅程。诗人在大门写下拒绝战士，这证明不同文化隔阂有如天堑，而巴别塔互通后，纪律森严的战士们却会一起欣赏诗人们的表演，《巴别塔圣歌》的成就系统中，有一部成就正是关于高塔互通后玩家一步步走过不同的国度，目睹世界的改变。&lt;/p&gt;
-&lt;p&gt;在这以前，固步自封和沉默是每个国度的主色调；在这以后，高塔活了过来，&lt;/p&gt;
-&lt;p&gt;或说寓言，或说童话，但凡是能走过这里的世界，都想真正地触摸文字，触摸每一个民族深层次的想法。当和某人交谈，倾听文字时，我想着，我一定要理解他。&lt;/p&gt;
-&lt;p&gt;沟通的迫切这样隐藏在隔阂之中。&lt;/p&gt;</description></item><item><title>Tana——解放笔记困境的终极利器</title><link>https://www.lhooq.life/words/20230125/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20230125/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D" alt="文章头图"&gt;&lt;/p&gt;
-&lt;p&gt;我以前曾经是一个Roam Research的使用者，直到陷入困境：在以前的使用中，我过于重视表面的链接，而无法实现深层链接，导致字义需要被链接在表层句式中，含义则会被丢失。转而使用 Tana 一年后，我成为了 Tana 的忠实粉丝。&lt;/p&gt;
-&lt;p&gt;我最喜欢的 Tana 的几个功能&lt;/p&gt;
-&lt;h1 id="contextual-reference"&gt;Contextual reference&lt;/h1&gt;
-&lt;p&gt;这是笔记引用的一个变种。和普通的引用相比，引用笔记会完全基于被引用的笔记的语境下，获得被引用笔记页面中的独立内容显示，而不是简单的链接。&lt;/p&gt;
-&lt;h1 id="field-自动补全"&gt;Field 自动补全&lt;/h1&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D" alt="Field 自动补全"&gt;&lt;/p&gt;
-&lt;p&gt;层级式节点能够共享相同 Field 字段。举个例子，如果 “note” 的“belong to:” 字段非空，那么在这个 “note” 节点下，新建一个“question” supertag 节点后，这个节点的&amp;quot;belong to:&amp;quot; 字段会自动赋值。因为我在 “belong to:” 中设置了自动赋值：如果父节点某个字段且字段非空下，子节点的字段能自动赋值。&lt;/p&gt;
-&lt;h1 id="supertag-模版"&gt;Supertag 模版&lt;/h1&gt;
-&lt;p&gt;让我能够快速应用一致性结构，并进行修改。它非常灵活且强大。对于使用相同 supertag 的节点，可以应用相同的模版。结合上述的功能，可以实现更高效的操作。举个例子，我可以在针对课程的supertag模版，添加对于笔记和问题的查询节点： &amp;ldquo;node-query&amp;rdquo; 和 &amp;ldquo;question-query&amp;rdquo;，这样每新建一个课程节点，就能得到相同的结构。&lt;/p&gt;
-&lt;h1 id="似是而非的节点层级结构"&gt;似是而非的节点层级结构&lt;/h1&gt;
-&lt;p&gt;在使用 Roam Research 和 Obsidian 时，我对笔记的层级结构有一定的强迫症。我曾经纠结于将书籍作为当日笔记的子节点，还是为每本书创建一个新的页面。但是使用 Tana 后，我不再有这样的顾虑和强迫性思考，只需要使用 supertag，无需担心是用 [[]] 还是 @ 来查找笔记内容。&lt;/p&gt;
-&lt;h1 id="关于我现在如何使用field"&gt;关于我现在如何使用Field&lt;/h1&gt;
-&lt;p&gt;我已经使用了 Tana 一年多了。但仍然在不断优化我的笔记结构。当过去几下的笔记被用上场时，我会思考如何能够进一步让自己利用并展示笔记/知识中的亮点。也就是说，我会这样发问，我记下这个笔记，未来的我怎么能找到它呢？这个笔记又如何发挥作用呢？&lt;/p&gt;
-&lt;p&gt;以前的课程 supertag 中没有 question-query。而我想要查看课程笔记中到底遇到过怎么样的问题，又得到过怎么样的解释时，一度很迷糊，不知道如何实现这样的功能。后来将 “question” 的supertag模版改动后，让所有的问题都能直接指向课程本身，而不是更宽泛的主题概念或者课程笔记，这样我就能在课程页面，实时预览问题列表。&lt;/p&gt;
-&lt;p&gt;在 Zettlekasten 卡片流行的时候，个人知识管理系统被赋予了信息凝练和卡片链接的标签，而个人需要实现从原文到知识体系的消化和表达。这样的体系，是在追求同层级笔记信息粒度的一致化，这些笔记的核心必须是源自笔记。所以很多知识博主展现了如何将知识原子化的技巧。&lt;/p&gt;
-&lt;p&gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;ldquo;Field&amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&lt;/p&gt;</description></item><item><title>作家也有不同人格？</title><link>https://www.lhooq.life/words/20220904/</link><pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20220904/</guid><description>&lt;p&gt;以前和作家们聊天时，不少人都说让一个作家复健写作、以及稳固受众的一个比较好的手段，是在Telegram 这样的轻媒体平台进行输出&lt;/p&gt;
-&lt;p&gt;于是我以日更tg频道为目标，报名了灵感买家俱乐部八月的业余公司，并且大作宣传，希望朋友们可以监督我完成这个小目标。&lt;/p&gt;
-&lt;p&gt;但实际情况与我的计划出入很大。我发现tg频道并不是一个适宜所有作家的复健平台。首先对我来说，我没办法鼓起勇气勇气，去展现一些无所谓好坏并且非常自我的内容。我对于陌生人的视线感到害怕，更别说持续性地进行写作复健。&lt;/p&gt;
-&lt;p&gt;与此相比，我更倾向于与朋友聊天，或者自言自语。而我一旦把 Telegram Channel 的链接分享出去，就意味着这个空间是裸露的。&lt;/p&gt;
-&lt;p&gt;不同的作家有着不同的读者意识舒适区。有的作家适合将自己当作读者，有的作家适合将亲密的对象当作读者，也有作家适合将一个群体当作读者。这样的分类其实是以“九型人格”的本能副型作为分类的参照。&lt;/p&gt;
-&lt;p&gt;如果你不了解本能副型，这是九型人格理论的一个分支，它将人类的生物本能强度划分成不同的类型：自我保存（self-preservation) ，一对一 (sex) 和社群型 (social) 。&lt;/p&gt;
-&lt;p&gt;普遍意义上的“自我保存”副型（通常简称为“自保”），是指一个人具有注重其生存需要的特质。他们会对环境和美食有着相对高的要求。&lt;/p&gt;
-&lt;p&gt;“一对一”副型则是重视亲密关系，吸引力。而普遍意义上的“社群”副型，是重视团体、集体以及社会联系。&lt;/p&gt;
-&lt;p&gt;如果按照本能副型给作家分类，自保类型的作家倾向于进行符合个人意义的表达。情绪和幻想就是私人化的意象表达。这样的作家只能让读者于阅读中达成意会，而不能以对话的形式让意味被读者理解。&lt;/p&gt;
-&lt;p&gt;一对一类型的作家，倾向于以对话的形式。台湾作家，《蒙马特遗书》的作者邱妙津，就是一个典型的一对一类型作家。&lt;/p&gt;
-&lt;p&gt;她的“自陈”和“开解”，以及目标导向的现状解析，埋怨，都能表达她在亲密关系中的诉求。她热切地剖析自己，表达自己，告诉收信人她到底想要什么。&lt;/p&gt;
-&lt;p&gt;而社群类型的作家是学术的，心怀集体的。他们以集体为导向。有一部分作家代表集体写作，一部分是研究人类集体的研究者，还有一部分是现代小说的支撑者们，大部分的畅销书、网文作家。&lt;/p&gt;
-&lt;p&gt;当然媒体作家也属于社群类型作家。&lt;/p&gt;
-&lt;p&gt;社群类型或者是一对一类型的作家，他们都有比较固定的隐形读者对象，能够适应开放平台或者是半开放平台的媒体写作。&lt;/p&gt;
-&lt;p&gt;但是自保类型的作家并不拥有一个隐形的读者，他们的舒适写作更像是自言自语，所以他们不太适合通过 Telegram 这样的半开放平台进行复健写作，这并不是他们的舒适区。&lt;/p&gt;
-&lt;p&gt;自保型的作家更适宜从微博或者长毛象这样的社交媒体开始，进行复健写作。他们需要鼓励自己成为一个“庸俗”的人，参与琐事的碎碎念，这样就能以自保的姿态进行写作。&lt;/p&gt;
-&lt;p&gt;任何非社群类型的人在间隔一段时间的停笔后，不太适合马上进行社群类型的写作，他们会感到不适应以及有压力，甚至会因此退缩。&lt;/p&gt;
-&lt;p&gt;我的得意创作就不是什么可以放在平台上展示的内容，而是生活中的一些笑话。比起逗乐别人，我活在一个整活娱乐自己的世界里，仅此而已。&lt;/p&gt;</description></item><item><title>About</title><link>https://www.lhooq.life/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/about/</guid><description>&lt;h1 id="rt"&gt;&lt;em&gt;R.T.&lt;/em&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>杜尚此在沙龙</title>
+    <link>https://www.lhooq.life/</link>
+    <description>——沉默，流亡，机敏。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 29 Dec 2025 16:12:03 +0800</lastBuildDate>
+    <atom:link href="https://www.lhooq.life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.lhooq.life/murmurs/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/murmurs/</guid>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.lhooq.life/words/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;This page should be an entry to my words which in well order and posted as longform wrtings.&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;This page should be an entry to my words which in well order and posted as longform wrtings.&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://www.lhooq.life/about/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/about/</guid>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <description>&amp;lt;h1 id=&amp;#34;rt&amp;#34;&amp;gt;&amp;lt;em&amp;gt;R.T.&amp;lt;/em&amp;gt;&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;This is &amp;lt;strong&amp;gt;Riza Thoreau&amp;lt;/strong&amp;gt;. You may know me as Riza, Rizae, Ulshké or even ysw&amp;amp;hellip;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;But whatever.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;R.T. is this living &amp;lt;em&amp;gt;THING&amp;lt;/em&amp;gt; on &amp;lt;em&amp;gt;FOUND OBJECT&amp;lt;/em&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;You can see my  &amp;lt;a data-render=&amp;#34;link&amp;#34;
+  data-external=&amp;#34;true&amp;#34; href=&amp;#34;https://log.lhooq.life/&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;linkbio&amp;lt;span style=&amp;#34;white-space: nowrap;&amp;#34;&amp;gt;
+        &amp;lt;svg width=&amp;#34;.7em&amp;#34; height=&amp;#34;.7em&amp;#34; viewBox=&amp;#34;0 0 21 21&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+            &amp;lt;path d=&amp;#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&amp;#34; fill=&amp;#34;currentColor&amp;#34;/&amp;gt;
+            &amp;lt;path d=&amp;#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&amp;#34; fill=&amp;#34;currentColor&amp;#34;&amp;gt;
+        &amp;lt;/svg&amp;gt;
+    &amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt; for more info.&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;duchamp-dasein-salon&amp;#34;&amp;gt;Duchamp Dasein Salon&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Build with Hugo and based on &amp;lt;a data-render=&amp;#34;link&amp;#34;
+  data-external=&amp;#34;true&amp;#34; href=&amp;#34;https://github.com/janraasch/hugo-bearblog?tab=readme-ov-file&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;janraasch/hugo-bearblog&amp;lt;span style=&amp;#34;white-space: nowrap;&amp;#34;&amp;gt;
+        &amp;lt;svg width=&amp;#34;.7em&amp;#34; height=&amp;#34;.7em&amp;#34; viewBox=&amp;#34;0 0 21 21&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+            &amp;lt;path d=&amp;#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&amp;#34; fill=&amp;#34;currentColor&amp;#34;/&amp;gt;
+            &amp;lt;path d=&amp;#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&amp;#34; fill=&amp;#34;currentColor&amp;#34;&amp;gt;
+        &amp;lt;/svg&amp;gt;
+    &amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;(theme)。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;h1 id=&#34;rt&#34;&gt;&lt;em&gt;R.T.&lt;/em&gt;&lt;/h1&gt;
 &lt;p&gt;This is &lt;strong&gt;Riza Thoreau&lt;/strong&gt;. You may know me as Riza, Rizae, Ulshké or even ysw&amp;hellip;&lt;/p&gt;
 &lt;p&gt;But whatever.&lt;/p&gt;
 &lt;p&gt;R.T. is this living &lt;em&gt;THING&lt;/em&gt; on &lt;em&gt;FOUND OBJECT&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;You can see my &lt;a data-render="link"
- data-external="true" href="https://log.lhooq.life/" target="_blank"&gt;linkbio&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
+&lt;p&gt;You can see my  &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://log.lhooq.life/&#34; target=&#34;_blank&#34;&gt;linkbio&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
 &lt;/a&gt; for more info.&lt;/p&gt;
-&lt;h1 id="duchamp-dasein-salon"&gt;Duchamp Dasein Salon&lt;/h1&gt;
-&lt;p&gt;Build with Hugo and based on &lt;a data-render="link"
- data-external="true" href="https://github.com/janraasch/hugo-bearblog?tab=readme-ov-file" target="_blank"&gt;janraasch/hugo-bearblog&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
-&lt;/a&gt;(theme)。&lt;/p&gt;</description></item><item><title>Now/近况</title><link>https://www.lhooq.life/now/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/now/</guid><description>&lt;p&gt;网站目前状态：搬家中&lt;/p&gt;
-&lt;h1 id="changlog"&gt;Changlog&lt;/h1&gt;
-&lt;h1 id="v02"&gt;v0.2&lt;/h1&gt;
+&lt;h1 id=&#34;duchamp-dasein-salon&#34;&gt;Duchamp Dasein Salon&lt;/h1&gt;
+&lt;p&gt;Build with Hugo and based on &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://github.com/janraasch/hugo-bearblog?tab=readme-ov-file&#34; target=&#34;_blank&#34;&gt;janraasch/hugo-bearblog&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;(theme)。&lt;/p&gt;
+&lt;h1 id=&#34;enjoy-this-site&#34;&gt;Enjoy this site!&lt;/h1&gt;
+&lt;p&gt;You can start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.lhooq.life/what-is-dds/&#34; target=&#34;_blank&#34;&gt;关于这个网站
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.lhooq.life/now/&#34; target=&#34;_blank&#34;&gt;近日信息
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2024年10月写的&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.lhooq.life/words/20241021/&#34; target=&#34;_blank&#34;&gt;博客问卷
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Now/近况</title>
+      <link>https://www.lhooq.life/now/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/now/</guid>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;网站目前状态：搬家中&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;changlog&amp;#34;&amp;gt;Changlog&amp;lt;/h1&amp;gt;
+&amp;lt;h1 id=&amp;#34;v02&amp;#34;&amp;gt;v0.2&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Dec 13(2025) 至 Dec 23(2025)&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;增加了Murmurs section。可以在这里写小post啦。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;修改了正文的内容字体。希望宋体能增强阅读时的沉浸感，但黑体实际更适合我的文风。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;修改了title字体，现在更酷一点了。虽然想参考王欢老师破格的网页设计，但暂时没有琢磨到边界。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;修改了words的index-listing页设计，尝试先锋一些。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;在murmurs的页面添加了tag和title，title主要是为了防止被剧透。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;增加了bilibili，video-card初版，可以显示视频来源信息，点击播放后能嵌入播放～&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;增加并适配了assets文件结构，&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;增加了目录&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</description>
+      <content:encoded>&lt;p&gt;网站目前状态：搬家中&lt;/p&gt;
+&lt;h1 id=&#34;changlog&#34;&gt;Changlog&lt;/h1&gt;
+&lt;h1 id=&#34;v02&#34;&gt;v0.2&lt;/h1&gt;
 &lt;p&gt;Dec 13(2025) 至 Dec 23(2025)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;增加了Murmurs section。可以在这里写小post啦。&lt;/li&gt;
@@ -377,9 +118,50 @@
 &lt;li&gt;增加了bilibili，video-card初版，可以显示视频来源信息，点击播放后能嵌入播放～&lt;/li&gt;
 &lt;li&gt;增加并适配了assets文件结构，&lt;/li&gt;
 &lt;li&gt;增加了目录&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>什么是“杜尚此在沙龙”</title><link>https://www.lhooq.life/what-is-dds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/what-is-dds/</guid><description>&lt;h1 id="duchamp-dasein-salon"&gt;Duchamp Dasein Salon&lt;/h1&gt;
+&lt;/ul&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>什么是“杜尚此在沙龙”</title>
+      <link>https://www.lhooq.life/what-is-dds/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/what-is-dds/</guid>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <description>&amp;lt;h1 id=&amp;#34;duchamp-dasein-salon&amp;#34;&amp;gt;Duchamp Dasein Salon&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;2020年往后，坚持“杜尚此在沙龙”就越来越像只是一个习惯——一直在各种网络页面坚持这个名字，但不会想起来这股信念的源头。正好到域名的续费时间点，我们来谈一谈“杜尚此在沙龙”。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;杜尚-duchamp&amp;#34;&amp;gt;杜尚 Duchamp&amp;lt;/h1&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;“给予抵制的方式是：沉默，缓慢，独处。”&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;我不了解杜尚，这不妨碍我从他言语中获得零星灵感就可以帮我竖起一个天边的警示碑。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;光是看他上交艺术展的小便池，就能从自己惊讶的反应里了解杜尚对传统束之高阁的艺术概念，到底是什么态度。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;不让艺术还腐朽地保持它本身。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;认识杜尚和他的作品时，我同时在了解六十年代嬉皮运动。新东西一出现，先是会招惹敌视者，才慢慢聚拢相同意愿的人，无论是达达主义，还是六十年代的嬉皮、情境主义国际，都像是这样。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;年轻人很难不被反叛者吸引，尽管杜尚在1912年，就以其作品掀起轩然大波，但传统机构化、教派化艺术，仍然是百年以后的现代人对艺术的刻板印象。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;对反叛的崇拜也是当下的一种挣扎。越是深陷当下大多数人一致的困境中，越是需要用冷水洗脸，多赏自己几个耳光，多挣扎。&amp;lt;/p&amp;gt;
+&amp;lt;hr&amp;gt;
+&amp;lt;h1 id=&amp;#34;此在-dasein&amp;#34;&amp;gt;此在 Dasein&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;这是一个来自海德格尔(Heidegger)的术语。&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;继续上一个话题，在当下的挣扎，也是存在主义的一个话题。是具体的，实用的。如果其他存在主义学家没有说过，那我也能标榜“存在主义者”来探讨这个话题，反叛即存在。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;假想过自己是永生于不可互动宇宙的幽灵，就会对自己现在存在于可互动世界而想落泪。如果我融合入星体四周的星云，像是融合入 LCL 液体一般存在，那时连拔下电源插头都将是一种夙愿。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;但在社会中我要斟酌的，要比和现实交互更复杂得多。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;越是参与，外界越是逼你去认可已经存在的规则，但如果反叛，就会被写入大字报或小红书。不过被写进小红书的，说不定评论里会都是“看完尸体暖暖的”。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;存在不是普通的日常，而是具体的异常，这才会让你短暂地进入“此在”，进入此时此地（da）的存在（sein）。&amp;lt;/p&amp;gt;
+&amp;lt;hr&amp;gt;
+&amp;lt;h1 id=&amp;#34;沙龙-salon&amp;#34;&amp;gt;沙龙 Salon&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;谈到沙龙，难以获得一个严肃而平等的线下探讨会，是现实的困境之一。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;这是我的愿望也是幻想。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我想象大家共同躺倒在懒人沙发里，我们并不面对面，也不必交谈。但信任身边人具有独立内核，就能让我们连接在一起。&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;O Salon! My Salon!&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;hr&amp;gt;
+&amp;lt;p&amp;gt;”杜尚此在沙龙“就是这么一个存在。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;很显然，它是一个自我要求的杂糅，来自过去，来自实物，来自哲学思想，来自人际互动。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;结尾本应该呼吁一下，渲染自己要继续坚持这个要求的氛围，但不如这样说：&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;继续开玩笑，继续拒绝，继续破坏。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;h1 id=&#34;duchamp-dasein-salon&#34;&gt;Duchamp Dasein Salon&lt;/h1&gt;
 &lt;p&gt;2020年往后，坚持“杜尚此在沙龙”就越来越像只是一个习惯——一直在各种网络页面坚持这个名字，但不会想起来这股信念的源头。正好到域名的续费时间点，我们来谈一谈“杜尚此在沙龙”。&lt;/p&gt;
-&lt;h1 id="杜尚-duchamp"&gt;杜尚 Duchamp&lt;/h1&gt;
+&lt;h1 id=&#34;杜尚-duchamp&#34;&gt;杜尚 Duchamp&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“给予抵制的方式是：沉默，缓慢，独处。”&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -390,7 +172,7 @@
 &lt;p&gt;年轻人很难不被反叛者吸引，尽管杜尚在1912年，就以其作品掀起轩然大波，但传统机构化、教派化艺术，仍然是百年以后的现代人对艺术的刻板印象。&lt;/p&gt;
 &lt;p&gt;对反叛的崇拜也是当下的一种挣扎。越是深陷当下大多数人一致的困境中，越是需要用冷水洗脸，多赏自己几个耳光，多挣扎。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id="此在-dasein"&gt;此在 Dasein&lt;/h1&gt;
+&lt;h1 id=&#34;此在-dasein&#34;&gt;此在 Dasein&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;这是一个来自海德格尔(Heidegger)的术语。&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;继续上一个话题，在当下的挣扎，也是存在主义的一个话题。是具体的，实用的。如果其他存在主义学家没有说过，那我也能标榜“存在主义者”来探讨这个话题，反叛即存在。&lt;/p&gt;
 &lt;p&gt;假想过自己是永生于不可互动宇宙的幽灵，就会对自己现在存在于可互动世界而想落泪。如果我融合入星体四周的星云，像是融合入 LCL 液体一般存在，那时连拔下电源插头都将是一种夙愿。&lt;/p&gt;
@@ -398,7 +180,7 @@
 &lt;p&gt;越是参与，外界越是逼你去认可已经存在的规则，但如果反叛，就会被写入大字报或小红书。不过被写进小红书的，说不定评论里会都是“看完尸体暖暖的”。&lt;/p&gt;
 &lt;p&gt;存在不是普通的日常，而是具体的异常，这才会让你短暂地进入“此在”，进入此时此地（da）的存在（sein）。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id="沙龙-salon"&gt;沙龙 Salon&lt;/h1&gt;
+&lt;h1 id=&#34;沙龙-salon&#34;&gt;沙龙 Salon&lt;/h1&gt;
 &lt;p&gt;谈到沙龙，难以获得一个严肃而平等的线下探讨会，是现实的困境之一。&lt;/p&gt;
 &lt;p&gt;这是我的愿望也是幻想。&lt;/p&gt;
 &lt;p&gt;我想象大家共同躺倒在懒人沙发里，我们并不面对面，也不必交谈。但信任身边人具有独立内核，就能让我们连接在一起。&lt;/p&gt;
@@ -409,4 +191,8 @@
 &lt;p&gt;”杜尚此在沙龙“就是这么一个存在。&lt;/p&gt;
 &lt;p&gt;很显然，它是一个自我要求的杂糅，来自过去，来自实物，来自哲学思想，来自人际互动。&lt;/p&gt;
 &lt;p&gt;结尾本应该呼吁一下，渲染自己要继续坚持这个要求的氛围，但不如这样说：&lt;/p&gt;
-&lt;p&gt;继续开玩笑，继续拒绝，继续破坏。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;继续开玩笑，继续拒绝，继续破坏。&lt;/p&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

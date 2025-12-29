@@ -1,24 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo装修 on 杜尚此在沙龙</title><link>https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/</link><description>Recent content in Hugo装修 on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>短代码使用整理</title><link>https://www.lhooq.life/words/20251221/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251221/</guid><description>&lt;p&gt;整理一下短代码格式、效果和来源。如无特殊注明，参考来自&lt;a data-render="link"
- data-external="true" href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F" target="_blank"&gt;Hugo|在Stack主题上可行的短代码们&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>杜尚此在沙龙</title>
+    <link>https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/</link>
+    <description>——沉默，流亡，机敏。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 29 Dec 2025 16:12:03 +0800</lastBuildDate>
+    <atom:link href="https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>短代码使用整理</title>
+      <link>https://www.lhooq.life/words/20251221/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20251221/</guid>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;整理一下短代码格式、效果和来源。如无特殊注明，参考来自&amp;lt;a data-render=&amp;#34;link&amp;#34;
+  data-external=&amp;#34;true&amp;#34; href=&amp;#34;https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;Hugo|在Stack主题上可行的短代码们&amp;lt;span style=&amp;#34;white-space: nowrap;&amp;#34;&amp;gt;
+        &amp;lt;svg width=&amp;#34;.7em&amp;#34; height=&amp;#34;.7em&amp;#34; viewBox=&amp;#34;0 0 21 21&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+            &amp;lt;path d=&amp;#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&amp;#34; fill=&amp;#34;currentColor&amp;#34;/&amp;gt;
+            &amp;lt;path d=&amp;#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&amp;#34; fill=&amp;#34;currentColor&amp;#34;&amp;gt;
+        &amp;lt;/svg&amp;gt;
+    &amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;bilibili&amp;#34;&amp;gt;bilibili&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;播放器嵌入参考了：&amp;lt;a data-render=&amp;#34;link&amp;#34;
+  data-external=&amp;#34;true&amp;#34; href=&amp;#34;https://blog.iyu.icu/posts/shortcode_bilibili/&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&amp;lt;span style=&amp;#34;white-space: nowrap;&amp;#34;&amp;gt;
+        &amp;lt;svg width=&amp;#34;.7em&amp;#34; height=&amp;#34;.7em&amp;#34; viewBox=&amp;#34;0 0 21 21&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+            &amp;lt;path d=&amp;#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&amp;#34; fill=&amp;#34;currentColor&amp;#34;/&amp;gt;
+            &amp;lt;path d=&amp;#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&amp;#34; fill=&amp;#34;currentColor&amp;#34;&amp;gt;
+        &amp;lt;/svg&amp;gt;
+    &amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;短代码格式: &amp;lt;code&amp;gt;&amp;amp;lt;bilibili &#43; avid&amp;amp;gt;&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;lt;bilibili 115185486402704&amp;amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;mastodon-嘟文嵌入&amp;#34;&amp;gt;mastodon 嘟文嵌入&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;这个shortcodes只能适用于单一server单一用户。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;短代码格式: &amp;lt;code&amp;gt;&amp;amp;lt; mastodon status=&amp;amp;quot;嘟文数字id&amp;amp;quot; &amp;amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
+
+
+
+
+
+
+
+
+
+&amp;lt;iframe src= &amp;#34;https://c7.io/@ulshke/115789998150334338/embed&amp;#34; class=&amp;#34;mastodon-embed&amp;#34; style=&amp;#34;max-width: 100%; border: 0&amp;#34; width=&amp;#34;100%&amp;#34; height=&amp;#34;auto&amp;#34; allowfullscreen=&amp;#34;allowfullscreen&amp;#34;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;script src=&amp;#34;https://c7.io/embed.js&amp;#34; async=&amp;#34;async&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;h1 id=&amp;#34;neodb-嵌入&amp;#34;&amp;gt;neodb 嵌入&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;短代码格式 &amp;lt;code&amp;gt;&amp;amp;lt;neodb &amp;amp;quot;条目链接&amp;amp;quot;&amp;amp;gt;&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;整理一下短代码格式、效果和来源。如无特殊注明，参考来自&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F&#34; target=&#34;_blank&#34;&gt;Hugo|在Stack主题上可行的短代码们&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
 &lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="bilibili"&gt;bilibili&lt;/h1&gt;
-&lt;p&gt;播放器嵌入参考了：&lt;a data-render="link"
- data-external="true" href="https://blog.iyu.icu/posts/shortcode_bilibili/" target="_blank"&gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
+&lt;h1 id=&#34;bilibili&#34;&gt;bilibili&lt;/h1&gt;
+&lt;p&gt;播放器嵌入参考了：&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://blog.iyu.icu/posts/shortcode_bilibili/&#34; target=&#34;_blank&#34;&gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。&lt;/p&gt;
-&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt;bilibili + avid&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;短代码格式: &lt;code&gt;&amp;lt;bilibili &#43; avid&amp;gt;&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;&amp;lt;bilibili 115185486402704&amp;gt;&lt;/p&gt;
-&lt;h1 id="mastodon-嘟文嵌入"&gt;mastodon 嘟文嵌入&lt;/h1&gt;
+&lt;h1 id=&#34;mastodon-嘟文嵌入&#34;&gt;mastodon 嘟文嵌入&lt;/h1&gt;
 &lt;p&gt;这个shortcodes只能适用于单一server单一用户。&lt;/p&gt;
 &lt;p&gt;短代码格式: &lt;code&gt;&amp;lt; mastodon status=&amp;quot;嘟文数字id&amp;quot; &amp;gt;&lt;/code&gt;&lt;/p&gt;
 
@@ -30,8 +81,204 @@
 
 
 
-&lt;iframe src= "https://c7.io/@ulshke/115789998150334338/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" height="auto" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;script src="https://c7.io/embed.js" async="async"&gt;&lt;/script&gt;
+&lt;iframe src= &#34;https://c7.io/@ulshke/115789998150334338/embed&#34; class=&#34;mastodon-embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;100%&#34; height=&#34;auto&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;https://c7.io/embed.js&#34; async=&#34;async&#34;&gt;&lt;/script&gt;
 
 
-&lt;h1 id="neodb-嵌入"&gt;neodb 嵌入&lt;/h1&gt;
-&lt;p&gt;短代码格式 &lt;code&gt;&amp;lt;neodb &amp;quot;条目链接&amp;quot;&amp;gt;&lt;/code&gt;。&lt;/p&gt;</description></item><item><title>网站装修记录第一弹</title><link>https://www.lhooq.life/words/20251219/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20251219/</guid><description>各家作业+各家AI大显身手，而我是复制粘贴工人</description></item></channel></rss>
+&lt;h1 id=&#34;neodb-嵌入&#34;&gt;neodb 嵌入&lt;/h1&gt;
+&lt;p&gt;短代码格式 &lt;code&gt;&amp;lt;neodb &amp;quot;条目链接&amp;quot;&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;但是由于&lt;code&gt;i/o timeout&lt;/code&gt;无法嵌入，是由于你我都了解的原因，因此neodb原生卡片嵌入暂时放弃。&lt;/p&gt;
+&lt;h1 id=&#34;重点标记&#34;&gt;重点标记&lt;/h1&gt;
+&lt;p&gt;短代码格式 &lt;code&gt;&amp;lt;mark text=&amp;quot;text&amp;quot;&amp;gt;&lt;/code&gt;
+&lt;mark&gt;重点颜色&lt;/mark&gt;
+，和选中颜色一样。&lt;/p&gt;
+&lt;h1 id=&#34;折叠&#34;&gt;折叠&lt;/h1&gt;
+&lt;details&gt;
+    &lt;summary&gt;叠叠乐&lt;/summary&gt;&lt;p&gt;叠叠p1&lt;/p&gt;
+&lt;p&gt;叠叠p2&lt;/p&gt;
+&lt;/details&gt;
+
+</content:encoded>
+    </item>
+    <item>
+      <title>网站装修记录第一弹</title>
+      <link>https://www.lhooq.life/words/20251219/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20251219/</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <description>各家作业&#43;各家AI大显身手，而我是复制粘贴工人</description>
+      <content:encoded>&lt;p&gt;设计第一要义：现代海报设计风格，设计由我和每天聊三句话的免费Gemini共同进行&lt;/p&gt;
+&lt;h1 id=&#34;热力图&#34;&gt;热力图&lt;/h1&gt;
+&lt;p&gt;热力图在&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.lhooq.life/now/&#34; target=&#34;_blank&#34;&gt;近日信息
+&lt;/a&gt;页面置顶，显示一年内的写作字数，感觉加了这样的热力图就能用功利心战胜完美主义了，功利主义万岁！&lt;/p&gt;
+&lt;p&gt;代码参考了&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://blog.douchi.space/hugo-blog-heatmap/#%E5%85%A8%E9%83%A8%E4%BB%A3%E7%A0%81&amp;amp;gsc.tab=0&#34; target=&#34;_blank&#34;&gt;如何给 Hugo 博客添加热力图&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;由于想将murmurs区块的内容也计入热力图，现在热力图会显示两个颜色，即两个区块的数据统计，但是实际数据量和颜色代表哪个区块应该不太关键。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;等我重构了tag和date的filter页，就尝试把热力图和date-filter绑定一下。&lt;/del&gt; 有点太耗内存了决定放弃。&lt;/p&gt;
+&lt;h1 id=&#34;外链标志&#34;&gt;外链标志&lt;/h1&gt;
+&lt;p&gt;如果出现外链，就在外链后面加入一个跳转外部网址的标识。&lt;/p&gt;
+&lt;p&gt;参考了&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation/&#34; target=&#34;_blank&#34;&gt;Hugo Stack主题装修笔记&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;，&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://iono.me/web/2022/12/extrenal-link-icon-in-hugo-natively-markdown-render-hooks/&#34; target=&#34;_blank&#34;&gt;Extrenal Link Icon in Hugo Natively, Markdown Render Hooks&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://iconsvg.xyz/&#34; target=&#34;_blank&#34;&gt;iconsvg.xyz&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;网站，还能先随直觉把大小、颜色调整好，再复制嵌入代码。&lt;/p&gt;
+&lt;h1 id=&#34;b站播放器&#34;&gt;B站播放器&lt;/h1&gt;
+&lt;p&gt;播放器嵌入参考了：&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://blog.iyu.icu/posts/shortcode_bilibili/&#34; target=&#34;_blank&#34;&gt;使用Shortcodes在Hugo博客中优雅的嵌入B站视频&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但是自动播放这点有点太抽象，我想让读者有是否播放的选择，所以（和Alma、Gpt一起）做了一个overlay显示UP主、视频标题、视频封面。&lt;/p&gt;
+&lt;p&gt;API 抓取显示up主、视频标题、视频封面；API来自&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://github.com/SocialSisterYi/bilibili-API-collect?tab=readme-ov-file&#34; target=&#34;_blank&#34;&gt;SocialSisterYi/bilibili-API-collect&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+  
+
+
+
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1766995923138785000&#34;&gt;
+  &lt;div class=&#34;aspect-ratio&#34;&gt;
+    &lt;iframe
+      class=&#34;bili-iframe&#34;
+      src=&#34;&#34;
+      data-src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=115185486402704&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=1&#34;
+      scrolling=&#34;no&#34;
+      allowfullscreen=&#34;true&#34;
+      sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&#34;&gt;
+    &lt;/iframe&gt;
+
+    &lt;div class=&#34;poster-wrapper&#34;&gt;
+      &lt;img src=&#34;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#34; alt=&#34;这就是我和掷面虫热血沸腾的组合技口牙&#34; class=&#34;bili-poster-img&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+      
+      &lt;div class=&#34;poster-overlay&#34;&gt;
+         &lt;div class=&#34;play-btn&#34;&gt;
+            &lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;white&#34;&gt;&lt;path d=&#34;M8 5v14l11-7z&#34;/&gt;&lt;/svg&gt;
+         &lt;/div&gt;
+         &lt;div class=&#34;info-area&#34;&gt;
+           &lt;div class=&#34;bili-title&#34;&gt;这就是我和掷面虫热血沸腾的组合技口牙&lt;/div&gt;
+           &lt;div class=&#34;bili-meta&#34;&gt;&lt;span class=&#34;badge&#34;&gt;UP&lt;/span&gt; 小号光头official&lt;/div&gt;
+         &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function() {
+  const boxId = &#34;bili-%!s(int=115185486402704)-1766995923138785000&#34;;
+  const box = document.getElementById(boxId);
+  if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
+
+  const wrapper = box.querySelector(&#39;.poster-wrapper&#39;);
+  const iframe = box.querySelector(&#39;iframe&#39;);
+
+  
+  console.log(`Bili Ready: ${boxId}`, { 
+    title: &#34;这就是我和掷面虫热血沸腾的组合技口牙&#34;, 
+    pic: &#34;https:\/\/i1.hdslb.com\/bfs\/archive\/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#34; 
+  });
+
+  wrapper.addEventListener(&#39;click&#39;, function() {
+    console.log(`Bili Clicked: ${boxId}`);
+
+    
+    const realSrc = iframe.getAttribute(&#39;data-src&#39;);
+    if (!realSrc) {
+        console.error(&#39;Bili Error: No data-src found&#39;);
+        return;
+    }
+
+    
+    if (!iframe.src || iframe.src === window.location.href) {
+        
+        const finalSrc = realSrc.startsWith(&#39;//&#39;) ? &#39;https:&#39; &#43; realSrc : realSrc;
+        console.log(&#39;Loading Iframe:&#39;, finalSrc);
+        iframe.src = finalSrc;
+    }
+
+    
+    box.classList.add(&#39;is-active&#39;);
+  }, { once: true }); 
+})();
+&lt;/script&gt;
+&lt;h1 id=&#34;codeblock-代码块美化&#34;&gt;Codeblock 代码块美化&lt;/h1&gt;
+&lt;p&gt;对象：限定max-height以及添加复制按钮&lt;/p&gt;
+&lt;p&gt;因为网站的解析是&lt;code&gt;&amp;lt;div class=&amp;quot;highlight&amp;quot;&amp;gt;&lt;/code&gt;&amp;gt; &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt;&amp;gt;&lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;，所以我粗暴地对highlight进行了限制了行高。&lt;/p&gt;
+&lt;p&gt;另一种解法：官方的&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://gohugo.io/shortcodes/highlight/&#34; target=&#34;_blank&#34;&gt;Highlight shortcode&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;复制按钮部分，再次感叹为了一个复制按钮（人人大同），实在是太辛苦，于是摆烂。&lt;/p&gt;
+&lt;h1 id=&#34;侧边目录toc&#34;&gt;侧边目录TOC&lt;/h1&gt;
+&lt;p&gt;参照了&lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.ariesme.com/posts/2019/add_toc_for_hugo/&#34; target=&#34;_blank&#34;&gt;Hugo添加文章目录toc&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;这篇文章，对toc.html进行了设置。不过没有尝试滑动监听。&lt;/p&gt;
+&lt;p&gt;等我有一天开始包容地走向JS再说吧。&lt;/p&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

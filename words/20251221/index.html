@@ -1,10 +1,416 @@
-<!doctype html><html lang=zh-CN><head><meta http-equiv=X-Clacks-Overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=fediverse:creator content="@ulshke@c7.io"><link rel="shortcut icon" href=https://www.lhooq.life/favicon.png><title>短代码使用整理 | 杜尚此在沙龙</title><meta name=referrer content="no-referrer-when-downgrade"><style>:root{--width:720px;--font-main:Verdana, sans-serif;--font-secondary:Verdana, sans-serif;--font-scale:1em;--background-color:#fff;--heading-color:#222;--text-color:#444;--link-color:#3273dc;--visited-color:#8b6fcb;--blockquote-color:#222}@media(prefers-color-scheme:dark){:root{--background-color:#01242e;--heading-color:#eee;--text-color:#ddd;--link-color:#8cc2dd;--visited-color:#8b6fcb;--blockquote-color:#ccc}}body{font-family:var(--font-secondary);font-size:var(--font-scale);margin:auto;padding:20px;max-width:var(--width);text-align:left;background-color:var(--background-color);word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:var(--text-color)}h1,h2,h3,h4,h5,h6{font-family:var(--font-main);color:var(--heading-color)}a{color:var(--link-color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}nav a{margin-right:8px}strong,b{color:var(--heading-color)}button{margin:0;cursor:pointer}time{font-family:monospace;font-style:normal;font-size:15px}main{line-height:1.6}table{width:100%}hr{border:0;border-top:1px dashed}img{max-width:100%}code{font-family:monospace;padding:2px;border-radius:3px}blockquote{border-left:1px solid #999;color:var(--blockquote-color);padding-left:20px;font-style:italic}footer{padding:25px 0;text-align:center}.title:hover{text-decoration:none}.title h1{font-size:1.5em}.inline{width:auto!important}.highlight,.code{border-radius:3px;margin-block-start:1em;margin-block-end:1em;overflow-x:auto}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:var(--visited-color)}</style><meta name=description content="RT, who Lives a LHOOQ Life"><link rel=stylesheet href=/css/main.f7ed299977d87133b102efda729758cb145dd255ebfcdea259ca0e3bffab6eff.css integrity="sha256-9+0pmXfYcTOxAu/acpdYyxRd0lXr/N6iWcoOO/+rbv8=" crossorigin=anonymous></head><body><header><a href=/ class=title><img src=/logo.png alt=Logo class=logo-image></a><nav><img class=nav-logo src=/favicon.png alt=Logo>
-<a data-render=nav href=/>Home</a>
-<a data-render=nav href=/words/>Words</a>
-<a data-render=nav href=/murmurs>Murmurs</a>
-<a data-render=nav href=/now>Now</a>
-<a data-render=nav href=/about>About</a><div class=nav-profile-icons><a class=nav-profile-icon rel=me href=https://c7.io/@ulshke><img src=/mastodon-icon.svg></a></div></nav></header><main><header class=poster-container><p class=poster-title>短代码使用整理</p></header><p class=meta-info><i><time datetime=2025-12-21>21 Dec, 2025</time></i></p><div class=toc><div class=toc-nav><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#bilibili>bilibili</a></li></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#mastodon-%e5%98%9f%e6%96%87%e5%b5%8c%e5%85%a5>mastodon 嘟文嵌入</a></li></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#neodb-%e5%b5%8c%e5%85%a5>neodb 嵌入</a></li></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e9%87%8d%e7%82%b9%e6%a0%87%e8%ae%b0>重点标记</a></li></ul><ul class=toc-list><li class=toc-item><a data-render=link class="toc-link text-left" href=#%e6%8a%98%e5%8f%a0>折叠</a></li></ul></div></div><article class=words><p>整理一下短代码格式、效果和来源。如无特殊注明，参考来自<a data-render=link data-external=true href=https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F target=_blank>Hugo|在Stack主题上可行的短代码们<span style=white-space:nowrap>
-<svg width=".7em" height=".7em" viewBox="0 0 21 21"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z" fill="currentColor"/><path d="M19 19H5V5h7l-2-2H5c-1.103.0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103.0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"/></span></a></p><h1 id=bilibili>bilibili</h1><p>播放器嵌入参考了：<a data-render=link data-external=true href=https://blog.iyu.icu/posts/shortcode_bilibili/ target=_blank>使用Shortcodes在Hugo博客中优雅的嵌入B站视频<span style=white-space:nowrap>
-<svg width=".7em" height=".7em" viewBox="0 0 21 21"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z" fill="currentColor"/><path d="M19 19H5V5h7l-2-2H5c-1.103.0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103.0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"/></span></a></p><p>bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。</p><p>短代码格式: <code>&lt;bilibili + avid></code>。</p><p>&lt;bilibili 115185486402704></p><h1 id=mastodon-嘟文嵌入>mastodon 嘟文嵌入</h1><p>这个shortcodes只能适用于单一server单一用户。</p><p>短代码格式: <code>&lt; mastodon status="嘟文数字id" ></code></p><iframe src=https://c7.io/@ulshke/115789998150334338/embed class=mastodon-embed style=max-width:100%;border:0 width=100% height=auto allowfullscreen></iframe><script src=https://c7.io/embed.js async></script><h1 id=neodb-嵌入>neodb 嵌入</h1><p>短代码格式 <code>&lt;neodb "条目链接"></code>。</p><p>但是由于<code>i/o timeout</code>无法嵌入，是由于你我都了解的原因，因此neodb原生卡片嵌入暂时放弃。</p><h1 id=重点标记>重点标记</h1><p>短代码格式 <code>&lt;mark text="text"></code>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="fediverse:creator" content="@ulshke@c7.io">
+<link rel="shortcut icon" href="https://www.lhooq.life/favicon.png" />
+<title>短代码使用整理 | 杜尚此在沙龙</title><meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<meta name="description" content="RT, who Lives a LHOOQ Life">
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/main.8b5c365ac110f12d3b9fda0df6c33e01ac1b004fccf4804de2488daca81247c3.css" integrity="sha256-i1w2WsEQ8S07n9oN9sM&#43;AawbAE/M9IBN4kiNrKgSR8M=" crossorigin="anonymous">
+      
+    
+  
+
+
+
+</head>
+
+<body>
+  <header>
+<a href="/" class="title">
+    <img src="/logo.png" alt="Logo" class="logo-image">
+</a>
+<nav>
+ <img class="nav-logo" src="/favicon.png" alt="Logo">
+
+<a data-render="nav" href="/">Home</a>
+
+<a data-render="nav" href="/words/">Words</a>
+
+<a data-render="nav" href="/murmurs">Murmurs</a>
+
+<a data-render="nav" href="/now">Now</a>
+
+<a data-render="nav" href="/about">About</a>
+
+
+<div class="nav-profile-icons">
+  <a class="nav-profile-icon" rel="alternate" type="application/rss+xml" href="/words/index.xml">
+    <img src="/rss-icon.svg">
+  </a>
+  <a class="nav-profile-icon" rel="me" href="https://c7.io/@ulshke">
+    <img src="/mastodon-icon.svg">
+  </a>
+  
+</div>
+</nav></header>
+  <main>
+<header class="poster-container">
+  <p class="poster-title">短代码使用整理</p>
+
+  
+
+  
+    
+  
+</header>
+
+<p class="meta-info">
+  <i>
+    <time datetime='2025-12-21'>
+      21 Dec, 2025
+    </time>
+  </i>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="toc">
+    <div class="toc-nav">
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#bilibili">
+                            bilibili
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#mastodon-%e5%98%9f%e6%96%87%e5%b5%8c%e5%85%a5">
+                            mastodon 嘟文嵌入
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#neodb-%e5%b5%8c%e5%85%a5">
+                            neodb 嵌入
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e9%87%8d%e7%82%b9%e6%a0%87%e8%ae%b0">
+                            重点标记
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+        
+            
+                
+                
+                    
+                    <ul class="toc-list">
+                    
+                    
+                        <li class="toc-item">
+                            <a data-render="link" class="toc-link text-left" href="#%e6%8a%98%e5%8f%a0">
+                            折叠
+                            </a>
+                        </li>
+                    
+                    
+                    </ul>
+                    
+                
+            
+        
+    </div>
+</div>
+
+
+<article class="words">
+<p>整理一下短代码格式、效果和来源。如无特殊注明，参考来自<a data-render="link"
+  data-external="true" href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F" target="_blank">Hugo|在Stack主题上可行的短代码们<span style="white-space: nowrap;">
+        <svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+            <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/>
+            <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor">
+        </svg>
+    </span>
+</a></p>
+<h1 id="bilibili">bilibili</h1>
+<p>播放器嵌入参考了：<a data-render="link"
+  data-external="true" href="https://blog.iyu.icu/posts/shortcode_bilibili/" target="_blank">使用Shortcodes在Hugo博客中优雅的嵌入B站视频<span style="white-space: nowrap;">
+        <svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+            <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/>
+            <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor">
+        </svg>
+    </span>
+</a></p>
+<p>bilibili视频分享嵌入代码中，可以提取视频的avid。迟早有一天我要改成avid和bvid都能用的shortcodes。</p>
+<p>短代码格式: <code>&lt;bilibili + avid&gt;</code>。</p>
+<p>&lt;bilibili 115185486402704&gt;</p>
+<h1 id="mastodon-嘟文嵌入">mastodon 嘟文嵌入</h1>
+<p>这个shortcodes只能适用于单一server单一用户。</p>
+<p>短代码格式: <code>&lt; mastodon status=&quot;嘟文数字id&quot; &gt;</code></p>
+
+
+
+
+
+
+
+
+
+<iframe src= "https://c7.io/@ulshke/115789998150334338/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" height="auto" allowfullscreen="allowfullscreen"></iframe><script src="https://c7.io/embed.js" async="async"></script>
+
+
+<h1 id="neodb-嵌入">neodb 嵌入</h1>
+<p>短代码格式 <code>&lt;neodb &quot;条目链接&quot;&gt;</code>。</p>
+<p>但是由于<code>i/o timeout</code>无法嵌入，是由于你我都了解的原因，因此neodb原生卡片嵌入暂时放弃。</p>
+<h1 id="重点标记">重点标记</h1>
+<p>短代码格式 <code>&lt;mark text=&quot;text&quot;&gt;</code>
 <mark>重点颜色</mark>
-，和选中颜色一样。</p><h1 id=折叠>折叠</h1><details><summary>叠叠乐</summary><p>叠叠p1</p><p>叠叠p2</p></details></article><span class="words-tags words-tags--leading"><a href=https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/>#Hugo装修</a></span></main><footer></footer></body></html>
+，和选中颜色一样。</p>
+<h1 id="折叠">折叠</h1>
+<details>
+    <summary>叠叠乐</summary><p>叠叠p1</p>
+<p>叠叠p2</p>
+</details>
+
+
+</article>
+
+
+
+
+
+  <span class="words-tags words-tags--leading">
+    
+      <a href="https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/">#Hugo装修</a>
+    
+  </span>
+
+
+
+  </main>
+  <footer>
+</footer>
+
+</body>
+
+</html>

@@ -1,81 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outdated on 杜尚此在沙龙</title><link>https://www.lhooq.life/tags/outdated/</link><description>Recent content in Outdated on 杜尚此在沙龙</description><generator>Hugo</generator><language>zh-CN</language><copyright>Copyright © 2025, Rizae Thoreau.</copyright><lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.lhooq.life/tags/outdated/index.xml" rel="self" type="application/rss+xml"/><item><title>Tana Command——小小命令，改善生活体验</title><link>https://www.lhooq.life/words/20241104/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20241104/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png" alt="Tana Command1 头图"&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>杜尚此在沙龙</title>
+    <link>https://www.lhooq.life/tags/outdated/</link>
+    <description>——沉默，流亡，机敏。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 29 Dec 2025 16:12:03 +0800</lastBuildDate>
+    <atom:link href="https://www.lhooq.life/tags/outdated/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tana Command——小小命令，改善生活体验</title>
+      <link>https://www.lhooq.life/words/20241104/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20241104/</guid>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png&amp;#34; alt=&amp;#34;Tana Command1 头图&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;h1 id=&amp;#34;删除搜索节点下的所有子节点的命令&amp;#34;&amp;gt;删除搜索节点下的所有子节点的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;功能&amp;#34;&amp;gt;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;如标题所示。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景&amp;#34;&amp;gt;使用场景&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;整理更新已有 Readwise Highlight 时能够用到。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;直接通过命令面板调用。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png&amp;#34; alt=&amp;#34;删除搜索节点下的所有子节点的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;一键整理-inbox-节点的命令&amp;#34;&amp;gt;一键整理 Inbox 节点的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;功能-1&amp;#34;&amp;gt;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;将子节点打上标签，移动到创建日期节点。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景-1&amp;#34;&amp;gt;使用场景&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-1&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png&amp;#34; alt=&amp;#34;一键整理 Inbox 节点的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;点击打开节点链接的命令&amp;#34;&amp;gt;点击打开节点链接的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景功能&amp;#34;&amp;gt;使用场景&amp;amp;amp;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-2&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png&amp;#34; alt=&amp;#34;点击打开节点链接的命令&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;点击更新任务状态的命令&amp;#34;&amp;gt;点击更新任务状态的命令&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;使用场景功能-1&amp;#34;&amp;gt;使用场景&amp;amp;amp;功能&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;更新写作草稿_状态_（选择字段）为“已完成”。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;调用方式-3&amp;#34;&amp;gt;调用方式&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;点击更新任务状态的命令-1&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png&amp;#34; alt=&amp;#34;点击更新任务状态的命令&amp;#34;&amp;gt;&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/SRFw-TQIb.png&#34; alt=&#34;Tana Command1 头图&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Tana 的命令功能很有意思，我也花了一段时间，翻阅 Slack，借鉴别人的方法，才逐渐搭建了对我来说好用的命令。偶尔会觉得它和快捷指令一样有意思。总之，今天就来开箱，给大家品鉴一下我常用好用的 Tana Command。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;读者仅需了解超标签、字段、节点显示区别和命令节点的创建方法。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id="删除搜索节点下的所有子节点的命令"&gt;删除搜索节点下的所有子节点的命令&lt;/h1&gt;
-&lt;h2 id="功能"&gt;功能&lt;/h2&gt;
+&lt;h1 id=&#34;删除搜索节点下的所有子节点的命令&#34;&gt;删除搜索节点下的所有子节点的命令&lt;/h1&gt;
+&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
 &lt;p&gt;如标题所示。&lt;/p&gt;
-&lt;h2 id="使用场景"&gt;使用场景&lt;/h2&gt;
+&lt;h2 id=&#34;使用场景&#34;&gt;使用场景&lt;/h2&gt;
 &lt;p&gt;整理更新已有 Readwise Highlight 时能够用到。&lt;/p&gt;
-&lt;h2 id="调用方式"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;直接通过命令面板调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png" alt="删除搜索节点下的所有子节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="一键整理-inbox-节点的命令"&gt;一键整理 Inbox 节点的命令&lt;/h1&gt;
-&lt;h2 id="功能-1"&gt;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/UwAHPe76Q.png&#34; alt=&#34;删除搜索节点下的所有子节点的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;一键整理-inbox-节点的命令&#34;&gt;一键整理 Inbox 节点的命令&lt;/h1&gt;
+&lt;h2 id=&#34;功能-1&#34;&gt;功能&lt;/h2&gt;
 &lt;p&gt;将子节点打上标签，移动到创建日期节点。&lt;/p&gt;
-&lt;h2 id="使用场景-1"&gt;使用场景&lt;/h2&gt;
+&lt;h2 id=&#34;使用场景-1&#34;&gt;使用场景&lt;/h2&gt;
 &lt;p&gt;Raycast 和 Tana Capture 的笔记直接放进 Inbox ，一键整理后，方便我做每周和每日回顾。&lt;/p&gt;
-&lt;h2 id="调用方式-1"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-1&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;在 INBOX 节点上直接显示命令图标，点击调用：命令面板 ➡️ Configure Node ➡️ Command 字段：引用该命令节点链接。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png" alt="一键整理 Inbox 节点的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击打开节点链接的命令"&gt;点击打开节点链接的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/mKm8kOnqA.png&#34; alt=&#34;一键整理 Inbox 节点的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;点击打开节点链接的命令&#34;&gt;点击打开节点链接的命令&lt;/h1&gt;
+&lt;h2 id=&#34;使用场景功能&#34;&gt;使用场景&amp;amp;功能&lt;/h2&gt;
 &lt;p&gt;有一些文章可以直接打开链接查看原文，标题节点直达原文，无需查看节点内部 URL 节点。&lt;/p&gt;
-&lt;h2 id="调用方式-2"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-2&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;URL 字段不为空的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png" alt="点击打开节点链接的命令"&gt;&lt;/p&gt;
-&lt;h1 id="点击更新任务状态的命令"&gt;点击更新任务状态的命令&lt;/h1&gt;
-&lt;h2 id="使用场景功能-1"&gt;使用场景&amp;amp;功能&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/zwcoLWwcD.png&#34; alt=&#34;点击打开节点链接的命令&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;点击更新任务状态的命令&#34;&gt;点击更新任务状态的命令&lt;/h1&gt;
+&lt;h2 id=&#34;使用场景功能-1&#34;&gt;使用场景&amp;amp;功能&lt;/h2&gt;
 &lt;p&gt;更新写作草稿_状态_（选择字段）为“已完成”。&lt;/p&gt;
-&lt;h2 id="调用方式-3"&gt;调用方式&lt;/h2&gt;
+&lt;h2 id=&#34;调用方式-3&#34;&gt;调用方式&lt;/h2&gt;
 &lt;p&gt;published? 字段值为“not yet”的节点（通过Node filter 字段筛选）都有这个命令图标，一键调用。&lt;/p&gt;
-&lt;h2 id="点击更新任务状态的命令-1"&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png" alt="点击更新任务状态的命令"&gt;&lt;/h2&gt;
-&lt;p&gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&lt;/p&gt;</description></item><item><title>答 Dayu 博客采访问</title><link>https://www.lhooq.life/words/20241021/</link><pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20241021/</guid><description>&lt;p&gt;在灵买会看见了 Dayu 的博客问卷，非常激动，感觉久违地能和创作者们联系在一起，于是不请自来地给出了我的回答。&lt;/p&gt;
-&lt;h1 id="1-简单介绍下自己或者你的博客"&gt;1. 简单介绍下自己或者你的博客？&lt;/h1&gt;
+&lt;h2 id=&#34;点击更新任务状态的命令-1&#34;&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/q2J0iPwkH.png&#34; alt=&#34;点击更新任务状态的命令&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;这期本来还想写一个处理 Readwise 导入的命令，但是写了一会发现要解释的东西太多了，写了一半，决定分成两期发出。&lt;/p&gt;
+&lt;p&gt;玩 Tana Command 就像写脚本一样有意思。过程中会犯很多错误，比如 Readwise 的导入设置，但错多了，就不在意了。&lt;/p&gt;
+&lt;p&gt;下一期就是点一次就会导致几秒卡顿的 Readwise 超大命令，请期待一下。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>答 Dayu 博客采访问</title>
+      <link>https://www.lhooq.life/words/20241021/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20241021/</guid>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;在灵买会看见了 Dayu 的博客问卷，非常激动，感觉久违地能和创作者们联系在一起，于是不请自来地给出了我的回答。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;1-简单介绍下自己或者你的博客&amp;#34;&amp;gt;1. 简单介绍下自己或者你的博客？&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;此博客名字叫 &amp;lt;em&amp;gt;杜尚此在沙龙&amp;lt;/em&amp;gt;。是因为我被杜尚的反叛精神感染，也喜欢存在主义的思想。于是杂糅出了这个名字。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;博客网址是 log.lhooq.life 。二级域名 LHOOQ 名字取自杜尚的一个美术作品 L.H.O.O.Q ，在蒙娜丽莎脸上画了一个小胡子作为他的新创作，而这个名字是一个双关语，“&amp;lt;em&amp;gt;Elle a chaud au cul&amp;lt;/em&amp;gt;” （她的屁股很火辣）。这样粗糙的创作，对于古典艺术爱好者来说应当十分冒犯吧。不过，我挺喜欢冒犯 Regulation 的。这能够让我审视我是否关注形式（规则）多于内容。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;推荐阅读：什么是“杜尚此在沙龙”？&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;2-什么契机让你开始写博客&amp;#34;&amp;gt;2. 什么契机让你开始写博客？&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;大一时，偶然刷到了一个创作者的公众号 格林威治嬉皮研究公社 。如果要我回答这是一个怎么样的创作者，我只能回避审视或回避定义，告诉你他多年来没有被时代裹挟，仍坚持“尽量晚一点投降”的创作者。这样一说，他和杜尚在某些方面如此相似：“反叛”。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我对此(&amp;amp;ldquo;反叛&amp;amp;rdquo;)的喜欢是出于对什么事情的反叛吗？ 当时我并不了解自己，于是决定用文字来帮助我厘清我的思考。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;3-你是如何完成创作的&amp;#34;&amp;gt;3. 你是如何完成创作的？&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;把脑子里的内容挤在一起，然后艰难地把内容生产出来。很多idea都以简单的形式扔到日志库里去了，并不打算以创作的形式表达出来。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;但有一些发表的冲动，是没办法遮盖的，于是我决定热烈地完成它。目前创作过程在 Obsidian 完成（将笔记日志库和写作环境区分开了），Obsidian的一些样式插件，让我能够保持专注，这是其他软件都无法给我的。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;4-运营博客的过程中是否有失去过动力&amp;#34;&amp;gt;4. 运营博客的过程中是否有失去过动力？&amp;lt;/h1&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;如果有，是为什么恢复的？如果没有，请问您又是如何保持创作的激情？&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;如果没有持续地运营博客，就是失去了动力，&amp;lt;em&amp;gt;那我应该是十天半个月都没有这样的动力&amp;lt;/em&amp;gt;。我运营过三个newsletter，Not an Author（宣告结束），灵魂此刻在漫游（无声放弃），Nor an Observer（启动困难），它们目前的状态都不怎么样。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;那为什么我仍旧在“运营博客”？实话实说，我认为我的价值核心，在我的表达、在我的输出中。于是我未来可能不会再“运营博客”，但我还会找很多其他渠道继续表达，继续输出。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;5-如何搭建博客以及运营博客每年需要投入的资金&amp;#34;&amp;gt;5. 如何搭建博客，以及运营博客每年需要投入的资金？&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;博客的搭建基于 Gridea，我为这个博客的投入只有 Gridea 的会员费和域名续费。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;会员不算一笔大费用，但域名是。目前整个博客现在在 log 这个子域名上，如果将域名放在在根域名上，整个博客网站变成：lhooq.life，博客本身的诙谐要更突出一点。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;不过博客现在叫lll，也非常有意思，所以就这样吧。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;6-推荐-1-篇你博客中的文章并推荐一个你喜欢读的博客聊聊原因&amp;#34;&amp;gt;6. 推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;想要推荐我博客里的：在巴别塔的背后：语言和沟通的迫切 —— 《巴别塔圣歌》后记&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如链接标题所示，这篇文章是游戏《巴别塔圣歌》的后记。语言学一直是我心目中的白月光，它既与社交互动惯例相关，也与认知科学相关；抛开教材去推敲一门不了解的语言，就像是不知道算法而去解码古典密码——沟通被包裹了神秘的面纱。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我喜欢的博客： &amp;lt;a data-render=&amp;#34;link&amp;#34;
+  data-external=&amp;#34;true&amp;#34; href=&amp;#34;https://www.tianxianzi.me/&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;天仙子&amp;lt;span style=&amp;#34;white-space: nowrap;&amp;#34;&amp;gt;
+        &amp;lt;svg width=&amp;#34;.7em&amp;#34; height=&amp;#34;.7em&amp;#34; viewBox=&amp;#34;0 0 21 21&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34;&amp;gt;
+            &amp;lt;path d=&amp;#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&amp;#34; fill=&amp;#34;currentColor&amp;#34;/&amp;gt;
+            &amp;lt;path d=&amp;#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&amp;#34; fill=&amp;#34;currentColor&amp;#34;&amp;gt;
+        &amp;lt;/svg&amp;gt;
+    &amp;lt;/span&amp;gt;
+&amp;lt;/a&amp;gt;。博客的作者名为_秦海碗_。我很喜欢读她对任何事物发表的感触。她的所思所想富有人文气息，很温和。每次想到网络上有这样温和美好的文字存在，我都感觉世界没有那么糟糕。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;在灵买会看见了 Dayu 的博客问卷，非常激动，感觉久违地能和创作者们联系在一起，于是不请自来地给出了我的回答。&lt;/p&gt;
+&lt;h1 id=&#34;1-简单介绍下自己或者你的博客&#34;&gt;1. 简单介绍下自己或者你的博客？&lt;/h1&gt;
 &lt;p&gt;此博客名字叫 &lt;em&gt;杜尚此在沙龙&lt;/em&gt;。是因为我被杜尚的反叛精神感染，也喜欢存在主义的思想。于是杂糅出了这个名字。&lt;/p&gt;
 &lt;p&gt;博客网址是 log.lhooq.life 。二级域名 LHOOQ 名字取自杜尚的一个美术作品 L.H.O.O.Q ，在蒙娜丽莎脸上画了一个小胡子作为他的新创作，而这个名字是一个双关语，“&lt;em&gt;Elle a chaud au cul&lt;/em&gt;” （她的屁股很火辣）。这样粗糙的创作，对于古典艺术爱好者来说应当十分冒犯吧。不过，我挺喜欢冒犯 Regulation 的。这能够让我审视我是否关注形式（规则）多于内容。&lt;/p&gt;
 &lt;p&gt;推荐阅读：什么是“杜尚此在沙龙”？&lt;/p&gt;
-&lt;h1 id="2-什么契机让你开始写博客"&gt;2. 什么契机让你开始写博客？&lt;/h1&gt;
+&lt;h1 id=&#34;2-什么契机让你开始写博客&#34;&gt;2. 什么契机让你开始写博客？&lt;/h1&gt;
 &lt;p&gt;大一时，偶然刷到了一个创作者的公众号 格林威治嬉皮研究公社 。如果要我回答这是一个怎么样的创作者，我只能回避审视或回避定义，告诉你他多年来没有被时代裹挟，仍坚持“尽量晚一点投降”的创作者。这样一说，他和杜尚在某些方面如此相似：“反叛”。&lt;/p&gt;
 &lt;p&gt;我对此(&amp;ldquo;反叛&amp;rdquo;)的喜欢是出于对什么事情的反叛吗？ 当时我并不了解自己，于是决定用文字来帮助我厘清我的思考。&lt;/p&gt;
-&lt;h1 id="3-你是如何完成创作的"&gt;3. 你是如何完成创作的？&lt;/h1&gt;
+&lt;h1 id=&#34;3-你是如何完成创作的&#34;&gt;3. 你是如何完成创作的？&lt;/h1&gt;
 &lt;p&gt;把脑子里的内容挤在一起，然后艰难地把内容生产出来。很多idea都以简单的形式扔到日志库里去了，并不打算以创作的形式表达出来。&lt;/p&gt;
 &lt;p&gt;但有一些发表的冲动，是没办法遮盖的，于是我决定热烈地完成它。目前创作过程在 Obsidian 完成（将笔记日志库和写作环境区分开了），Obsidian的一些样式插件，让我能够保持专注，这是其他软件都无法给我的。&lt;/p&gt;
-&lt;h1 id="4-运营博客的过程中是否有失去过动力"&gt;4. 运营博客的过程中是否有失去过动力？&lt;/h1&gt;
+&lt;h1 id=&#34;4-运营博客的过程中是否有失去过动力&#34;&gt;4. 运营博客的过程中是否有失去过动力？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果有，是为什么恢复的？如果没有，请问您又是如何保持创作的激情？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;如果没有持续地运营博客，就是失去了动力，&lt;em&gt;那我应该是十天半个月都没有这样的动力&lt;/em&gt;。我运营过三个newsletter，Not an Author（宣告结束），灵魂此刻在漫游（无声放弃），Nor an Observer（启动困难），它们目前的状态都不怎么样。&lt;/p&gt;
 &lt;p&gt;那为什么我仍旧在“运营博客”？实话实说，我认为我的价值核心，在我的表达、在我的输出中。于是我未来可能不会再“运营博客”，但我还会找很多其他渠道继续表达，继续输出。&lt;/p&gt;
-&lt;h1 id="5-如何搭建博客以及运营博客每年需要投入的资金"&gt;5. 如何搭建博客，以及运营博客每年需要投入的资金？&lt;/h1&gt;
+&lt;h1 id=&#34;5-如何搭建博客以及运营博客每年需要投入的资金&#34;&gt;5. 如何搭建博客，以及运营博客每年需要投入的资金？&lt;/h1&gt;
 &lt;p&gt;博客的搭建基于 Gridea，我为这个博客的投入只有 Gridea 的会员费和域名续费。&lt;/p&gt;
 &lt;p&gt;会员不算一笔大费用，但域名是。目前整个博客现在在 log 这个子域名上，如果将域名放在在根域名上，整个博客网站变成：lhooq.life，博客本身的诙谐要更突出一点。&lt;/p&gt;
 &lt;p&gt;不过博客现在叫lll，也非常有意思，所以就这样吧。&lt;/p&gt;
-&lt;h1 id="6-推荐-1-篇你博客中的文章并推荐一个你喜欢读的博客聊聊原因"&gt;6. 推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&lt;/h1&gt;
+&lt;h1 id=&#34;6-推荐-1-篇你博客中的文章并推荐一个你喜欢读的博客聊聊原因&#34;&gt;6. 推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&lt;/h1&gt;
 &lt;p&gt;想要推荐我博客里的：在巴别塔的背后：语言和沟通的迫切 —— 《巴别塔圣歌》后记&lt;/p&gt;
 &lt;p&gt;如链接标题所示，这篇文章是游戏《巴别塔圣歌》的后记。语言学一直是我心目中的白月光，它既与社交互动惯例相关，也与认知科学相关；抛开教材去推敲一门不了解的语言，就像是不知道算法而去解码古典密码——沟通被包裹了神秘的面纱。&lt;/p&gt;
-&lt;p&gt;我喜欢的博客： &lt;a data-render="link"
- data-external="true" href="https://www.tianxianzi.me/" target="_blank"&gt;天仙子&lt;span style="white-space: nowrap;"&gt;
- &lt;svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor"/&gt;
- &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z" fill="currentColor"&gt;
- &lt;/svg&gt;
- &lt;/span&gt;
-&lt;/a&gt;。博客的作者名为_秦海碗_。我很喜欢读她对任何事物发表的感触。她的所思所想富有人文气息，很温和。每次想到网络上有这样温和美好的文字存在，我都感觉世界没有那么糟糕。&lt;/p&gt;</description></item><item><title>Tana——解放笔记困境的终极利器</title><link>https://www.lhooq.life/words/20230125/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.lhooq.life/words/20230125/</guid><description>&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D" alt="文章头图"&gt;&lt;/p&gt;
+&lt;p&gt;我喜欢的博客： &lt;a data-render=&#34;link&#34;
+  data-external=&#34;true&#34; href=&#34;https://www.tianxianzi.me/&#34; target=&#34;_blank&#34;&gt;天仙子&lt;span style=&#34;white-space: nowrap;&#34;&gt;
+        &lt;svg width=&#34;.7em&#34; height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+            &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34;/&gt;
+            &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34; fill=&#34;currentColor&#34;&gt;
+        &lt;/svg&gt;
+    &lt;/span&gt;
+&lt;/a&gt;。博客的作者名为_秦海碗_。我很喜欢读她对任何事物发表的感触。她的所思所想富有人文气息，很温和。每次想到网络上有这样温和美好的文字存在，我都感觉世界没有那么糟糕。&lt;/p&gt;
+&lt;h1 id=&#34;7-推荐-1-个近期喜欢的事物例如书籍电影音乐工具软件&#34;&gt;7. 推荐 1 个近期喜欢的事物？（例如书籍、电影、音乐、工具、软件。）&lt;/h1&gt;
+&lt;p&gt;近期特别喜欢RSS集成阅读软件：Follow。&lt;/p&gt;
+&lt;p&gt;不久前我还为这个软件写了一个介绍：把玩 Follow——RSS 玩家的狂欢浪潮。&lt;/p&gt;
+&lt;p&gt;写完介绍以后，Follow又逐渐更新了不少功能，显得我的介绍太粗浅，而且过时。这不是坏事，反而让我更加狂喜，并且更加深刻地体会到了我文中“煞有介事”的一句总结词：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Follow的大火并不是意料以外的复古潮流。“整合”是属于赛博新时代的”&lt;/em&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;希望你也来试试。&lt;/p&gt;
+&lt;h1 id=&#34;8-想做还没有做的事或想尝试还没有尝试的主题&#34;&gt;8. 想做还没有做的事，或想尝试还没有尝试的主题？&lt;/h1&gt;
+&lt;p&gt;「复盘」年轻人的第一份工作 这篇文章，是我第一次将自己的现实生活写成文章。它不仅是一个私人的公开化，也是与思考的力量不同的_具体经验_。&lt;/p&gt;
+&lt;p&gt;我熟悉思考整合，但并不熟悉经验整合。它应当是友善的，实践的，并且是有助于他人的。比如说电子产品踩雷、生活小技巧等甚至更和我私人相关的内容。&lt;/p&gt;
+&lt;p&gt;我经常会质疑，甚至厌恶将我私人的一面以文字的形式写出来，或许可以把这种心理称为我想成为“杜尚此在沙龙”的经理者，而不是一个通过“杜尚此在沙龙”表达思考的创作者，前者何等矫饰。&lt;/p&gt;
+&lt;h1 id=&#34;9-写到这里闭上你的眼睛深呼吸几分钟或是出去溜达一圈然后回来写任何你想写的东西&#34;&gt;9. 写到这里，闭上你的眼睛，深呼吸几分钟，或是出去溜达一圈，然后回来写任何你想写的东西。&lt;/h1&gt;
+&lt;p&gt;观察内容创作者如何进行构思并开始创作，非常有意思。&lt;/p&gt;
+&lt;p&gt;比如 Yoora Jung，会在Notion的页面中记录一些Youtube 视频的Idea。令我非常印象深刻的是，她并不记录idea的具体内容，或者计划这个视频要拍摄什么脚本，而是直接记录视频标题。&lt;/p&gt;
+&lt;p&gt;在开始前直接定下内容的标题可以直接防止走题。下次不妨试试。&lt;/p&gt;
+&lt;p&gt;问卷到此就结束了，但或许我还能再次加入博客创作者的联结之中。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Tana——解放笔记困境的终极利器</title>
+      <link>https://www.lhooq.life/words/20230125/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20230125/</guid>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      <description>&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D&amp;#34; alt=&amp;#34;文章头图&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我以前曾经是一个Roam Research的使用者，直到陷入困境：在以前的使用中，我过于重视表面的链接，而无法实现深层链接，导致字义需要被链接在表层句式中，含义则会被丢失。转而使用 Tana 一年后，我成为了 Tana 的忠实粉丝。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;我最喜欢的 Tana 的几个功能&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;contextual-reference&amp;#34;&amp;gt;Contextual reference&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;这是笔记引用的一个变种。和普通的引用相比，引用笔记会完全基于被引用的笔记的语境下，获得被引用笔记页面中的独立内容显示，而不是简单的链接。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;field-自动补全&amp;#34;&amp;gt;Field 自动补全&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D&amp;#34; alt=&amp;#34;Field 自动补全&amp;#34;&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;层级式节点能够共享相同 Field 字段。举个例子，如果 “note” 的“belong to:” 字段非空，那么在这个 “note” 节点下，新建一个“question” supertag 节点后，这个节点的&amp;amp;quot;belong to:&amp;amp;quot; 字段会自动赋值。因为我在 “belong to:” 中设置了自动赋值：如果父节点某个字段且字段非空下，子节点的字段能自动赋值。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;supertag-模版&amp;#34;&amp;gt;Supertag 模版&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;让我能够快速应用一致性结构，并进行修改。它非常灵活且强大。对于使用相同 supertag 的节点，可以应用相同的模版。结合上述的功能，可以实现更高效的操作。举个例子，我可以在针对课程的supertag模版，添加对于笔记和问题的查询节点： &amp;amp;ldquo;node-query&amp;amp;rdquo; 和 &amp;amp;ldquo;question-query&amp;amp;rdquo;，这样每新建一个课程节点，就能得到相同的结构。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;似是而非的节点层级结构&amp;#34;&amp;gt;似是而非的节点层级结构&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;在使用 Roam Research 和 Obsidian 时，我对笔记的层级结构有一定的强迫症。我曾经纠结于将书籍作为当日笔记的子节点，还是为每本书创建一个新的页面。但是使用 Tana 后，我不再有这样的顾虑和强迫性思考，只需要使用 supertag，无需担心是用 [[]] 还是 @ 来查找笔记内容。&amp;lt;/p&amp;gt;
+&amp;lt;h1 id=&amp;#34;关于我现在如何使用field&amp;#34;&amp;gt;关于我现在如何使用Field&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;我已经使用了 Tana 一年多了。但仍然在不断优化我的笔记结构。当过去几下的笔记被用上场时，我会思考如何能够进一步让自己利用并展示笔记/知识中的亮点。也就是说，我会这样发问，我记下这个笔记，未来的我怎么能找到它呢？这个笔记又如何发挥作用呢？&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;以前的课程 supertag 中没有 question-query。而我想要查看课程笔记中到底遇到过怎么样的问题，又得到过怎么样的解释时，一度很迷糊，不知道如何实现这样的功能。后来将 “question” 的supertag模版改动后，让所有的问题都能直接指向课程本身，而不是更宽泛的主题概念或者课程笔记，这样我就能在课程页面，实时预览问题列表。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;在 Zettlekasten 卡片流行的时候，个人知识管理系统被赋予了信息凝练和卡片链接的标签，而个人需要实现从原文到知识体系的消化和表达。这样的体系，是在追求同层级笔记信息粒度的一致化，这些笔记的核心必须是源自笔记。所以很多知识博主展现了如何将知识原子化的技巧。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;amp;ldquo;Field&amp;amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&amp;lt;/p&amp;gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/vya3286WT.jpeg%7D&#34; alt=&#34;文章头图&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我以前曾经是一个Roam Research的使用者，直到陷入困境：在以前的使用中，我过于重视表面的链接，而无法实现深层链接，导致字义需要被链接在表层句式中，含义则会被丢失。转而使用 Tana 一年后，我成为了 Tana 的忠实粉丝。&lt;/p&gt;
 &lt;p&gt;我最喜欢的 Tana 的几个功能&lt;/p&gt;
-&lt;h1 id="contextual-reference"&gt;Contextual reference&lt;/h1&gt;
+&lt;h1 id=&#34;contextual-reference&#34;&gt;Contextual reference&lt;/h1&gt;
 &lt;p&gt;这是笔记引用的一个变种。和普通的引用相比，引用笔记会完全基于被引用的笔记的语境下，获得被引用笔记页面中的独立内容显示，而不是简单的链接。&lt;/p&gt;
-&lt;h1 id="field-自动补全"&gt;Field 自动补全&lt;/h1&gt;
-&lt;p&gt;&lt;img src="https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D" alt="Field 自动补全"&gt;&lt;/p&gt;
+&lt;h1 id=&#34;field-自动补全&#34;&gt;Field 自动补全&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/llNHDFXst.jpeg%7D&#34; alt=&#34;Field 自动补全&#34;&gt;&lt;/p&gt;
 &lt;p&gt;层级式节点能够共享相同 Field 字段。举个例子，如果 “note” 的“belong to:” 字段非空，那么在这个 “note” 节点下，新建一个“question” supertag 节点后，这个节点的&amp;quot;belong to:&amp;quot; 字段会自动赋值。因为我在 “belong to:” 中设置了自动赋值：如果父节点某个字段且字段非空下，子节点的字段能自动赋值。&lt;/p&gt;
-&lt;h1 id="supertag-模版"&gt;Supertag 模版&lt;/h1&gt;
+&lt;h1 id=&#34;supertag-模版&#34;&gt;Supertag 模版&lt;/h1&gt;
 &lt;p&gt;让我能够快速应用一致性结构，并进行修改。它非常灵活且强大。对于使用相同 supertag 的节点，可以应用相同的模版。结合上述的功能，可以实现更高效的操作。举个例子，我可以在针对课程的supertag模版，添加对于笔记和问题的查询节点： &amp;ldquo;node-query&amp;rdquo; 和 &amp;ldquo;question-query&amp;rdquo;，这样每新建一个课程节点，就能得到相同的结构。&lt;/p&gt;
-&lt;h1 id="似是而非的节点层级结构"&gt;似是而非的节点层级结构&lt;/h1&gt;
+&lt;h1 id=&#34;似是而非的节点层级结构&#34;&gt;似是而非的节点层级结构&lt;/h1&gt;
 &lt;p&gt;在使用 Roam Research 和 Obsidian 时，我对笔记的层级结构有一定的强迫症。我曾经纠结于将书籍作为当日笔记的子节点，还是为每本书创建一个新的页面。但是使用 Tana 后，我不再有这样的顾虑和强迫性思考，只需要使用 supertag，无需担心是用 [[]] 还是 @ 来查找笔记内容。&lt;/p&gt;
-&lt;h1 id="关于我现在如何使用field"&gt;关于我现在如何使用Field&lt;/h1&gt;
+&lt;h1 id=&#34;关于我现在如何使用field&#34;&gt;关于我现在如何使用Field&lt;/h1&gt;
 &lt;p&gt;我已经使用了 Tana 一年多了。但仍然在不断优化我的笔记结构。当过去几下的笔记被用上场时，我会思考如何能够进一步让自己利用并展示笔记/知识中的亮点。也就是说，我会这样发问，我记下这个笔记，未来的我怎么能找到它呢？这个笔记又如何发挥作用呢？&lt;/p&gt;
 &lt;p&gt;以前的课程 supertag 中没有 question-query。而我想要查看课程笔记中到底遇到过怎么样的问题，又得到过怎么样的解释时，一度很迷糊，不知道如何实现这样的功能。后来将 “question” 的supertag模版改动后，让所有的问题都能直接指向课程本身，而不是更宽泛的主题概念或者课程笔记，这样我就能在课程页面，实时预览问题列表。&lt;/p&gt;
 &lt;p&gt;在 Zettlekasten 卡片流行的时候，个人知识管理系统被赋予了信息凝练和卡片链接的标签，而个人需要实现从原文到知识体系的消化和表达。这样的体系，是在追求同层级笔记信息粒度的一致化，这些笔记的核心必须是源自笔记。所以很多知识博主展现了如何将知识原子化的技巧。&lt;/p&gt;
-&lt;p&gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;ldquo;Field&amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;然而， Tana 让我更重视不同层级知识在信息表达上的一致化特征，这一突破的关键在于 &amp;ldquo;Field&amp;rdquo; 概念。一开始我以为是 Supertag 容纳 Field，是一个信息维度有多种表达维度；但是，Tana 实现的理念要更高一级，多个 Supertag 共同拥有同一个 Field，也就是多种信息维度拥有同一个表达维度。比如说，一篇文章、一本书、一个摘抄或一部电影，共同拥有同一个表达维度，并且在这个一个表达维度下拥有共同的核心。让我再次细化这个例子，这几个信息维度都能表达创作主题（表达维度），而它们的创作维度刚刚好都是“个人知识管理系统”。&lt;/p&gt;
+&lt;h1 id=&#34;关于我现在如何使用query&#34;&gt;关于我现在如何使用Query&lt;/h1&gt;
+&lt;p&gt;为了让自己应用知识而记录信息。抱有这样的目的，会反过来影响记笔记时自己如何把控重点，以及如何标记笔记。&lt;/p&gt;
+&lt;p&gt;在 Tana 中标记笔记，就是让笔记具有可检索性，让自己在未来需要用到某一些笔记的时候，通过简单地叠加不同的信息，查询出满足要求的笔记。纯文本当然具有可检索性，但 Tana 能在Query 中 叠加 supertag 和 field 等信息，让笔记节点的查询更具有指向性。&lt;/p&gt;
+&lt;p&gt;另外，Tana 的 Query 具有不错的用户交互界面以及丰富的查询选择，能够适应不同用户的笔记处理习惯。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://static.gridea.dev/1a4f3e7c-5646-4b88-9f5f-f6a0f0d063bd/MgcuVg6Wq.jpeg%7D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;后记&#34;&gt;后记&lt;/h1&gt;
+&lt;p&gt;我并不会把所有写下的内容都放Tana，更多的是笔记因我的目的不同而各自分道扬镳——这种目的主要是出自于“我想再看到它的频率”。如果我想在一段时间内有规律地重复刷，以增强我对笔记的理解记忆，我会使用 Anki；如果我想要某天笔记能让我灵机一动，我会想要使用 Flomo。但如果我想要看见一个笔记的结构性统合，我会选择使用 Tana写笔记。&lt;/p&gt;
+&lt;p&gt;是的，我爱它。&lt;/p&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

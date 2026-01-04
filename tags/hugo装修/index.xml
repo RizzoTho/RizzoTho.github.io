@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:00:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 23:13:46 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/tags/hugo%E8%A3%85%E4%BF%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>短代码使用整理</title>
@@ -191,7 +191,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767538817818715000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -220,7 +220,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767538817818715000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

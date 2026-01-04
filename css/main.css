@@ -634,7 +634,7 @@ article.words {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 16px;
-  font-family: var(--font-content);
+  font-family: var(--font-content), sans-serif;
   font-weight: 300;
   line-height: 1.8em;
   font-weight: lighter;
@@ -1007,7 +1007,8 @@ mark {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .mycard .content {
-  line-height: 30px;
+  line-height: 20px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=main.css.map */

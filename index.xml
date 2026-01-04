@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:00:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 23:13:46 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -91,7 +91,17 @@
       <link>https://www.lhooq.life/now/</link>
       <guid isPermaLink="true">https://www.lhooq.life/now/</guid>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <description>&amp;lt;p&amp;gt;网站目前状态：搬家中&amp;lt;/p&amp;gt;
+      <description>&amp;lt;h1 id=&amp;#34;近日发布计划&amp;#34;&amp;gt;近日发布计划：&amp;lt;/h1&amp;gt;
+&amp;lt;h2 id=&amp;#34;电子古鸦笔记法软件与analog的结合&amp;#34;&amp;gt;电子古鸦笔记法：软件与analog的结合&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;电子古鸦是我探索出来的一个多元化的笔记方法，也可以说它本质上就是一个包含电子软件笔记记录和纸质手账的结合。听起来是Te发展得比较好的人，才会用这么对生活掌控欲打满的笔记方法。实则不然。电子古鸦追求的掌控，并非针对生活。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;parker-settecase的笔记法&amp;#34;&amp;gt;Parker Settecase的笔记法&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;上述的电子古鸦法正是Parker整理出的多种笔记法的延伸。Parker将笔记法简单地称之为笔记本，每个笔记本用法专一，排版简单，但他正是用这样的“笔记本”在11个学期中完成了3个硕士学位。&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;创造疑问保留疑问&amp;#34;&amp;gt;创造疑问，保留疑问&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;又将是我最放飞，也可能最精心的意识流环节&amp;lt;/p&amp;gt;
+&amp;lt;h2 id=&amp;#34;其他存在的可能性&amp;#34;&amp;gt;其他存在的可能性：&amp;lt;/h2&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Heptabase 使用介绍&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 &amp;lt;h1 id=&amp;#34;changlog&amp;#34;&amp;gt;Changlog&amp;lt;/h1&amp;gt;
 &amp;lt;h1 id=&amp;#34;v02&amp;#34;&amp;gt;v0.2&amp;lt;/h1&amp;gt;
 &amp;lt;p&amp;gt;Dec 13(2025) 至 Dec 23(2025)&amp;lt;/p&amp;gt;
@@ -105,7 +115,17 @@
 &amp;lt;li&amp;gt;增加并适配了assets文件结构，&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;增加了目录&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;</description>
-      <content:encoded>&lt;p&gt;网站目前状态：搬家中&lt;/p&gt;
+      <content:encoded>&lt;h1 id=&#34;近日发布计划&#34;&gt;近日发布计划：&lt;/h1&gt;
+&lt;h2 id=&#34;电子古鸦笔记法软件与analog的结合&#34;&gt;电子古鸦笔记法：软件与analog的结合&lt;/h2&gt;
+&lt;p&gt;电子古鸦是我探索出来的一个多元化的笔记方法，也可以说它本质上就是一个包含电子软件笔记记录和纸质手账的结合。听起来是Te发展得比较好的人，才会用这么对生活掌控欲打满的笔记方法。实则不然。电子古鸦追求的掌控，并非针对生活。&lt;/p&gt;
+&lt;h2 id=&#34;parker-settecase的笔记法&#34;&gt;Parker Settecase的笔记法&lt;/h2&gt;
+&lt;p&gt;上述的电子古鸦法正是Parker整理出的多种笔记法的延伸。Parker将笔记法简单地称之为笔记本，每个笔记本用法专一，排版简单，但他正是用这样的“笔记本”在11个学期中完成了3个硕士学位。&lt;/p&gt;
+&lt;h2 id=&#34;创造疑问保留疑问&#34;&gt;创造疑问，保留疑问&lt;/h2&gt;
+&lt;p&gt;又将是我最放飞，也可能最精心的意识流环节&lt;/p&gt;
+&lt;h2 id=&#34;其他存在的可能性&#34;&gt;其他存在的可能性：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Heptabase 使用介绍&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;changlog&#34;&gt;Changlog&lt;/h1&gt;
 &lt;h1 id=&#34;v02&#34;&gt;v0.2&lt;/h1&gt;
 &lt;p&gt;Dec 13(2025) 至 Dec 23(2025)&lt;/p&gt;

@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/words/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:00:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 23:13:46 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/words/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我很想写的年终总结</title>
@@ -14,8 +14,9 @@
       <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
       <description>我很想写一篇年终总结，但是</description>
       <content:encoded>&lt;div class=&#34;mycard&#34;&gt;
-      &lt;div class=&#34;content&#34;&gt; 为了避免一副独自清醒的样子，装模作样，本文不仅攻击所有人，也会保持自我攻击；
-为了保持不扭曲写作时的VIBE，“No beta, we die like men”。 &lt;/div&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;为了避免一副独自清醒的样子，装模作样，本文不仅攻击所有人，也会保持自我攻击；&lt;/p&gt;
+&lt;p&gt;
+为了保持不扭曲写作时的VIBE，“No beta, we die like men”。&lt;/div&gt;
     &lt;/div&gt;
 
 &lt;p&gt;我花了大约一星期的时间，想要完成一篇年终总结博文。前半星期在整理2025年一览白板，写一些不能发布的文字；后半星期则一边看着别人发布的年终博文，一边纠纠结结要编撰一点见得了人的东西。&lt;/p&gt;
@@ -438,7 +439,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767538817818715000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -467,7 +468,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767538817818715000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

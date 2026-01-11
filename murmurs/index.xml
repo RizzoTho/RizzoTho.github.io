@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/murmurs/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:13:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 16:35:27 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/murmurs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -88,7 +88,7 @@
 
 
 
-&amp;lt;div class=&amp;#34;bili-embed-container&amp;#34; id=&amp;#34;bili-%!s(int=115185486402704)-1767539626466551000&amp;#34;&amp;gt;
+&amp;lt;div class=&amp;#34;bili-embed-container&amp;#34; id=&amp;#34;bili-%!s(int=115185486402704)-1768120527107366000&amp;#34;&amp;gt;
   &amp;lt;div class=&amp;#34;aspect-ratio&amp;#34;&amp;gt;
     &amp;lt;iframe
       class=&amp;#34;bili-iframe&amp;#34;
@@ -99,8 +99,7 @@
       sandbox=&amp;#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&amp;#34;&amp;gt;
     &amp;lt;/iframe&amp;gt;
 
-    &amp;lt;div class=&amp;#34;poster-wrapper&amp;#34;&amp;gt;
-      &amp;lt;img src=&amp;#34;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&amp;#34; alt=&amp;#34;这就是我和掷面虫热血沸腾的组合技口牙&amp;#34; class=&amp;#34;bili-poster-img&amp;#34; referrerpolicy=&amp;#34;no-referrer&amp;#34;&amp;gt;
+    &amp;lt;div class=&amp;#34;poster-wrapper&amp;#34; style=&amp;#34;background-image: url(&amp;#39;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&amp;#39;);&amp;#34;&amp;gt;
       
       &amp;lt;div class=&amp;#34;poster-overlay&amp;#34;&amp;gt;
          &amp;lt;div class=&amp;#34;play-btn&amp;#34;&amp;gt;
@@ -117,7 +116,7 @@
 
 &amp;lt;script&amp;gt;
 (function() {
-  const boxId = &amp;#34;bili-%!s(int=115185486402704)-1767539626466551000&amp;#34;;
+  const boxId = &amp;#34;bili-%!s(int=115185486402704)-1768120527107366000&amp;#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&amp;#39;Bili Error: Box not found&amp;#39;, boxId); return; }
 
@@ -181,7 +180,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767539626466551000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1768120527107366000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -192,8 +191,7 @@
       sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&#34;&gt;
     &lt;/iframe&gt;
 
-    &lt;div class=&#34;poster-wrapper&#34;&gt;
-      &lt;img src=&#34;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#34; alt=&#34;这就是我和掷面虫热血沸腾的组合技口牙&#34; class=&#34;bili-poster-img&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+    &lt;div class=&#34;poster-wrapper&#34; style=&#34;background-image: url(&#39;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#39;);&#34;&gt;
       
       &lt;div class=&#34;poster-overlay&#34;&gt;
          &lt;div class=&#34;play-btn&#34;&gt;
@@ -210,7 +208,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767539626466551000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1768120527107366000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

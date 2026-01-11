@@ -5,8 +5,122 @@
     <link>https://www.lhooq.life/words/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Jan 2026 23:13:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 16:35:27 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/words/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>林中暖巢 Winter Burrow</title>
+      <link>https://www.lhooq.life/words/20260111/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/words/20260111/</guid>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <description>短小的叙事生存游戏</description>
+      <content:encoded>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+  
+
+
+
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115258467292552)-1768120527107545000&#34;&gt;
+  &lt;div class=&#34;aspect-ratio&#34;&gt;
+    &lt;iframe
+      class=&#34;bili-iframe&#34;
+      src=&#34;&#34;
+      data-src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=115258467292552&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=1&#34;
+      scrolling=&#34;no&#34;
+      allowfullscreen=&#34;true&#34;
+      sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&#34;&gt;
+    &lt;/iframe&gt;
+
+    &lt;div class=&#34;poster-wrapper&#34; style=&#34;background-image: url(&#39;https://i2.hdslb.com/bfs/archive/b5692c520dd29da7c9d1ced41d31fc35187332ff.jpg&#39;);&#34;&gt;
+      
+      &lt;div class=&#34;poster-overlay&#34;&gt;
+         &lt;div class=&#34;play-btn&#34;&gt;
+            &lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;white&#34;&gt;&lt;path d=&#34;M8 5v14l11-7z&#34;/&gt;&lt;/svg&gt;
+         &lt;/div&gt;
+         &lt;div class=&#34;info-area&#34;&gt;
+           &lt;div class=&#34;bili-title&#34;&gt;打造你的冬日暖巢！《Winter Burrow》全新Steam免费试玩版现已发布！&lt;/div&gt;
+           &lt;div class=&#34;bili-meta&#34;&gt;&lt;span class=&#34;badge&#34;&gt;UP&lt;/span&gt; GameDash&lt;/div&gt;
+         &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function() {
+  const boxId = &#34;bili-%!s(int=115258467292552)-1768120527107545000&#34;;
+  const box = document.getElementById(boxId);
+  if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
+
+  const wrapper = box.querySelector(&#39;.poster-wrapper&#39;);
+  const iframe = box.querySelector(&#39;iframe&#39;);
+
+  
+  console.log(`Bili Ready: ${boxId}`, { 
+    title: &#34;打造你的冬日暖巢！《Winter Burrow》全新Steam免费试玩版现已发布！&#34;, 
+    pic: &#34;https:\/\/i2.hdslb.com\/bfs\/archive\/b5692c520dd29da7c9d1ced41d31fc35187332ff.jpg&#34; 
+  });
+
+  wrapper.addEventListener(&#39;click&#39;, function() {
+    console.log(`Bili Clicked: ${boxId}`);
+
+    
+    const realSrc = iframe.getAttribute(&#39;data-src&#39;);
+    if (!realSrc) {
+        console.error(&#39;Bili Error: No data-src found&#39;);
+        return;
+    }
+
+    
+    if (!iframe.src || iframe.src === window.location.href) {
+        
+        const finalSrc = realSrc.startsWith(&#39;//&#39;) ? &#39;https:&#39; &#43; realSrc : realSrc;
+        console.log(&#39;Loading Iframe:&#39;, finalSrc);
+        iframe.src = finalSrc;
+    }
+
+    
+    box.classList.add(&#39;is-active&#39;);
+  }, { once: true }); 
+})();
+&lt;/script&gt;
+&lt;p&gt;结束「多洛可小镇」二档后，赚钱、高效推剧情的心情余韵未消，转向「林中暖巢」进入一场雾霭沉沉的雪季，这是沉默的森林，没有日历的世界，就像是没有文明存在，我踏出树屋那一刻，哑然迷茫。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;到底是谁喜欢捡垃圾探索囤货在没有日历的世界里到处乱爬，是我。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个游戏作为探索生存（简单版「饥荒」）游戏，其探索环节丰富在，地图在不规则、无法行走的路径不明确、全地图较大的情况下，指引不足，所以你需要花很多时间进行反复扫图。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当然这对我来说不是缺点，毕竟我在王泪最喜欢的一个环节就是开马克II开地下地图，或者用双脚丈量王国地下世界。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;「林中暖巢」的任务指引被很多玩家认为存在相当的问题；因为角色语焉不详，让人摸不着头脑任务却以开发者的角度做简略。任务的逻辑有问题。拿冬至的装饰新家任务作一个比喻，你只要直接完成地下室装饰任务的最后一环，就能进入圣诞节任务，无需完成所有前置。&lt;/p&gt;
+&lt;p&gt;箱子的交互也比较令强迫症头秃。提溜着 item 物，往下滑动滚轮时，十有八九交互会突然卡掉， item 就会停留在中途某个位置。对于背包整理的强迫症玩家，完全不能忍受囤货的时候，货都挤在一起。&lt;/p&gt;
+&lt;p&gt;尽管如此，我很享受在雪景和异邦森林中迷失的快乐，乐于享受地图切换的音乐，享受进入朋友的地盘，身体就能快速回温。你知道这里没有日历，你不需要赶着回家收菜，不需要急切地卖出什么东西换取金钱。时间就是金钱，它们在这个地方也一样，没有任何意义，我想我需要的就是这样。摸摸鱼，做点不在乎时间的事情，到处东奔西跑。&lt;/p&gt;
+&lt;p&gt;说到时间和意义，这是更重要的内容。也是在普遍模拟生存以星露谷模式作为游戏性的时代里，《林中暖巢》做出这样背向而驰的决定，无疑是对玩家适应性心理的挑战。优秀的产品被更多游戏参考，更勾起了玩家贪嗔痴，喜欢且适应性地在任何「世界观」游戏下体验熟悉的「星露谷模式」。&lt;/p&gt;
+&lt;p&gt;你继承了一个家，你有一张有限的地图，那然后呢，你必须要种点什么东西，然后卖出去吗？放弃那些想法，一起逃走吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ik.imagekit.io/ulshke/Pics/2026-01-11-pics.png&#34; alt=&#34;一起逃走吧&#34;&gt;&lt;/p&gt;
+&lt;p&gt;（图源小红书@我来地球有什么目的？）&lt;/p&gt;
+</content:encoded>
+    </item>
     <item>
       <title>关于我很想写的年终总结</title>
       <link>https://www.lhooq.life/words/20260104/</link>
@@ -439,7 +553,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1768120527108861000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -450,8 +564,7 @@
       sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&#34;&gt;
     &lt;/iframe&gt;
 
-    &lt;div class=&#34;poster-wrapper&#34;&gt;
-      &lt;img src=&#34;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#34; alt=&#34;这就是我和掷面虫热血沸腾的组合技口牙&#34; class=&#34;bili-poster-img&#34; referrerpolicy=&#34;no-referrer&#34;&gt;
+    &lt;div class=&#34;poster-wrapper&#34; style=&#34;background-image: url(&#39;https://i1.hdslb.com/bfs/archive/9f131ef184537a429c37dc6f1b6e08ac6ccbe203.jpg&#39;);&#34;&gt;
       
       &lt;div class=&#34;poster-overlay&#34;&gt;
          &lt;div class=&#34;play-btn&#34;&gt;
@@ -468,7 +581,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1767539626469155000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1768120527108861000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

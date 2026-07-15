@@ -915,6 +915,294 @@ a.home-row-name:hover {
     max-width: none;
   }
 }
+/* projects —— 作品集列表 + 单个 project 论述页 */
+:root {
+  --proj-muted: #8a8984;
+}
+
+.projects {
+  font-family: var(--font-main);
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--icon-black-color);
+  margin-top: var(--common-element-size-2x);
+  /* 覆盖全局 a 的 Optima 斜体大字风格 */
+}
+.projects a {
+  font-family: var(--font-main);
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* ── 顶部：标题 + 方向 ───────────────────────── */
+h1.projects-title {
+  font-family: var(--font-heading);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  margin: 0;
+}
+
+p.projects-directions {
+  margin-top: 0.4em;
+  color: var(--proj-muted);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+.projects-intro {
+  margin-top: 1.2em;
+  max-width: 38em;
+  color: var(--proj-muted);
+}
+.projects-intro p {
+  margin: 0.3em 0;
+}
+
+/* ── 书签 tab：纯 CSS 筛选 ───────────────────── */
+.projects-filter {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.projects-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 2.2em 0 0.5em;
+}
+
+.projects-tab {
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 0.75em 1.1em;
+  border: 1px solid var(--icon-black-color);
+  border-radius: 2px;
+  color: var(--icon-black-color);
+  background-color: transparent;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.projects-tab:hover {
+  background-color: var(--icon-yellow-color);
+}
+
+/* 选中的 tab：黑底反白 */
+#pf-selected:checked ~ .projects-tabs .projects-tab[for=pf-selected],
+#pf-tinkering:checked ~ .projects-tabs .projects-tab[for=pf-tinkering] {
+  background-color: var(--icon-black-color);
+  color: var(--better-white-color);
+}
+
+/* 键盘 focus 时给对应 tab 一个可见环 */
+#pf-selected:focus-visible ~ .projects-tabs .projects-tab[for=pf-selected],
+#pf-tinkering:focus-visible ~ .projects-tabs .projects-tab[for=pf-tinkering] {
+  outline: 2px solid var(--icon-yellow-color);
+  outline-offset: 2px;
+}
+
+/* ── 列表 ─────────────────────────────────── */
+.projects-list {
+  counter-reset: project;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-item {
+  counter-increment: project;
+  list-style: none;
+  padding: 2em 0 2.6em;
+}
+
+/* 筛选：非当前状态的条目 display:none，不生成盒子，
+   编号计数器自动跳过，所以每个 tab 都从 001 重排 */
+#pf-selected:checked ~ .projects-list .project-item:not([data-status=selected]),
+#pf-tinkering:checked ~ .projects-list .project-item:not([data-status=tinkering]) {
+  display: none;
+}
+
+/* 编号 001 ──────────── 细线 */
+.project-index {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.project-num::before {
+  content: "0" counter(project, decimal-leading-zero);
+  color: var(--proj-muted);
+  font-family: var(--font-main);
+  font-size: 12px;
+  letter-spacing: 0.15em;
+}
+
+.project-rule {
+  flex: 1 1 auto;
+  height: 1px;
+  background-color: var(--common-color-line);
+}
+
+/* h2.xxx 的权重要压过 _typography 里的 h2:not(:first-child) */
+h2.project-name {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0.9em 0 0;
+}
+h2.project-name a {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 700;
+}
+h2.project-name a:hover {
+  background-color: var(--icon-yellow-color);
+}
+
+.project-emoji {
+  margin-right: 0.5em;
+}
+
+.project-date {
+  display: block;
+  margin-top: 0.35em;
+  color: var(--proj-muted);
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 0.08em;
+}
+
+p.project-tagline {
+  margin-top: 1em;
+  max-width: 38em;
+  font-family: var(--font-main);
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+p.project-summary {
+  margin-top: 0.5em;
+  max-width: 38em;
+  color: var(--proj-muted);
+  font-family: var(--font-main);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.project-cover {
+  margin: 1.5em 0 0;
+  border: 1px solid var(--common-color-line);
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.project-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ── 按钮行：Read → + 外链 ──────────────────── */
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em;
+  margin-top: 1.5em;
+}
+
+/* a.xxx 的权重要压过本文件上方 .projects a 的 padding: 0 */
+a.project-read,
+a.project-link {
+  font-family: var(--font-main);
+  font-style: normal;
+  letter-spacing: 0.06em;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+a.project-read {
+  font-weight: 700;
+  padding: 0.75em 1.1em;
+  background-color: var(--icon-black-color);
+  color: var(--better-white-color);
+}
+
+a.project-read:hover {
+  background-color: var(--icon-yellow-color);
+  color: var(--icon-black-color);
+}
+
+a.project-link {
+  font-weight: normal;
+  padding: 0.75em 0.9em;
+  border: 1px solid var(--common-color-line);
+  color: var(--proj-muted);
+}
+
+a.project-link:hover {
+  border-color: var(--icon-black-color);
+  background-color: var(--icon-yellow-color);
+  color: var(--icon-black-color);
+}
+
+/* ── 单个 project 论述页 ─────────────────────── */
+.project-single-header .project-emoji {
+  margin-right: 0.4em;
+}
+
+.project-status {
+  margin-left: 0.9em;
+  color: var(--proj-muted);
+  font-family: var(--font-main);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.project-actions--single {
+  margin-top: 1.2em;
+}
+
+.project-cover--single {
+  margin-top: 1.8em;
+  max-width: 550px;
+}
+
+.project-back {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--common-color-line);
+}
+.project-back a {
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.project-back a:hover {
+  background-color: var(--icon-yellow-color);
+}
+
 /* shortcodes */
 details {
   margin: 1em 0;

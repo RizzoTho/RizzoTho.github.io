@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:23:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 22:55:50 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -21,6 +21,14 @@
       <link>https://www.lhooq.life/murmurs/</link>
       <guid isPermaLink="true">https://www.lhooq.life/murmurs/</guid>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://www.lhooq.life/projects/</link>
+      <guid isPermaLink="true">https://www.lhooq.life/projects/</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
       <description></description>
       <content:encoded></content:encoded>
     </item>
@@ -102,7 +110,17 @@
 &amp;lt;ul&amp;gt;
 &amp;lt;li&amp;gt;Heptabase 使用介绍&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
-&amp;lt;h1 id=&amp;#34;changlog&amp;#34;&amp;gt;Changlog&amp;lt;/h1&amp;gt;
+&amp;lt;h1 id=&amp;#34;changelog&amp;#34;&amp;gt;Changelog&amp;lt;/h1&amp;gt;
+&amp;lt;h1 id=&amp;#34;v03&amp;#34;&amp;gt;v0.3&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Jul 10(2026)&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;网站大修成了 mono 笔记风。首页现在按 01—04 分成 bio、writing、projects 和 social 四个区块。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;全站统一为 &amp;lt;code&amp;gt;#EAEAEA&amp;lt;/code&amp;gt; 纯色背景和 13px 基础字号，标题字体换成了狸叶黑体。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;关闭原导航栏，加入以酸黄圆点为根目录的面包屑路径。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;目录移到正文右侧，并用激活圆点显示当前阅读位置。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Words 和 Murmurs 的列表样式也统一成了更安静的笔记流。&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Murmurs 文章迁移到 &amp;lt;code&amp;gt;/murmurs-{date}/&amp;lt;/code&amp;gt;，旧链接保留 301 跳转。&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 &amp;lt;h1 id=&amp;#34;v02&amp;#34;&amp;gt;v0.2&amp;lt;/h1&amp;gt;
 &amp;lt;p&amp;gt;Dec 13(2025) 至 Dec 23(2025)&amp;lt;/p&amp;gt;
 &amp;lt;ul&amp;gt;
@@ -126,7 +144,17 @@
 &lt;ul&gt;
 &lt;li&gt;Heptabase 使用介绍&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;changlog&#34;&gt;Changlog&lt;/h1&gt;
+&lt;h1 id=&#34;changelog&#34;&gt;Changelog&lt;/h1&gt;
+&lt;h1 id=&#34;v03&#34;&gt;v0.3&lt;/h1&gt;
+&lt;p&gt;Jul 10(2026)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网站大修成了 mono 笔记风。首页现在按 01—04 分成 bio、writing、projects 和 social 四个区块。&lt;/li&gt;
+&lt;li&gt;全站统一为 &lt;code&gt;#EAEAEA&lt;/code&gt; 纯色背景和 13px 基础字号，标题字体换成了狸叶黑体。&lt;/li&gt;
+&lt;li&gt;关闭原导航栏，加入以酸黄圆点为根目录的面包屑路径。&lt;/li&gt;
+&lt;li&gt;目录移到正文右侧，并用激活圆点显示当前阅读位置。&lt;/li&gt;
+&lt;li&gt;Words 和 Murmurs 的列表样式也统一成了更安静的笔记流。&lt;/li&gt;
+&lt;li&gt;Murmurs 文章迁移到 &lt;code&gt;/murmurs-{date}/&lt;/code&gt;，旧链接保留 301 跳转。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;v02&#34;&gt;v0.2&lt;/h1&gt;
 &lt;p&gt;Dec 13(2025) 至 Dec 23(2025)&lt;/p&gt;
 &lt;ul&gt;

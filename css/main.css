@@ -6,6 +6,7 @@
 @import url("https://lhooq.yswisfree.workers.dev/ulshke/Optima%20LT%20Std%20Bold%20Italic/result.css");
 @import url("https://lhooq.yswisfree.workers.dev/ulshke/GlowSansSC-Extended-Regular/result.css?updatedAt=1767001558180");
 @import url("https://chinese-fonts-cdn.deno.dev/packages/dyh/dist/SmileySans-Oblique/result.css");
+@import url("https://lhooq.yswisfree.workers.dev/ulshke/FZBYSJW/result.css");
 @import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css");
 @import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css");
 @import url("https://chinese-fonts-cdn.deno.dev/packages/dyh/dist/SmileySans-Oblique/result.css");
@@ -100,13 +101,14 @@ th {
 }
 
 blockquote {
-  font-family: var(--font-title);
-  font-style: italic;
   font-weight: 500;
   border-left: 1px solid #999;
   color: var(--blockquote-color);
   padding-left: 20px;
-  font-family: var(--font-title);
+}
+blockquote p {
+  font-style: italic;
+  font-family: var(--font-serif);
 }
 
 mark {
@@ -430,7 +432,8 @@ main > h1:first-of-type {
 /* Internal Variables */
 /* Config */
 :root {
-  --font-main: "Intel One Mono", "Maple Mono CN", "LXGW WenKai", monospace;
+  --font-main: "Intel One Mono", "LXGW WenKai", monospace;
+  --font-serif: "FZBoYaSongS-GB",serif;
   --font-content: "Intel One Mono", "Glow Sans SC Extended", sans-serif;
   --font-title: "Optima LT Std", "Smiley Sans Oblique",serif;
   --font-heading: "狸叶黑体", "Smiley Sans Oblique", sans-serif;
@@ -611,7 +614,8 @@ article.murmurs time {
   max-width: 42em;
   margin-top: 2em;
   font-family: var(--font-main);
-  font-size: 13px;
+  font-size: 15px;
+  margin-left: 10%;
 }
 .words-list ul {
   list-style: none;
@@ -628,7 +632,7 @@ article.murmurs time {
   position: relative;
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: 0;
   font-style: normal;
@@ -703,10 +707,10 @@ article.murmurs time {
 
 article.words {
   max-width: 550px;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 5%;
-  font-size: 13px;
-  font-family: var(--font-content), sans-serif;
+  font-size: 15px;
+  font-family: var(--font-main), sans-serif;
   font-weight: 300;
   line-height: 1.9em;
   letter-spacing: 0.5px;
@@ -767,10 +771,12 @@ a.title img.logo-image {
 .home {
   --home-muted: #8a8984;
   font-family: var(--font-main);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
   color: var(--icon-black-color);
   margin-top: var(--common-element-size-2x);
+  max-width: 40em;
+  margin-left: 10%;
   /* 覆盖全局 a 的 Optima 斜体大字风格 */
 }
 .home a {
@@ -800,11 +806,12 @@ a.title img.logo-image {
 
 .home-heading {
   font-family: var(--font-heading);
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--icon-black-color);
   margin: 0.6em 0 1.2em;
   line-height: 1.6;
+  letter-spacing: 0em;
 }
 
 .home-text {
@@ -893,6 +900,7 @@ a.home-row-name:hover {
 }
 .home-links a {
   font-weight: 700;
+  font-size: 15px;
 }
 .home-links a:hover {
   text-decoration: underline;
@@ -1019,6 +1027,8 @@ p.projects-directions {
   list-style: none;
   margin: 0;
   padding: 0;
+  max-width: 600px;
+  margin-left: 10%;
 }
 
 .project-item {

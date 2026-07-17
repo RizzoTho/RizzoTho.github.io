@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/words/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 23:56:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 00:03:46 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/words/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>雅各布天梯 （Jacob’s Ladder）</title>
@@ -23,8 +23,8 @@
 &lt;li&gt;不要胎儿博士，不要吐根&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;有时候3级道具比4级道具更有吸引力，我会因为一个3级道具坚持到死都不会重开。雅各的天梯就是个中翘楚。&lt;/p&gt;
-&lt;h2 id=&#34;啥是雅各布的天梯&#34;&gt;啥是雅各布的天梯&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/Collectible_Jacob%27s_Ladder_icon.png/revision/latest?cb=20210822020235&#34; alt=&#34;Jacob’s Ladder&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;啥是雅各布天梯&#34;&gt;啥是雅各布天梯&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://lhooq.yswisfree.workers.dev/ulshke/Pics/jacob&#39;s%20ladder.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;简而言之，雅各的天梯是一个让你的眼泪子弹带电的道具。获得天梯后，你就可以成为杨永信了，到处用眼泪滋滋滋，滋滋滋。&lt;/p&gt;
 &lt;p&gt;一个眼泪甩到地图元素上，会滋出电来，如果周边两格内（大约数）有怪的话，就能滋中；眼泪击中怪，那么他身边几格内的怪也能被滋中。&lt;/p&gt;
 &lt;p&gt;电的伤害，经查Wiki，能高达50%的角色伤害。也就是说，初始状态下，如果你运气好一出门就拿到了天梯，你能有1.7的溅射伤害！&lt;/p&gt;
@@ -230,7 +230,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115258467292552)-1784217379410813000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115258467292552)-1784217826959273000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -258,7 +258,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115258467292552)-1784217379410813000&#34;;
+  const boxId = &#34;bili-%!s(int=115258467292552)-1784217826959273000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 
@@ -743,7 +743,7 @@
 
 
 
-&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1784217379411324000&#34;&gt;
+&lt;div class=&#34;bili-embed-container&#34; id=&#34;bili-%!s(int=115185486402704)-1784217826960547000&#34;&gt;
   &lt;div class=&#34;aspect-ratio&#34;&gt;
     &lt;iframe
       class=&#34;bili-iframe&#34;
@@ -771,7 +771,7 @@
 
 &lt;script&gt;
 (function() {
-  const boxId = &#34;bili-%!s(int=115185486402704)-1784217379411324000&#34;;
+  const boxId = &#34;bili-%!s(int=115185486402704)-1784217826960547000&#34;;
   const box = document.getElementById(boxId);
   if (!box) { console.error(&#39;Bili Error: Box not found&#39;, boxId); return; }
 

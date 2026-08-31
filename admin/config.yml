@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: RizzoTho/RizzoTho.github.io
+  branch: main
+  # 部署 sveltia-cms-auth 到 Cloudflare Worker 后，把地址填在这里
+  base_url: https://sveltia-cms-auth.yswisfree.workers.dev
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "words"
+    label: "Words 文章"
+    folder: "content/words"
+    create: true
+    slug: "{{year}}{{month}}{{day}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "日期", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "now"
+    label: "Now 近况"
+    files:
+      - name: "now"
+        label: "Now 页面"
+        file: "content/now.md"
+        fields:
+          - { label: "标题", name: "title", widget: "string" }
+          - { label: "Slug", name: "slug", widget: "hidden", default: "now" }
+          - { label: "布局", name: "layout", widget: "hidden", default: "now" }
+          - { label: "Crumb", name: "crumb", widget: "string", default: "lately" }
+          - { label: "正文", name: "body", widget: "markdown" }

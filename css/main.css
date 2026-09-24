@@ -456,6 +456,7 @@ main > h1:first-of-type {
   --sidebar-width: calc(var(--common-element-size) * 10);
   --sidebar-left-margin: calc(50vw - (var(--content-width) / 2) - var(--sidebar-width) - (var(--common-element-size) * 2));
   --text-color: var(--icon-black-color);
+  --blockquote-color: #000;
   --text-color-opposite: var(--light-theme-text-color-opposite);
   --text-font-size: 13px;
   --text-blog-name-size: calc(var(--text-font-size) * 1.5);
@@ -618,6 +619,9 @@ article.words {
   font-weight: 300;
   line-height: 1.9em;
   letter-spacing: 0.5px;
+}
+article.words p {
+  line-height: 1.7;
 }
 article.words h1 {
   font-size: 1.4em;

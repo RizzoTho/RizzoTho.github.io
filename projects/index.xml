@@ -5,7 +5,7 @@
     <link>https://www.lhooq.life/projects/</link>
     <description>——沉默，流亡，机敏。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 24 Sep 2026 20:18:56 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 16:59:38 +0800</lastBuildDate>
     <atom:link href="https://www.lhooq.life/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reedle</title>
@@ -13,8 +13,7 @@
       <guid isPermaLink="true">https://www.lhooq.life/projects/reedle/</guid>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       <description>正在打磨中的阅读产品。</description>
-      <content:encoded>&lt;p&gt;论述正文写在这里。&lt;/p&gt;
-</content:encoded>
+      <content:encoded></content:encoded>
     </item>
     <item>
       <title>现场工程 FieldCraft</title>
@@ -22,17 +21,7 @@
       <guid isPermaLink="true">https://www.lhooq.life/projects/fieldcraft/</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <description>现场工程工作台，展示如何从混乱和摩擦中，创造出 AI workflows、skill anatomy、visual systems 这些可复用的作品。</description>
-      <content:encoded>&lt;p&gt;论述正文写在这里。&lt;/p&gt;
-</content:encoded>
-    </item>
-    <item>
-      <title>电子古鸦</title>
-      <link>https://www.lhooq.life/projects/dianzi-guya/</link>
-      <guid isPermaLink="true">https://www.lhooq.life/projects/dianzi-guya/</guid>
-      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <description>软件与 analog 结合的笔记方法。</description>
-      <content:encoded>&lt;p&gt;论述正文写在这里。&lt;/p&gt;
-</content:encoded>
+      <content:encoded></content:encoded>
     </item>
   </channel>
 </rss>
